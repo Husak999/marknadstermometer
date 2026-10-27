@@ -1,0 +1,633 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marknadstermometer – Daglig Invest</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#0F1A2E;        /* primär mörk yta (tema) */
+    --navy-2:#162442;      /* kort */
+    --navy-3:#1D2F55;      /* lyft yta / hover */
+    --accent:#2E4BA3;      /* knappar, highlights, länkar (tema) */
+    --accent-2:#4C6BD0;    /* ljusare accent för text på mörkt */
+    --cream:#FFFBF0;       /* krämvit text (tema) */
+    --muted:rgba(255,251,240,.62);
+    --faint:rgba(255,251,240,.38);
+    --line:rgba(255,251,240,.09);
+    --bull:#3DBE8B;
+    --bear:#E05A4F;
+    --warn:#E8B04B;
+    --radius:16px;
+    --shadow:0 10px 30px rgba(0,0,0,.28);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--navy);
+    color:var(--cream);
+    font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    font-size:15px;line-height:1.5;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1120px;margin:0 auto;padding:20px 16px 28px}
+
+  /* ---------- Header ---------- */
+  .head{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px;margin-bottom:18px}
+  .brand{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-2);font-weight:700}
+  h1{margin:2px 0 0;font-size:26px;font-weight:800;letter-spacing:-.01em}
+  .sub{color:var(--muted);font-size:13px;margin-top:2px}
+  .pill{
+    display:inline-flex;align-items:center;gap:8px;padding:8px 14px;border-radius:999px;
+    font-weight:700;font-size:13px;letter-spacing:.04em;text-transform:uppercase;
+    border:1px solid var(--line);background:var(--navy-2)
+  }
+  .pill .dot{width:9px;height:9px;border-radius:50%;background:currentColor;box-shadow:0 0 12px currentColor}
+
+  /* ---------- Grid & kort ---------- */
+  .grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+  .card{
+    background:var(--navy-2);border:1px solid var(--line);border-radius:var(--radius);
+    padding:18px 18px 14px;box-shadow:var(--shadow);display:flex;flex-direction:column;min-width:0
+  }
+  .span-12{grid-column:span 12}.span-7{grid-column:span 7}.span-6{grid-column:span 6}.span-5{grid-column:span 5}
+  .stack{display:grid;gap:14px;align-content:start}
+  @media (max-width:860px){.span-7,.span-6,.span-5{grid-column:span 12}}
+  @media (max-width:480px){.card h2{flex-wrap:wrap}.toggle{margin-left:0;width:100%;justify-content:space-between}.toggle button{flex:1}}
+  .card h2{margin:0;font-size:15px;font-weight:700;display:flex;align-items:center;gap:8px}
+  .card h2 .tag{font-size:11px;font-weight:600;color:var(--faint);letter-spacing:.08em;text-transform:uppercase}
+  .card .body{flex:1;margin-top:12px}
+  .explain{
+    margin-top:14px;padding-top:12px;border-top:1px dashed var(--line);
+    font-size:12.5px;color:var(--muted);line-height:1.5
+  }
+  .explain b{color:var(--cream);font-weight:600}
+
+  /* ---------- Hero / termometer ---------- */
+  .hero{display:grid;grid-template-columns:260px 1fr;gap:22px;align-items:center}
+  @media (max-width:640px){.hero{grid-template-columns:1fr}}
+  .gauge{position:relative;width:100%;max-width:260px;margin:0 auto}
+  .gauge svg{width:100%;height:auto;display:block}
+  .gauge .score{
+    position:absolute;left:0;right:0;top:44%;text-align:center;font-size:54px;font-weight:800;line-height:1;letter-spacing:-.03em
+  }
+  .gauge .score small{display:block;font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-top:6px}
+  .gauge .ends{display:flex;justify-content:space-between;font-size:11px;color:var(--faint);padding:0 4px;margin-top:2px;text-transform:uppercase;letter-spacing:.08em}
+  .verdict{font-size:22px;font-weight:800;margin:0 0 6px;letter-spacing:-.01em}
+  .verdict-text{color:var(--muted);margin:0 0 12px;font-size:14.5px}
+  .obs{list-style:none;margin:0;padding:0;display:grid;gap:7px}
+  .obs li{display:flex;gap:9px;font-size:13.5px;align-items:flex-start}
+  .obs .ic{flex:none;width:18px;height:18px;border-radius:50%;display:grid;place-items:center;font-size:11px;font-weight:800;margin-top:2px}
+  .ic.bull{background:rgba(61,190,139,.18);color:var(--bull)}
+  .ic.bear{background:rgba(224,90,79,.18);color:var(--bear)}
+  .ic.warn{background:rgba(232,176,75,.18);color:var(--warn)}
+
+  /* ---------- Bredd ---------- */
+  .bars{display:grid;gap:12px}
+  .bar{display:grid;grid-template-columns:76px 1fr 56px;align-items:center;gap:10px;font-size:13.5px}
+  .bar .lbl{font-weight:600}
+  .bar .lbl small{display:block;font-size:11px;color:var(--faint);font-weight:500}
+  .bar .track{position:relative;height:12px;background:rgba(255,251,240,.07);border-radius:999px;overflow:hidden}
+  .bar .fill{height:100%;border-radius:999px;transition:width .8s cubic-bezier(.2,.8,.2,1)}
+  .bar .mid{position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:rgba(255,251,240,.28)}
+  .bar .val{text-align:right;font-weight:800;font-variant-numeric:tabular-nums}
+  .legend{display:flex;gap:14px;flex-wrap:wrap;font-size:11.5px;color:var(--faint);margin-top:10px}
+  .legend i{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+
+  /* ---------- Sektorer ---------- */
+  .toggle{display:inline-flex;background:rgba(255,251,240,.06);border:1px solid var(--line);border-radius:999px;padding:3px;margin-left:auto}
+  .toggle button{
+    background:transparent;border:0;color:var(--muted);font:inherit;font-size:12px;font-weight:600;
+    padding:5px 11px;border-radius:999px;cursor:pointer;transition:all .15s
+  }
+  .toggle button.on{background:var(--accent);color:#fff;box-shadow:0 3px 10px rgba(46,75,163,.45)}
+  .top3{display:grid;gap:9px;margin-bottom:12px}
+  .sec{
+    display:grid;grid-template-columns:30px 1fr auto;align-items:center;gap:12px;
+    padding:11px 13px;border-radius:12px;background:rgba(255,251,240,.04);border:1px solid var(--line);position:relative
+  }
+  .sec .rank{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:13px;background:rgba(255,251,240,.08)}
+  .sec .nm{font-weight:700;font-size:14.5px}
+  .sec .nm small{display:block;font-size:11.5px;color:var(--faint);font-weight:500}
+  .sec .ret{text-align:right;font-weight:800;font-size:17px;font-variant-numeric:tabular-nums}
+  .sec .ret small{display:block;font-size:11px;font-weight:500;color:var(--faint)}
+  .sec.hot{
+    background:linear-gradient(135deg,rgba(46,75,163,.55),rgba(46,75,163,.18));
+    border-color:rgba(76,107,208,.9);box-shadow:0 0 0 1px rgba(76,107,208,.35),0 8px 24px rgba(46,75,163,.35)
+  }
+  .sec.hot .rank{background:var(--accent-2);color:#fff}
+  .sec .flame{position:absolute;top:-9px;right:12px;background:var(--warn);color:#1b1400;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:999px}
+  .rest{display:grid;gap:5px}
+  .row{display:grid;grid-template-columns:22px 118px 1fr 58px;gap:8px;align-items:center;font-size:12.5px;color:var(--muted)}
+  .row .t{height:6px;background:rgba(255,251,240,.07);border-radius:999px;position:relative;overflow:hidden}
+  .row .f{position:absolute;top:0;bottom:0;border-radius:999px}
+  .row .v{text-align:right;font-weight:700;font-variant-numeric:tabular-nums;color:var(--cream)}
+  .spxline{font-size:12px;color:var(--faint);margin-top:8px}
+
+  /* ---------- VIX ---------- */
+  .big{font-size:44px;font-weight:800;line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
+  .big-row{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+  .chg{font-weight:700;font-size:14px}
+  .scale{position:relative;height:10px;border-radius:999px;margin:16px 0 6px;
+    background:linear-gradient(90deg,var(--bull) 0%,var(--bull) 28%,var(--warn) 45%,var(--bear) 70%,#8f2b23 100%)}
+  .scale .mk{position:absolute;top:-5px;width:4px;height:20px;background:var(--cream);border-radius:2px;transform:translateX(-50%);box-shadow:0 0 0 3px var(--navy-2)}
+  .scale-lbl{display:flex;justify-content:space-between;font-size:10.5px;color:var(--faint);text-transform:uppercase;letter-spacing:.06em}
+  .note{margin-top:12px;padding:10px 12px;border-radius:10px;background:rgba(255,251,240,.05);border-left:3px solid var(--accent-2);font-size:13.5px}
+  .kv{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:10px;font-size:12px;color:var(--muted)}
+  .kv b{color:var(--cream);font-weight:700;font-variant-numeric:tabular-nums}
+
+  /* ---------- Highs / lows ---------- */
+  .hl{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:10px;text-align:center}
+  .hl .n{font-size:38px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
+  .hl .cap{font-size:11px;color:var(--faint);text-transform:uppercase;letter-spacing:.08em;margin-top:5px}
+  .hl .vs{color:var(--faint);font-weight:700}
+  .net{height:12px;border-radius:999px;background:rgba(255,251,240,.07);position:relative;overflow:hidden;margin-top:14px}
+  .net .l,.net .r{position:absolute;top:0;bottom:0}
+  .net .l{right:50%;background:var(--bear);border-radius:999px 0 0 999px}
+  .net .r{left:50%;background:var(--bull);border-radius:0 999px 999px 0}
+  .net .c{position:absolute;left:50%;top:0;bottom:0;width:2px;background:var(--navy-2)}
+  .netlbl{display:flex;justify-content:space-between;font-size:11px;color:var(--faint);margin-top:5px}
+  .mini{display:flex;justify-content:space-between;margin-top:12px;padding-top:10px;border-top:1px solid var(--line);font-size:12.5px;color:var(--muted)}
+  .mini b{color:var(--cream)}
+
+  /* ---------- SPX ---------- */
+  .chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}
+  .chip{font-size:12px;font-weight:600;padding:5px 10px;border-radius:999px;border:1px solid var(--line);background:rgba(255,251,240,.04)}
+  .chip.bull{border-color:rgba(61,190,139,.5);color:var(--bull)}
+  .chip.bear{border-color:rgba(224,90,79,.5);color:var(--bear)}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-top:12px}
+  @media (max-width:420px){.stats{grid-template-columns:repeat(2,1fr)}}
+  .stat{background:rgba(255,251,240,.04);border-radius:10px;padding:8px 10px}
+  .stat .k{font-size:10.5px;color:var(--faint);text-transform:uppercase;letter-spacing:.06em}
+  .stat .v{font-weight:800;font-size:15px;font-variant-numeric:tabular-nums;white-space:nowrap}
+
+  /* ---------- Summering ---------- */
+  .sum-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  .sum-head .verdict{margin:0}
+  .sum-text{color:var(--cream);font-size:15px;margin:10px 0 14px;max-width:900px}
+  .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  @media (max-width:860px){.cols{grid-template-columns:1fr}}
+  .col{background:rgba(255,251,240,.04);border:1px solid var(--line);border-radius:12px;padding:13px 14px}
+  .col h3{margin:0 0 8px;font-size:12px;letter-spacing:.1em;text-transform:uppercase;display:flex;align-items:center;gap:7px}
+  .col ul{margin:0;padding-left:18px;font-size:13.5px;display:grid;gap:6px}
+  .col.do h3{color:var(--bull)}.col.dont h3{color:var(--bear)}.col.risk h3{color:var(--warn)}
+  .styles{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+  @media (max-width:640px){.styles{grid-template-columns:1fr}}
+  .style{border-radius:12px;padding:13px 14px;background:linear-gradient(180deg,rgba(46,75,163,.22),rgba(46,75,163,.06));border:1px solid rgba(76,107,208,.35)}
+  .style h3{margin:0 0 6px;font-size:13px}
+  .style p{margin:0;font-size:13.5px;color:var(--cream)}
+
+  .foot{margin-top:16px;font-size:11.5px;color:var(--faint);display:flex;flex-wrap:wrap;gap:6px 18px;justify-content:space-between}
+  .bull-c{color:var(--bull)}.bear-c{color:var(--bear)}.warn-c{color:var(--warn)}
+
+  /* ---------- Laddning / fel ---------- */
+  #loading,#error{text-align:center;padding:60px 20px;color:var(--muted)}
+  #error{display:none}
+  #error button{margin-top:12px;background:var(--accent);color:#fff;border:0;border-radius:999px;padding:9px 18px;font:inherit;font-weight:600;cursor:pointer}
+  .spin{width:34px;height:34px;border:3px solid var(--line);border-top-color:var(--accent-2);border-radius:50%;margin:0 auto 14px;animation:sp 1s linear infinite}
+  @keyframes sp{to{transform:rotate(360deg)}}
+  #app{display:none}
+
+/* ===== Popup-skal (2026-10-27): egen X på mobil, när widgeten fyller skärmen ===== */
+.pp-x{display:none;position:fixed;top:10px;right:10px;z-index:9999;width:38px;height:38px;border-radius:50%;
+  border:1px solid rgba(255,255,255,.22);background:rgba(11,20,36,.92);color:#fff;font:400 22px/1 system-ui,sans-serif;
+  cursor:pointer;align-items:center;justify-content:center;padding:0;
+  -webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);box-shadow:0 6px 18px -6px rgba(0,0,0,.7)}
+.pp-x:hover{background:rgba(30,45,75,.95)}
+html.fill .pp-x{display:flex}
+html.fill body{padding-top:50px}
+.wrap{padding-top:22px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div id="loading"><div class="spin"></div>Hämtar marknadsdata …</div>
+  <div id="error"><div>Kunde inte hämta marknadsdata just nu.</div><button onclick="load()">Försök igen</button></div>
+
+  <div id="app">
+    <!-- Header -->
+    <div class="head">
+      <div>
+        <div class="brand">Daglig Invest</div>
+        <h1>Marknadstermometer</h1>
+        <div class="sub" id="sub"></div>
+      </div>
+      <div class="pill" id="pill"><span class="dot"></span><span id="pill-txt"></span></div>
+    </div>
+
+    <div class="grid">
+      <!-- Hero -->
+      <section class="card span-12">
+        <div class="hero">
+          <div>
+            <div class="gauge">
+              <svg viewBox="0 0 200 118" aria-hidden="true">
+                <defs>
+                  <linearGradient id="g" x1="0" x2="1">
+                    <stop offset="0%" stop-color="#E05A4F"/>
+                    <stop offset="50%" stop-color="#E8B04B"/>
+                    <stop offset="100%" stop-color="#3DBE8B"/>
+                  </linearGradient>
+                </defs>
+                <path d="M15 100 A85 85 0 0 1 185 100" fill="none" stroke="rgba(255,251,240,.08)" stroke-width="16" stroke-linecap="round"/>
+                <path id="arc" d="M15 100 A85 85 0 0 1 185 100" fill="none" stroke="url(#g)" stroke-width="16" stroke-linecap="round" stroke-dasharray="267" stroke-dashoffset="267" style="transition:stroke-dashoffset 1s cubic-bezier(.2,.8,.2,1)"/>
+                <circle id="marker" cx="15" cy="100" r="7" fill="#0F1A2E" stroke="#FFFBF0" stroke-width="3.5" style="transition:cx 1s cubic-bezier(.2,.8,.2,1),cy 1s cubic-bezier(.2,.8,.2,1)"/>
+              </svg>
+              <div class="score"><span id="score">–</span><small>Klimat 0–100</small></div>
+              <div class="ends"><span>Bearish</span><span>Bullish</span></div>
+            </div>
+          </div>
+          <div>
+            <p class="verdict" id="verdict"></p>
+            <p class="verdict-text" id="verdict-text"></p>
+            <ul class="obs" id="obs"></ul>
+          </div>
+        </div>
+        <div class="explain"><b>Vad är detta?</b> En sammanvägd temperatur på den amerikanska aktiemarknaden (S&amp;P 500) byggd på marknadsbredd (MA20/50/200), nya highs &amp; lows, VIX och indextrend. 0 = extremt bearish, 100 = extremt bullish. Siffran svarar på en enda fråga: <b>stödjer marknaden momentum- och breakout-trading just nu?</b></div>
+      </section>
+
+      <div class="stack span-5">
+      <!-- Bredd -->
+      <section class="card">
+        <h2>Marknadsbredd <span class="tag">S&amp;P 500</span></h2>
+        <div class="body">
+          <div class="bars" id="bars"></div>
+          <div class="legend"><span><i style="background:var(--bull)"></i>&gt; 60 % starkt</span><span><i style="background:var(--warn)"></i>40–60 % blandat</span><span><i style="background:var(--bear)"></i>&lt; 40 % svagt</span></div>
+        </div>
+        <div class="explain"><b>Förklaring:</b> Andel av de 500 aktierna i S&amp;P 500 som handlas över sitt glidande medelvärde. <b>MA20</b> = kortsiktig puls, <b>MA50</b> = den trend swing- och momentumtraders lever i, <b>MA200</b> = den långa trenden. Hög bredd betyder att många aktier deltar i uppgången, vilket är bränslet som får breakouts att hålla. Stiger index medan bredden faller bärs rörelsen av få aktier, och då blir det svårt att hitta vinnare.</div>
+      </section>
+
+      <!-- Highs / lows -->
+      <section class="card">
+        <h2>Nya highs &amp; lows <span class="tag">52 veckor</span></h2>
+        <div class="body">
+          <div class="hl">
+            <div><div class="n bull-c" id="hi"></div><div class="cap">Nya highs</div></div>
+            <div class="vs">vs</div>
+            <div><div class="n bear-c" id="lo"></div><div class="cap">Nya lows</div></div>
+          </div>
+          <div class="net"><div class="l" id="net-l"></div><div class="r" id="net-r"></div><div class="c"></div></div>
+          <div class="netlbl"><span>Fler lows</span><span id="net-txt"></span><span>Fler highs</span></div>
+          <div class="mini"><span>20-dagars highs: <b id="hi20"></b></span><span>20-dagars lows: <b id="lo20"></b></span></div>
+        </div>
+        <div class="explain"><b>Förklaring:</b> Antal aktier i S&amp;P 500 som idag stänger på sin högsta respektive lägsta nivå på ett år. Nya highs är råvaran för momentumtrading: utan dem finns det inga breakouts att köpa. Fler lows än highs trots ett stigande index är en klassisk varningssignal om att rallyt är ihåligt. 20-dagarsraden visar samma sak på kortare sikt.</div>
+      </section>
+      </div>
+
+      <!-- Sektorer -->
+      <section class="card span-7">
+        <h2>Hetaste sektorerna
+          <div class="toggle" id="toggle">
+            <button data-p="7d">7 dagar</button><button data-p="30d">30 dagar</button><button data-p="6m">6 mån</button>
+          </div>
+        </h2>
+        <div class="body">
+          <div class="top3" id="top3"></div>
+          <div class="rest" id="rest"></div>
+          <div class="spxline" id="spxline"></div>
+        </div>
+        <div class="explain"><b>Förklaring:</b> Avkastning för de elva sektor-ETF:erna (SPDR) som tillsammans utgör S&amp;P 500. Pengarna roterar alltid någonstans, och de starkaste aktierna hittar du nästan alltid i de starkaste sektorerna. Leder <b>Teknik, Sällanköp eller Kommunikation</b> är marknaden i risk-on-läge. Leder <b>Dagligvaror, Kraftförsörjning eller Hälsovård</b> söker kapitalet skydd (risk-off), även om index ser okej ut.</div>
+      </section>
+
+      <!-- VIX -->
+      <section class="card span-6">
+        <h2>VIX <span class="tag">Skräckindex</span></h2>
+        <div class="body">
+          <div class="big-row"><div class="big" id="vix"></div><div class="chg" id="vix-chg"></div></div>
+          <div class="scale"><div class="mk" id="vix-mk"></div></div>
+          <div class="scale-lbl"><span>10 · lugn</span><span>20</span><span>30 · stress</span><span>40+</span></div>
+          <div class="note" id="vix-note"></div>
+          <div class="kv" id="vix-kv"></div>
+        </div>
+        <div class="explain"><b>Förklaring:</b> VIX mäter den förväntade volatiliteten i S&amp;P 500 de kommande 30 dagarna, utläst ur optionspriser. Lågt VIX (under 17) = lugn, trendvänlig marknad där breakouts tenderar att hålla. Över 20–25 börjar dagsrörelserna bli så stora att stoppar löses ut i onödan. Över 30 är det panik: där är det oftast rätt att vara i cash kortsiktigt, men också där de bästa bottnarna bildas.</div>
+      </section>
+
+      <!-- SPX -->
+      <section class="card span-6">
+        <h2>S&amp;P 500 <span class="tag">Trend</span></h2>
+        <div class="body">
+          <div class="big-row"><div class="big" id="spx"></div><div class="chg" id="spx-chg"></div></div>
+          <div class="chips" id="spx-chips"></div>
+          <div class="stats" id="spx-stats"></div>
+        </div>
+        <div class="explain"><b>Förklaring:</b> Indexets läge mot sina egna glidande medelvärden. Över ett stigande MA50 och över MA200 är trenden intakt och medvinden på din sida. Under MA50 är rekylen igång och under MA200 råder björnmarknad: då ska du inte handla breakouts, oavsett hur bra en enskild aktie ser ut.</div>
+      </section>
+
+      <!-- Summering -->
+      <section class="card span-12">
+        <h2>Summering &amp; guidelines <span class="tag">Så tänker du som trader just nu</span></h2>
+        <div class="body">
+          <div class="sum-head"><p class="verdict" id="sum-verdict"></p></div>
+          <p class="sum-text" id="sum-text"></p>
+          <div class="cols">
+            <div class="col do"><h3>✓ Gör</h3><ul id="do"></ul></div>
+            <div class="col dont"><h3>✕ Undvik</h3><ul id="dont"></ul></div>
+            <div class="col risk"><h3>◆ Risk &amp; cash</h3><ul id="risk"></ul></div>
+          </div>
+          <div class="styles">
+            <div class="style"><h3>⚡ Momentum- &amp; breakouttrader</h3><p id="style-mom"></p></div>
+            <div class="style"><h3>〰 Swingtrader</h3><p id="style-swing"></p></div>
+          </div>
+        </div>
+        <div class="explain"><b>Så läser du termometern:</b> Den talar inte om vad du ska köpa. Den talar om <b>om</b> klimatet belönar din strategi just nu, och hur mycket risk som är rimlig. De flesta förlorar inte pengar på dåliga aktieval utan på att de handlar aggressivt i fel klimat. Att vänta i cash är också en position.</div>
+      </section>
+    </div>
+
+    <div class="foot">
+      <span id="foot-src"></span>
+      <span>Utbildning, inte finansiell rådgivning. Du ansvarar själv för dina affärer.</span>
+    </div>
+  </div>
+</div>
+
+<script>
+/* =====================================================================
+   INSTÄLLNINGAR
+   DATA_URL pekar på data.json som GitHub Actions uppdaterar automatiskt.
+   Byter du repo: ändra bara den här raden.
+   ===================================================================== */
+const DATA_URL = "https://raw.githubusercontent.com/Husak999/marknadstermometer/main/marknadstermometer/data.json";
+
+const REGIMES = {
+  stark_bullish: {label:"Stark bullish", color:"var(--bull)", cls:"bull"},
+  bullish:       {label:"Bullish",       color:"var(--bull)", cls:"bull"},
+  neutral:       {label:"Neutral / blandat", color:"var(--warn)", cls:"warn"},
+  bearish:       {label:"Bearish",       color:"var(--bear)", cls:"bear"},
+  stark_bearish: {label:"Stark bearish", color:"var(--bear)", cls:"bear"},
+};
+
+/* ---------- Guidelines per klimat (redigera fritt) ---------- */
+const GUIDE = {
+  stark_bullish: {
+    text: "Bredden är stark, nya highs dominerar och volatiliteten är låg. Det här är klimatet momentum- och breakouttrading är gjord för. Marknaden förlåter misstag, breakouts följer igenom och vinnare fortsätter. Var fullt investerad och låt vinnarna löpa, men ha en plan för när bredden börjar vika.",
+    do: ["Handla breakouts i de ledande sektorerna, full positionsstorlek", "Köp styrka: aktier som gör nya highs på hög volym", "Låt vinnare löpa med trailing stop under MA20/MA50", "Pyramidera i positioner som fungerar"],
+    dont: ["Sälj för tidigt av rädsla – trenden är din vän", "Jaga eftersläntrare i svaga sektorer", "Blanka styrka", "Lämna cash på sidlinjen av princip"],
+    risk: ["Full exponering är motiverad (upp till 100 %)", "Riskera max 1 % av kapitalet per affär", "Följ bredden dagligen: faller MA20-bredden under 50 % medan index stiger, börja ta hem vinster"],
+    mom: "Grönt ljus. Det här är dina veckor. Fokusera på de tre hetaste sektorerna, handla rena breakouts och håll i. Avkastningen görs i det här klimatet och kompenserar för de tråkiga perioderna.",
+    swing: "Köp rekyler mot MA10/MA20 i starka aktier, sikta på nya highs. Tajta stoppar fungerar eftersom volatiliteten är låg.",
+  },
+  bullish: {
+    text: "Trenden är uppåt och de flesta aktier deltar. Klimatet stödjer momentum- och breakouttrading, men inte okritiskt: välj de starkaste aktierna i de starkaste sektorerna och var beredd att trimma om bredden försvagas.",
+    do: ["Handla breakouts, men bara i aktier med relativ styrka", "Prioritera de topp 3 hetaste sektorerna", "Flytta stoppar till break-even när affären går 1R i vinst", "Öka exponeringen gradvis när affärer fungerar"],
+    dont: ["Köp allt som rör sig – selektivitet lönar sig", "Ignorera en breakout som misslyckas direkt (sälj)", "Överexponera dig innan de första affärerna bekräftat klimatet"],
+    risk: ["60–100 % exponering beroende på hur dina öppna affärer går", "Max 1 % risk per affär", "Max 2–3 nya positioner per dag"],
+    mom: "Gult-grönt ljus. Handla, men gör ditt urval hårdare än i ett starkt bullish-klimat. En handfull breakouts i ledarsektorerna slår tio spridda chansningar.",
+    swing: "Bra klimat för swing: köp rekyler till MA20 i aktier över stigande MA50. Målet är tidigare toppar eller nya highs.",
+  },
+  neutral: {
+    text: "Signalerna spretar: en del aktier håller trenden, andra bryter ned. I ett sånt klimat misslyckas en stor andel breakouts och det blir lätt att bli ”whipsawed”, alltså stoppad ut åt båda hållen. Det bästa draget är ofta att göra mindre, inte mer.",
+    do: ["Minska antalet affärer och positionsstorleken", "Handla bara A-setups i den allra hetaste sektorn", "Ta vinster snabbare (vid 2–3R) i stället för att vänta på stora trender", "Bygg bevakningslistor inför nästa bullish-fas"],
+    dont: ["Tvinga fram affärer för att du är uttråkad", "Handla breakouts i aktier under MA50", "Pyramidera i positioner", "Snitta ned förlorare"],
+    risk: ["30–60 % exponering", "Halvera risken per affär (0,5 %)", "Om de senaste 3–5 affärerna misslyckats: paus i cash tills bredden förbättras"],
+    mom: "Gult ljus. Breakout-trading har sämst oddskvot i blandat klimat. Minska ner, kräv perfekta setups och acceptera att det kan bli noll affärer en vecka. Det är disciplin, inte passivitet.",
+    swing: "Helt okej klimat för kortare swingaffärer: köp vid stöd, sälj vid motstånd, håll inte över stora nyheter. Intervallet är din vän, trenden är det inte.",
+  },
+  bearish: {
+    text: "Bredden är svag, lows dominerar över highs och volatiliteten stiger. Index kan studsa kraftigt, men studsar i björnklimat är oftast fällor för momentumtraders. Det här är ett klimat för kapitalbevarande, inte för att jaga avkastning.",
+    do: ["Gå till huvudsakligen cash och skydda kapitalet", "Håll bevakningslistor uppdaterade: de aktier som håller MA50 nu blir nästa fas ledare", "Vänta på ett tydligt breddskifte (MA50-bredd över 50 % + fler highs än lows) innan du handlar igen", "Studera, backtesta, vila"],
+    dont: ["Handla breakouts – de flesta misslyckas i detta klimat", "Köpa ”billiga” aktier som fallit mycket", "Öka positionsstorleken för att tjäna tillbaka förluster", "Lita på enskilda gröna dagar"],
+    risk: ["0–30 % exponering", "Max 0,5 % risk per affär om du alls handlar", "Alla positioner ska ha hårda stoppar; inga undantag"],
+    mom: "Rött ljus. Som momentum- eller breakouttrader är din edge nära noll här. Att stå utanför marknaden i några veckor är den mest lönsamma affären du kan göra. Du vinner genom att inte förlora.",
+    swing: "Endast erfarna swingtraders bör handla, och då korta översålda studsar med små positioner, eller blankning på studsar mot motstånd. För de flesta: cash.",
+  },
+  stark_bearish: {
+    text: "Marknaden är i stress eller panik: mycket få aktier håller sin trend, nya lows rasar in och VIX är högt. Det är omöjligt att hitta fungerande breakouts, och rörelserna är så stora att stoppar löses ut även i rätt affärer. Cash är kung tills stormen lagt sig.",
+    do: ["Var i cash, helt eller nästan helt", "Gör en lista över aktier som håller sig bäst (relativ styrka) – där hittar du nästa cykels vinnare", "Vänta på en follow-through-dag och en snabb breddförbättring innan du återvänder", "Ta hand om dig: mental återhämtning är också riskhantering"],
+    dont: ["Handla överhuvudtaget om du är momentum-/breakouttrader", "Försöka fånga botten med stor position", "Ta bort stoppar för att ”den kommer tillbaka”", "Fatta beslut baserat på rubriker"],
+    risk: ["0–10 % exponering", "Ingen ny risk förrän termometern passerat 40", "Kom ihåg: de bästa köplägena uppstår efter panik, inte under"],
+    mom: "Stopp. Stäng plattformen om du måste. Varje seriös momentumtrader har stora delar av året i cash, och det här är den perioden. Förbered dig i stället så att du är redo när klimatet vänder.",
+    swing: "Extrem volatilitet gör de flesta swing-setups oläsbara. Endast mycket små positioner på extrema översålda nivåer, annars cash.",
+  },
+};
+
+/* ---------- Hjälpare ---------- */
+const $ = id => document.getElementById(id);
+const fmt = (n, d=1) => n==null ? "–" : n.toLocaleString("sv-SE",{minimumFractionDigits:d,maximumFractionDigits:d});
+const sgn = (n, d=1) => n==null ? "–" : (n>0?"+":"")+fmt(n,d)+" %";
+const colorPct = p => p>=60?"var(--bull)":p>=40?"var(--warn)":"var(--bear)";
+const clsOf = n => n>0?"bull":n<0?"bear":"warn";
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+let DATA = null, PERIOD = "7d";
+
+async function load(){
+  $("error").style.display="none"; $("loading").style.display="block";
+  try{
+    const r = await fetch(DATA_URL + "?t=" + Math.floor(Date.now()/60000), {cache:"no-store"});
+    if(!r.ok) throw new Error(r.status);
+    DATA = await r.json();
+    render(DATA);
+    $("loading").style.display="none"; $("app").style.display="block";
+  }catch(e){
+    console.error(e);
+    $("loading").style.display="none"; $("error").style.display="block";
+  }
+}
+
+function render(d){
+  const reg = REGIMES[d.regime] || REGIMES.neutral;
+  const b = d.breadth || {}, v = d.vix || {}, s = d.spx || {};
+
+  /* Header */
+  $("sub").textContent = `S&P 500 · Senaste kursdag ${d.market_date || "–"} · Uppdaterad ${d.updated_se || "–"} (svensk tid)`;
+  $("pill").style.color = reg.color; $("pill-txt").textContent = reg.label;
+
+  /* Gauge */
+  const score = d.score ?? 50;
+  $("score").textContent = score; $("score").style.color = reg.color;
+  $("arc").style.strokeDashoffset = 267 - 267*score/100;
+  const ang = Math.PI + Math.PI*score/100;
+  $("marker").setAttribute("cx", (100 + 85*Math.cos(ang)).toFixed(1));
+  $("marker").setAttribute("cy", (100 + 85*Math.sin(ang)).toFixed(1));
+  $("verdict").textContent = `${reg.label} klimat`; $("verdict").style.color = reg.color;
+  $("verdict-text").textContent = verdictText(d);
+  $("obs").innerHTML = observations(d).map(o => `<li><span class="ic ${o.c}">${o.c==="bull"?"+":o.c==="bear"?"–":"!"}</span><span>${o.t}</span></li>`).join("");
+
+  /* Bredd */
+  $("bars").innerHTML = [["ma20","MA20","kort sikt"],["ma50","MA50","swing/momentum"],["ma200","MA200","lång trend"]].map(([k,l,sub]) => {
+    const p = b[k];
+    return `<div class="bar"><div class="lbl">${l}<small>${sub}</small></div>
+      <div class="track"><div class="fill" style="width:${p??0}%;background:${colorPct(p??0)}"></div><div class="mid"></div></div>
+      <div class="val" style="color:${colorPct(p??0)}">${fmt(p,0)} %</div></div>`;
+  }).join("");
+
+  /* Sektorer */
+  renderSectors();
+
+  /* VIX */
+  $("vix").textContent = fmt(v.last,2); $("vix").style.color = vixColor(v.last);
+  $("vix-chg").textContent = v.chg_pct==null ? "" : `${sgn(v.chg_pct)} idag`;
+  $("vix-chg").className = "chg " + (v.chg_pct>0 ? "bear-c" : "bull-c");
+  $("vix-mk").style.left = `${Math.max(0,Math.min(100,((v.last??20)-10)/30*100))}%`;
+  $("vix-note").textContent = vixNote(v);
+  $("vix-kv").innerHTML = `<span>20-dagars snitt <b>${fmt(v.avg20)}</b></span><span>1 år: <b>${fmt(v.lo_52w)}</b> – <b>${fmt(v.hi_52w)}</b></span>` +
+    (v.pct_rank_1y!=null ? `<span>Högre än <b>${fmt(v.pct_rank_1y,0)} %</b> av dagarna senaste året</span>` : "") +
+    (v.term_ratio!=null ? `<span>VIX/VIX3M <b>${fmt(v.term_ratio,2)}</b></span>` : "");
+
+  /* Highs/lows */
+  const hi=b.highs_52w??0, lo=b.lows_52w??0, tot=hi+lo;
+  $("hi").textContent = hi; $("lo").textContent = lo;
+  $("hi20").textContent = b.highs_20d??"–"; $("lo20").textContent = b.lows_20d??"–";
+  const net = tot? (hi-lo)/tot : 0;
+  $("net-l").style.width = net<0 ? `${-net*50}%` : "0"; $("net-r").style.width = net>0 ? `${net*50}%` : "0";
+  $("net-txt").textContent = `Netto ${hi-lo>0?"+":""}${hi-lo}`;
+
+  /* SPX */
+  $("spx").textContent = fmt(s.last,0);
+  $("spx-chg").textContent = s.chg_1d==null?"":`${sgn(s.chg_1d,2)} idag`;
+  $("spx-chg").className = "chg " + (s.chg_1d>=0?"bull-c":"bear-c");
+  $("spx-chips").innerHTML = [20,50,200].map(n => {
+    const x = s["vs_ma"+n]; if(x==null) return "";
+    return `<span class="chip ${x>=0?"bull":"bear"}">${x>=0?"Över":"Under"} MA${n} (${sgn(x)})</span>`;
+  }).join("") + (s.ma50_rising!=null?`<span class="chip ${s.ma50_rising?"bull":"bear"}">MA50 ${s.ma50_rising?"stiger":"faller"}</span>`:"");
+  $("spx-stats").innerHTML = [["5 dagar",s.chg_5d],["1 månad",s.chg_1m],["I år",s.chg_ytd],["Från 52v-high",s.from_52w_high]].map(([k,x]) =>
+    `<div class="stat"><div class="k">${k}</div><div class="v ${x==null?"":x>=0?"bull-c":"bear-c"}">${sgn(x)}</div></div>`).join("");
+
+  /* Summering */
+  const g = GUIDE[d.regime] || GUIDE.neutral;
+  $("sum-verdict").textContent = `${reg.label}: ${score} / 100`; $("sum-verdict").style.color = reg.color;
+  $("sum-text").textContent = g.text;
+  $("do").innerHTML = g.do.map(x=>`<li>${x}</li>`).join("");
+  $("dont").innerHTML = g.dont.map(x=>`<li>${x}</li>`).join("");
+  $("risk").innerHTML = g.risk.map(x=>`<li>${x}</li>`).join("");
+  $("style-mom").textContent = g.mom; $("style-swing").textContent = g.swing;
+
+  $("foot-src").textContent = `Källa: ${d.source || "Yahoo Finance"} · ${b.n || ""} aktier i urvalet · Uppdateras automatiskt varje timme under amerikansk handel`;
+}
+
+function renderSectors(){
+  const sec = DATA.sectors || {};
+  const list = sec[PERIOD] || [];
+  const spxRet = sec[PERIOD+"_spx"];
+  document.querySelectorAll("#toggle button").forEach(btn => btn.classList.toggle("on", btn.dataset.p===PERIOD));
+  const lbl = {"7d":"7 dagar","30d":"30 dagar","6m":"6 månader"}[PERIOD];
+  $("top3").innerHTML = list.slice(0,3).map((x,i) => `
+    <div class="sec ${i===0?"hot":""}">${i===0?'<span class="flame">🔥 Hetast just nu</span>':""}
+      <div class="rank">${i+1}</div>
+      <div class="nm">${esc(x.name)}<small>${x.etf}${x.vs_spx!=null?` · ${x.vs_spx>=0?"+":""}${fmt(x.vs_spx)} p.e. mot S&amp;P 500`:""}</small></div>
+      <div class="ret ${clsOf(x.ret)}-c">${sgn(x.ret)}<small>${lbl}</small></div>
+    </div>`).join("") || `<div class="spxline">Ingen sektordata.</div>`;
+  const maxAbs = Math.max(1, ...list.map(x=>Math.abs(x.ret)));
+  $("rest").innerHTML = list.slice(3).map((x,i) => {
+    const w = Math.abs(x.ret)/maxAbs*50;
+    const f = x.ret>=0 ? `left:50%;width:${w}%;background:var(--bull)` : `right:50%;width:${w}%;background:var(--bear)`;
+    return `<div class="row"><span>${i+4}</span><span>${esc(x.name)}</span><div class="t"><div class="f" style="${f}"></div></div><span class="v ${clsOf(x.ret)}-c">${sgn(x.ret)}</span></div>`;
+  }).join("");
+  $("spxline").textContent = spxRet==null ? "" : `S&P 500 samma period: ${sgn(spxRet)}. ${riskTone(list)}`;
+}
+
+function riskTone(list){
+  if(!list.length) return "";
+  const lead = list.slice(0,3).map(x=>x.etf);
+  const on = ["XLK","XLY","XLC"].filter(e=>lead.includes(e)).length;
+  const off = ["XLP","XLU","XLV"].filter(e=>lead.includes(e)).length;
+  if(on>=2) return "Offensiva sektorer leder → risk-on, kapitalet söker tillväxt.";
+  if(off>=2) return "Defensiva sektorer leder → risk-off, kapitalet söker skydd. Var försiktig även om index ser okej ut.";
+  if(lead.includes("XLE") && lead.includes("XLB")) return "Råvarucykliskt leder → ofta sent i cykeln, bevaka inflationsoro.";
+  return "Blandat ledarskap → ingen tydlig riskaptit, välj aktie för aktie.";
+}
+
+function vixColor(x){ return x==null?"var(--cream)":x<17?"var(--bull)":x<22?"var(--warn)":"var(--bear)"; }
+function vixNote(v){
+  const x = v.last; if(x==null) return "Ingen VIX-data.";
+  let t;
+  if(x<13) t = "Extremt lågt. Marknaden är lugn, nästan självbelåten. Trender och breakouts fungerar, men skydd (puts) är billigt och ett plötsligt VIX-hopp kan komma utan förvarning.";
+  else if(x<17) t = "Lågt. Trendvänligt klimat där breakouts tenderar att följa igenom och tajta stoppar håller. Bästa miljön för momentumtrading.";
+  else if(x<22) t = "Normalt till lätt förhöjt. Nervositet finns i marknaden och dagsrörelserna är större. Fungerar att handla, men använd lite vidare stoppar och mindre positioner.";
+  else if(x<30) t = "Högt. Stress i marknaden: breakouts misslyckas ofta och stoppar löses ut i onödan. Var mycket selektiv eller stå utanför tills VIX faller tillbaka under 20.";
+  else t = "Panik. Extremt stora rörelser åt båda hållen. Kortsiktigt är cash det tryggaste, men historiskt bildas de bästa köplägena när VIX toppar här.";
+  if(v.chg_pct!=null && Math.abs(v.chg_pct)>=8) t += v.chg_pct>0 ? ` VIX steg ${fmt(v.chg_pct,0)} % senaste dagen – oron tilltar.` : ` VIX föll ${fmt(-v.chg_pct,0)} % senaste dagen – oron släpper.`;
+  if(v.term_ratio!=null && v.term_ratio>1.0) t += " VIX ligger över VIX3M (backwardation): marknaden prisar akut stress just nu.";
+  return t;
+}
+
+function verdictText(d){
+  const b=d.breadth||{}, v=d.vix||{};
+  const parts=[];
+  parts.push(`${fmt(b.ma50,0)} % av aktierna över MA50`);
+  parts.push(`${b.highs_52w??0} nya highs mot ${b.lows_52w??0} nya lows`);
+  parts.push(`VIX ${fmt(v.last)}`);
+  return parts.join(" · ") + ".";
+}
+
+function observations(d){
+  const b=d.breadth||{}, v=d.vix||{}, s=d.spx||{}, sec=(d.sectors||{})["30d"]||[];
+  const o=[];
+  if(b.ma50!=null){
+    if(b.ma50>=70) o.push({c:"bull",t:`Bred uppgång: ${fmt(b.ma50,0)} % av aktierna över MA50 – många aktier deltar.`});
+    else if(b.ma50>=50) o.push({c:"bull",t:`Bredden är okej: ${fmt(b.ma50,0)} % över MA50.`});
+    else if(b.ma50>=35) o.push({c:"warn",t:`Smal marknad: bara ${fmt(b.ma50,0)} % över MA50 – rörelsen bärs av få aktier.`});
+    else o.push({c:"bear",t:`Svag bredd: endast ${fmt(b.ma50,0)} % över MA50 – de flesta aktier är i nedtrend.`});
+  }
+  if(b.ma200!=null && b.ma50!=null){
+    if(b.ma200>=60 && b.ma50<45) o.push({c:"warn",t:"Långa trenden är intakt (MA200) men kortsiktigt pågår en rekyl – vänta på att MA50-bredden vänder upp."});
+    if(b.ma200<40 && b.ma50>=55) o.push({c:"warn",t:"Studs i en björnmarknad: kortsiktig styrka men majoriteten är fortfarande under MA200."});
+  }
+  if(b.ma20!=null && b.ma50!=null && b.ma20 - b.ma50 >= 15) o.push({c:"bull",t:"Kortsiktigt momentum tilltar: MA20-bredden ligger klart över MA50-bredden."});
+  if(b.ma20!=null && b.ma50!=null && b.ma50 - b.ma20 >= 15) o.push({c:"warn",t:"Kortsiktigt momentum avtar: MA20-bredden faller under MA50-bredden."});
+  const hi=b.highs_52w??0, lo=b.lows_52w??0;
+  if(hi+lo>0){
+    if(hi>=3*lo && hi>=20) o.push({c:"bull",t:`Nya highs dominerar (${hi} mot ${lo}) – gott om breakout-kandidater.`});
+    else if(lo>hi) o.push({c:"bear",t:`Fler nya lows än highs (${lo} mot ${hi})${(s.vs_ma50??0)>0?" trots index över MA50 – ihåligt rally":""}.`});
+    else if(hi<10) o.push({c:"warn",t:`Få nya highs (${hi}) – ont om ledare att köpa.`});
+  }
+  if(v.last!=null){
+    if(v.last<17) o.push({c:"bull",t:`VIX ${fmt(v.last)} – lugn marknad, trendvänligt.`});
+    else if(v.last<22) o.push({c:"warn",t:`VIX ${fmt(v.last)} – förhöjd nervositet, större svängningar.`});
+    else o.push({c:"bear",t:`VIX ${fmt(v.last)} – stress, breakouts misslyckas ofta.`});
+  }
+  if(s.vs_ma50!=null && s.vs_ma200!=null){
+    if(s.vs_ma50>0 && s.vs_ma200>0) o.push({c:"bull",t:`S&P 500 över både MA50 och MA200${s.ma50_rising===false?" (men MA50 faller)":""}.`});
+    else if(s.vs_ma200>0) o.push({c:"warn",t:"S&P 500 under MA50 men över MA200 – rekyl inom en upptrend."});
+    else o.push({c:"bear",t:"S&P 500 under MA200 – björnmarknadsvillkor."});
+  }
+  if(sec.length){
+    const lead=sec[0];
+    const tone = ["XLK","XLY","XLC"].includes(lead.etf) ? {c:"bull",t:`${lead.name} leder sektorerna senaste 30 dagarna (${sgn(lead.ret)}) – risk-on.`}
+               : ["XLP","XLU","XLV"].includes(lead.etf) ? {c:"warn",t:`${lead.name} leder sektorerna senaste 30 dagarna (${sgn(lead.ret)}) – defensiv rotation, risk-off.`}
+               : {c:"warn",t:`${lead.name} leder sektorerna senaste 30 dagarna (${sgn(lead.ret)}).`};
+    o.push(tone);
+  }
+  return o.slice(0,6);
+}
+
+document.querySelectorAll("#toggle button").forEach(btn => btn.addEventListener("click", () => { PERIOD = btn.dataset.p; renderSectors(); }));
+load();
+</script>
+<script>
+/* ===== Popup-skal (2026-10-27) ===== */
+(function(){
+  var SRC = 'termo-widget';
+  function till(type, payload){
+    if (window.parent && window.parent !== window) window.parent.postMessage({ source:SRC, type:type, payload:payload }, '*');
+  }
+  window.addEventListener('message', function(ev){
+    var m = ev.data || {};
+    if (m.source !== 'wix' || m.type !== 'layout') return;
+    document.documentElement.classList.toggle('fill', !!(m.payload && m.payload.fill));
+  });
+  var x = document.createElement('button');
+  x.className = 'pp-x'; x.type = 'button'; x.setAttribute('aria-label', 'Stäng'); x.innerHTML = '&times;';
+  x.addEventListener('click', function(){ till('close'); });
+  document.body.appendChild(x);
+  window.ppTill = till;
+
+  /* Höjd till popup-koden (desktop: popupen växer med innehållet) */
+  var sista = 0;
+  function hojd(){
+    var w = document.querySelector('.wrap'); if (!w) return;
+    var px = Math.ceil(w.getBoundingClientRect().height) + 12;
+    if (Math.abs(px - sista) < 6) return;
+    sista = px; till('height', { px: px });
+  }
+  window.addEventListener('load', hojd);
+  window.addEventListener('resize', hojd);
+  try { new ResizeObserver(hojd).observe(document.querySelector('.wrap')); } catch(e) { setInterval(hojd, 1000); }
+  document.addEventListener('keydown', function(e){ if (e.key === 'Escape') till('close'); });
+  till('ready');
+})();
+</script>
+</body>
+</html>
