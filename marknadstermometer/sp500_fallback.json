@@ -1500,12 +1500,12 @@
 "sector": "Financials"
 },
 {
-"symbol": "PEG",
-"sector": "Utilities"
-},
-{
 "symbol": "PTC",
 "sector": "Information Technology"
+},
+{
+"symbol": "PEG",
+"sector": "Utilities"
 },
 {
 "symbol": "PSA",
