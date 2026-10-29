@@ -1,6 +1,6 @@
 {
- "updated_utc": "2026-10-29T01:52:11Z",
- "updated_se": "2026-10-29 02:52",
+ "updated_utc": "2026-10-29T12:58:26Z",
+ "updated_se": "2026-10-29 13:58",
  "market_date": "2026-10-28",
  "score": 65,
  "regime": "bullish",
@@ -9,7 +9,7 @@
   "ma20": 69.0,
   "ma200": 58.0,
   "highlow": 63.3,
-  "vix": 75.5,
+  "vix": 74.4,
   "trend": 80.0
  },
  "weights": {
@@ -31,7 +31,7 @@
   "lows_52w": 11,
   "n_52w": 502,
   "highs_20d": 69,
-  "lows_20d": 29,
+  "lows_20d": 28,
   "n_20d": 503,
   "up_5d_pct": 59.4,
   "n": 503,
@@ -247,15 +247,15 @@
   "6m_spx": 8.53
  },
  "vix": {
-  "last": 16.91,
-  "prev": 17.52,
-  "chg_pct": -3.48,
-  "avg20": 16.75,
+  "last": 17.12,
+  "prev": 16.91,
+  "chg_pct": 1.24,
+  "avg20": 16.79,
   "hi_52w": 31.05,
   "lo_52w": 13.47,
-  "pct_rank_1y": 46.0,
+  "pct_rank_1y": 50.0,
   "vix3m": 19.22,
-  "term_ratio": 0.88
+  "term_ratio": 0.891
  },
  "spx": {
   "last": 7743.98,
