@@ -1,15 +1,15 @@
 {
- "updated_utc": "2026-10-30T18:40:03Z",
- "updated_se": "2026-10-30 19:40",
+ "updated_utc": "2026-10-30T23:00:49Z",
+ "updated_se": "2026-10-31 00:00",
  "market_date": "2026-10-30",
- "score": 61,
+ "score": 65,
  "regime": "bullish",
  "components": {
-  "ma50": 60.6,
-  "ma20": 67.2,
-  "ma200": 58.4,
-  "highlow": 82.1,
-  "vix": 49.1,
+  "ma50": 60.2,
+  "ma20": 69.2,
+  "ma200": 59.2,
+  "highlow": 88.9,
+  "vix": 62.9,
   "trend": 45.0
  },
  "weights": {
@@ -21,19 +21,19 @@
   "trend": 0.1
  },
  "breadth": {
-  "ma20": 67.2,
+  "ma20": 69.2,
   "ma20_n": 503,
-  "ma50": 60.6,
+  "ma50": 60.2,
   "ma50_n": 502,
-  "ma200": 58.4,
+  "ma200": 59.2,
   "ma200_n": 500,
   "highs_52w": 32,
-  "lows_52w": 7,
+  "lows_52w": 4,
   "n_52w": 502,
-  "highs_20d": 131,
-  "lows_20d": 63,
+  "highs_20d": 123,
+  "lows_20d": 54,
   "n_20d": 503,
-  "up_5d_pct": 63.0,
+  "up_5d_pct": 63.8,
   "n": 503,
   "date": "2026-10-30"
  },
@@ -42,235 +42,235 @@
    {
     "etf": "XLV",
     "name": "Hälsovård",
-    "ret": 3.35,
-    "vs_spx": 4.41
-   },
-   {
-    "etf": "XLU",
-    "name": "Kraftförsörjning",
-    "ret": 2.36,
-    "vs_spx": 3.42
+    "ret": 3.12,
+    "vs_spx": 3.68
    },
    {
     "etf": "XLB",
     "name": "Material",
-    "ret": 1.91,
-    "vs_spx": 2.97
+    "ret": 2.79,
+    "vs_spx": 3.35
+   },
+   {
+    "etf": "XLU",
+    "name": "Kraftförsörjning",
+    "ret": 2.04,
+    "vs_spx": 2.6
    },
    {
     "etf": "XLY",
     "name": "Sällanköpsvaror",
-    "ret": 1.83,
-    "vs_spx": 2.89
-   },
-   {
-    "etf": "XLP",
-    "name": "Dagligvaror",
-    "ret": 1.63,
-    "vs_spx": 2.69
-   },
-   {
-    "etf": "XLRE",
-    "name": "Fastigheter",
-    "ret": 1.59,
-    "vs_spx": 2.65
+    "ret": 2.02,
+    "vs_spx": 2.58
    },
    {
     "etf": "XLI",
     "name": "Industri",
-    "ret": 1.44,
-    "vs_spx": 2.5
+    "ret": 1.69,
+    "vs_spx": 2.25
+   },
+   {
+    "etf": "XLRE",
+    "name": "Fastigheter",
+    "ret": 1.41,
+    "vs_spx": 1.97
+   },
+   {
+    "etf": "XLP",
+    "name": "Dagligvaror",
+    "ret": 1.31,
+    "vs_spx": 1.87
    },
    {
     "etf": "XLF",
     "name": "Finans",
-    "ret": 0.92,
-    "vs_spx": 1.98
+    "ret": 1.09,
+    "vs_spx": 1.65
    },
    {
     "etf": "XLE",
     "name": "Energi",
-    "ret": 0.45,
-    "vs_spx": 1.51
+    "ret": 1.0,
+    "vs_spx": 1.56
    },
    {
     "etf": "XLK",
     "name": "Teknik",
-    "ret": -3.17,
-    "vs_spx": -2.11
+    "ret": -2.03,
+    "vs_spx": -1.47
    },
    {
     "etf": "XLC",
     "name": "Kommunikation",
-    "ret": -5.54,
-    "vs_spx": -4.48
+    "ret": -5.32,
+    "vs_spx": -4.76
    }
   ],
-  "7d_spx": -1.06,
+  "7d_spx": -0.56,
   "30d": [
    {
     "etf": "XLE",
     "name": "Energi",
-    "ret": 13.24,
-    "vs_spx": 14.64
+    "ret": 13.85,
+    "vs_spx": 14.76
    },
    {
     "etf": "XLP",
     "name": "Dagligvaror",
-    "ret": 11.29,
-    "vs_spx": 12.69
+    "ret": 10.94,
+    "vs_spx": 11.85
    },
    {
     "etf": "XLU",
     "name": "Kraftförsörjning",
-    "ret": 10.46,
-    "vs_spx": 11.86
+    "ret": 10.12,
+    "vs_spx": 11.03
    },
    {
     "etf": "XLV",
     "name": "Hälsovård",
-    "ret": 10.02,
-    "vs_spx": 11.42
+    "ret": 9.77,
+    "vs_spx": 10.68
    },
    {
     "etf": "XLB",
     "name": "Material",
-    "ret": 7.37,
-    "vs_spx": 8.77
+    "ret": 8.3,
+    "vs_spx": 9.21
    },
    {
     "etf": "XLY",
     "name": "Sällanköpsvaror",
-    "ret": 5.82,
-    "vs_spx": 7.22
-   },
-   {
-    "etf": "XLRE",
-    "name": "Fastigheter",
-    "ret": 5.71,
-    "vs_spx": 7.11
+    "ret": 6.01,
+    "vs_spx": 6.92
    },
    {
     "etf": "XLF",
     "name": "Finans",
-    "ret": 5.65,
-    "vs_spx": 7.05
+    "ret": 5.82,
+    "vs_spx": 6.73
+   },
+   {
+    "etf": "XLRE",
+    "name": "Fastigheter",
+    "ret": 5.52,
+    "vs_spx": 6.43
    },
    {
     "etf": "XLI",
     "name": "Industri",
-    "ret": 0.01,
-    "vs_spx": 1.41
+    "ret": 0.25,
+    "vs_spx": 1.16
    },
    {
     "etf": "XLK",
     "name": "Teknik",
-    "ret": -9.36,
-    "vs_spx": -7.96
+    "ret": -8.3,
+    "vs_spx": -7.39
    },
    {
     "etf": "XLC",
     "name": "Kommunikation",
-    "ret": -10.19,
-    "vs_spx": -8.79
+    "ret": -9.98,
+    "vs_spx": -9.07
    }
   ],
-  "30d_spx": -1.4,
+  "30d_spx": -0.91,
   "6m": [
    {
     "etf": "XLV",
     "name": "Hälsovård",
-    "ret": 27.65,
-    "vs_spx": 23.31
+    "ret": 27.36,
+    "vs_spx": 22.49
    },
    {
     "etf": "XLE",
     "name": "Energi",
-    "ret": 18.33,
-    "vs_spx": 13.99
+    "ret": 18.98,
+    "vs_spx": 14.11
    },
    {
     "etf": "XLK",
     "name": "Teknik",
-    "ret": 9.61,
-    "vs_spx": 5.27
+    "ret": 10.9,
+    "vs_spx": 6.03
    },
    {
     "etf": "XLF",
     "name": "Finans",
-    "ret": 8.66,
-    "vs_spx": 4.32
+    "ret": 8.84,
+    "vs_spx": 3.97
    },
    {
     "etf": "XLP",
     "name": "Dagligvaror",
-    "ret": 6.57,
-    "vs_spx": 2.23
+    "ret": 6.24,
+    "vs_spx": 1.37
    },
    {
     "etf": "XLB",
     "name": "Material",
-    "ret": 1.83,
-    "vs_spx": -2.51
+    "ret": 2.71,
+    "vs_spx": -2.16
    },
    {
     "etf": "XLRE",
     "name": "Fastigheter",
-    "ret": -2.43,
-    "vs_spx": -6.77
+    "ret": -2.59,
+    "vs_spx": -7.46
    },
    {
     "etf": "XLY",
     "name": "Sällanköpsvaror",
-    "ret": -2.92,
-    "vs_spx": -7.26
+    "ret": -2.74,
+    "vs_spx": -7.61
    },
    {
     "etf": "XLI",
     "name": "Industri",
-    "ret": -3.45,
-    "vs_spx": -7.79
+    "ret": -3.21,
+    "vs_spx": -8.08
    },
    {
     "etf": "XLU",
     "name": "Kraftförsörjning",
-    "ret": -6.41,
-    "vs_spx": -10.75
+    "ret": -6.7,
+    "vs_spx": -11.57
    },
    {
     "etf": "XLC",
     "name": "Kommunikation",
-    "ret": -14.62,
-    "vs_spx": -18.96
+    "ret": -14.41,
+    "vs_spx": -19.28
    }
   ],
-  "6m_spx": 4.34
+  "6m_spx": 4.87
  },
  "vix": {
-  "last": 23.11,
+  "last": 19.42,
   "prev": 17.2,
-  "chg_pct": 34.36,
-  "avg20": 17.19,
+  "chg_pct": 12.91,
+  "avg20": 17.0,
   "hi_52w": 31.05,
   "lo_52w": 13.47,
-  "pct_rank_1y": 89.0,
-  "vix3m": 22.63,
-  "term_ratio": 1.021
+  "pct_rank_1y": 77.0,
+  "vix3m": 20.78,
+  "term_ratio": 0.935
  },
  "spx": {
-  "last": 7541.49,
-  "chg_1d": -2.32,
-  "chg_5d": -1.08,
-  "chg_1m": -1.44,
-  "chg_ytd": 10.17,
-  "from_52w_high": -3.55,
+  "last": 7580.07,
+  "chg_1d": -1.82,
+  "chg_5d": -0.57,
+  "chg_1m": -0.93,
+  "chg_ytd": 10.73,
+  "from_52w_high": -3.05,
   "date": "2026-10-30",
-  "ma20": 7727.97,
-  "vs_ma20": -2.41,
-  "ma50": 7696.31,
-  "vs_ma50": -2.01,
-  "ma200": 7309.56,
-  "vs_ma200": 3.17,
+  "ma20": 7729.9,
+  "vs_ma20": -1.94,
+  "ma50": 7697.08,
+  "vs_ma50": -1.52,
+  "ma200": 7309.76,
+  "vs_ma200": 3.7,
   "ma50_rising": false
  },
  "universe": "S&P 500",
