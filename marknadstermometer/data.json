@@ -1,6 +1,6 @@
 {
- "updated_utc": "2026-10-30T23:00:49Z",
- "updated_se": "2026-10-31 00:00",
+ "updated_utc": "2026-10-31T01:38:49Z",
+ "updated_se": "2026-10-31 02:38",
  "market_date": "2026-10-30",
  "score": 65,
  "regime": "bullish",
@@ -31,7 +31,7 @@
   "lows_52w": 4,
   "n_52w": 502,
   "highs_20d": 123,
-  "lows_20d": 54,
+  "lows_20d": 53,
   "n_20d": 503,
   "up_5d_pct": 63.8,
   "n": 503,
