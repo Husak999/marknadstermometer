@@ -60,9 +60,22 @@
   .card h2 .tag{font-size:11px;font-weight:600;color:var(--faint);letter-spacing:.08em;text-transform:uppercase}
   .card .body{flex:1;margin-top:12px}
   .explain{
-    margin-top:14px;padding-top:12px;border-top:1px dashed var(--line);
-    font-size:12.5px;color:var(--muted);line-height:1.5
+    font-size:12.5px;color:var(--muted);line-height:1.5;
+    max-height:0;overflow:hidden;opacity:0;margin-top:0;padding-top:0;border-top:1px dashed transparent;
+    transition:max-height .35s ease,opacity .25s ease,margin-top .25s ease,padding-top .25s ease
   }
+  .card.info-open .explain{max-height:600px;opacity:1;margin-top:14px;padding-top:12px;border-top-color:var(--line)}
+  /* Levande paneler: hover lyfter, klick visar förklaringen */
+  .card.has-info{cursor:pointer;position:relative;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease,background .18s ease}
+  .card.has-info:hover{transform:translateY(-2px);border-color:rgba(76,107,208,.55);box-shadow:var(--shadow),0 0 0 1px rgba(76,107,208,.25),0 10px 28px rgba(46,75,163,.28)}
+  .card.has-info:active{transform:translateY(0)}
+  .info-i{position:absolute;top:14px;right:14px;width:20px;height:20px;border-radius:50%;display:grid;place-items:center;
+    font-size:11px;font-weight:800;font-style:normal;color:var(--faint);border:1px solid var(--line);
+    opacity:.45;transition:opacity .18s,color .18s,border-color .18s,transform .25s}
+  .card.has-info:hover .info-i{opacity:1;color:var(--accent-2);border-color:rgba(76,107,208,.6)}
+  .card.info-open .info-i{opacity:1;color:#fff;background:var(--accent-2);border-color:var(--accent-2);transform:rotate(45deg)}
+  .card.has-info h2{padding-right:30px}
+  @media (hover:none){.info-i{opacity:.8}}
   .explain b{color:var(--cream);font-weight:600}
 
   /* ---------- Hero / termometer ---------- */
@@ -132,6 +145,9 @@
   .th.hot{background:linear-gradient(135deg,rgba(46,75,163,.55),rgba(46,75,163,.18));border-color:rgba(76,107,208,.9);box-shadow:0 0 0 1px rgba(76,107,208,.35),0 8px 24px rgba(46,75,163,.35)}
   .th-head{display:grid;grid-template-columns:30px 1fr auto;align-items:center;gap:12px;padding:11px 13px;width:100%;
     background:transparent;border:0;color:inherit;font:inherit;text-align:left;cursor:pointer}
+  .th{transition:border-color .18s,background .18s,transform .18s}
+  .th:has(.th-head:not([disabled])):hover{border-color:rgba(76,107,208,.7);background:rgba(76,107,208,.10)}
+  .th.hot:hover{background:linear-gradient(135deg,rgba(46,75,163,.65),rgba(46,75,163,.25))}
   .th-head:focus-visible{outline:2px solid var(--accent-2);outline-offset:2px;border-radius:12px}
   .th .rank{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:13px;background:rgba(255,251,240,.08)}
   .th.hot .rank{background:var(--accent-2);color:#fff}
@@ -285,9 +301,24 @@ html.fill body{padding-top:50px}
         <div class="explain"><b>Vad är detta?</b> En sammanvägd temperatur på den amerikanska aktiemarknaden (S&amp;P 500) byggd på marknadsbredd (MA20/50/200), nya highs &amp; lows, VIX och indextrend. 0 = extremt bearish, 100 = extremt bullish. Siffran svarar på en enda fråga: <b>stödjer marknaden momentum- och breakout-trading just nu?</b></div>
       </section>
 
-      <div class="stack span-5">
+      <!-- Teman (industries) -->
+      <section class="card span-12">
+        <h2>Hetaste temana <span class="tag" id="th-count"></span>
+          <div class="toggle" id="toggle">
+            <button data-p="7d">7 dagar</button><button data-p="30d">30 dagar</button><button data-p="6m">6 mån</button>
+          </div>
+        </h2>
+        <div class="body">
+          <div class="th-wrap" id="top3"></div>
+          <div class="rest" id="rest" style="margin-top:12px"></div>
+          <div id="th-more-wrap"></div>
+          <div class="spxline" id="spxline"></div>
+        </div>
+        <div class="explain"><b>Förklaring:</b> Ett tema är en industry, till exempel Semiconductors, Homebuilding eller Restaurants. Vi rankar över 100 teman bland alla amerikanska aktier med börsvärde över 1 miljard $. Temats siffra är hur den <b>mittersta aktien</b> i temat har gått, så en enskild jätte kan inte dra upp hela temat. De starkaste aktierna hittar du nästan alltid i de starkaste temana. <b>Klicka på ett av de fem starkaste temana</b> för att se de tio aktier i temat som har högst <b>RS</b> (relativ styrka mot marknaden, 1–99, där 99 betyder starkare än 99 % av alla aktier). Listan räknas om varje kväll efter amerikansk stängning, så nya starka aktier roterar in automatiskt. Grön prick = kursen över MA50. Utbildning, inte köpråd: gör alltid din egen analys.</div>
+      </section>
+
       <!-- Bredd -->
-      <section class="card">
+      <section class="card span-6">
         <h2>Marknadsbredd <span class="tag">S&amp;P 500</span></h2>
         <div class="body">
           <div class="bars" id="bars"></div>
@@ -297,7 +328,7 @@ html.fill body{padding-top:50px}
       </section>
 
       <!-- Highs / lows -->
-      <section class="card">
+      <section class="card span-6">
         <h2>Nya highs &amp; lows <span class="tag">52 veckor</span></h2>
         <div class="body">
           <div class="hl">
@@ -310,23 +341,6 @@ html.fill body{padding-top:50px}
           <div class="mini"><span>20-dagars highs: <b id="hi20"></b></span><span>20-dagars lows: <b id="lo20"></b></span></div>
         </div>
         <div class="explain"><b>Förklaring:</b> Antal aktier i S&amp;P 500 som idag stänger på sin högsta respektive lägsta nivå på ett år. Nya highs är råvaran för momentumtrading: utan dem finns det inga breakouts att köpa. Fler lows än highs trots ett stigande index är en klassisk varningssignal om att rallyt är ihåligt. 20-dagarsraden visar samma sak på kortare sikt.</div>
-      </section>
-      </div>
-
-      <!-- Teman (industries) -->
-      <section class="card span-7">
-        <h2>Hetaste temana <span class="tag" id="th-count"></span>
-          <div class="toggle" id="toggle">
-            <button data-p="7d">7 dagar</button><button data-p="30d">30 dagar</button><button data-p="6m">6 mån</button>
-          </div>
-        </h2>
-        <div class="body">
-          <div class="th-wrap" id="top3"></div>
-          <div class="rest" id="rest" style="margin-top:12px"></div>
-          <div id="th-more-wrap"></div>
-          <div class="spxline" id="spxline"></div>
-        </div>
-        <div class="explain"><b>Förklaring:</b> Ett tema är en industry, till exempel Semiconductors, Homebuilding eller Restaurants. Vi rankar över 100 teman bland alla amerikanska aktier med börsvärde över 1 miljard $. Temats siffra är hur den <b>mittersta aktien</b> i temat har gått, så en enskild jätte kan inte dra upp hela temat. De starkaste aktierna hittar du nästan alltid i de starkaste temana. <b>Klicka på ett av de fem starkaste temana</b> för att se de tio aktier i temat som har högst <b>RS</b> (relativ styrka mot marknaden, 1–99, där 99 betyder starkare än 99 % av alla aktier). Listan räknas om varje kväll efter amerikansk stängning, så nya starka aktier roterar in automatiskt.</div>
       </section>
 
       <!-- VIX -->
@@ -598,7 +612,7 @@ function leaderTable(L){
       <td><span class="ma" title="${s.over_ma50?"Över":"Under"} MA50" style="background:${s.over_ma50?"var(--bull)":"var(--bear)"}"></span></td>
     </tr>`).join("");
   return `<table class="lt"><thead><tr><th>Ticker</th><th>Bolag</th><th>RS</th><th>vs S&amp;P 3m</th><th class="hide-s">1 mån</th><th class="hide-s">Från 52v-high</th><th>MA50</th></tr></thead><tbody>${rows}</tbody></table>
-    <div class="lt-note">Sorterat på RS. ${L.n} aktier i temat. Grön prick = kursen över MA50. Utbildning, inte köpråd: gör alltid din egen analys.</div>`;
+`;
 }
 
 function renderOldSectors(){
@@ -704,6 +718,26 @@ function observations(d){
 }
 
 document.querySelectorAll("#toggle button").forEach(btn => btn.addEventListener("click", () => { PERIOD = btn.dataset.p; renderSectors(); }));
+
+/* Minimalistiskt läge: förklaringarna döljs, klick på panelen visar dem */
+document.querySelectorAll(".card").forEach(card => {
+  if (!card.querySelector(".explain")) return;
+  card.classList.add("has-info");
+  const i = document.createElement("i"); i.className = "info-i"; i.textContent = "+"; i.setAttribute("aria-hidden","true");
+  card.appendChild(i);
+  card.setAttribute("tabindex","0");
+  card.setAttribute("aria-expanded","false");
+  const toggle = () => { const o = card.classList.toggle("info-open"); card.setAttribute("aria-expanded", o ? "true" : "false"); };
+  card.addEventListener("click", e => {
+    if (e.target.closest("button, a, .toggle, .th, .lt, input, select")) return;
+    if (window.getSelection && String(window.getSelection()).length) return;
+    toggle();
+  });
+  card.addEventListener("keydown", e => {
+    if (e.target !== card) return;
+    if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(); }
+  });
+});
 load();
 </script>
 <script>
