@@ -25,6 +25,22 @@ Wix HTML-widget (index.html)  ←  hämtar data.json via raw.githubusercontent.c
 Ligger filerna på en annan branch uppdateras datan bara vid push eller manuell körning
 (fliken *Actions* → *Run workflow*).
 
+## Teman (industries) + topp 10
+
+`teman.py` rankar 100+ teman (Nasdaqs industry-indelning) bland alla amerikanska aktier
+med börsvärde >= 1 mdr $ och kurs >= 5 $ (~2 500 aktier). Aktielistan hämtas från
+`rreichel3/US-Stock-Symbols` på GitHub, sparad kopia i `teman_universum.json`.
+
+- Temats avkastning = medianaktien i temat (minst 5 aktier). Perioder 7d / 30d / 6m.
+- De 5 starkaste temana per period får en topp 10-lista, sorterad på RS
+  (IBD-modellen: 3/6/9/12 mån viktat 40/20/20/20, rankad 1–99 mot hela urvalet).
+- Räknas EN gång per handelsdag, första körningen efter amerikansk stängning
+  (22:17 UTC). Övriga körningar behåller blocket. Bara färdiga dagsstängningar används.
+- Tvinga omräkning: kör workflow:en med miljövariabeln `FORCE_TEMAN=1`, eller lokalt
+  `FORCE_TEMAN=1 python marknadstermometer/build_data.py`.
+- Snyggare temanamn: ordboken `PRETTY` i `teman.py`. Gränserna (`TOP_THEMES`,
+  `TOP_STOCKS`, `MIN_CAP`) ligger överst i samma fil.
+
 ## Lägga in på Wix
 
 1. I Wix-editorn: **Lägg till (+) → Inbäddning → Bädda in HTML / Embed Code**

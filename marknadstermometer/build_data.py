@@ -25,6 +25,8 @@ import pandas as pd
 import requests
 import yfinance as yf
 
+import teman
+
 HERE = Path(__file__).resolve().parent
 OUT_FILE = HERE / "data.json"
 FALLBACK_TICKERS = HERE / "sp500_fallback.json"
@@ -359,6 +361,52 @@ def composite(breadth: dict, vix: dict, spx: dict) -> dict:
     return {"score": int(score), "regime": regime, "components": {k: round(v, 1) for k, v in c.items() if v is not None}, "weights": weights}
 
 
+def themes_block(sp_closes: pd.DataFrame) -> dict | None:
+    """Teman (industries) + topp 10 per tema. Räknas en gång per handelsdag,
+    annars behålls förra körningens block oförändrat."""
+    import os
+
+    old = None
+    try:
+        old = json.loads(OUT_FILE.read_text()).get("themes")
+    except Exception:  # noqa: BLE001
+        pass
+    force = os.environ.get("FORCE_TEMAN") == "1"
+    need, target = teman.needs_update(old, force)
+    if not need:
+        log(f"Teman: redan klara för {target}, behåller")
+        return old
+    try:
+        t0 = time.time()
+        universe = teman.load_universe()
+        tickers = [u["symbol"] for u in universe]
+        have = [t for t in tickers if t in sp_closes.columns]
+        rest = [t for t in tickers if t not in sp_closes.columns]
+        parts = [sp_closes[have]] if have else []
+        for i in range(0, len(rest), 400):
+            chunk = download_closes(rest[i:i + 400])
+            if not chunk.empty:
+                parts.append(chunk)
+            time.sleep(2)
+        closes = pd.concat(parts, axis=1)
+        closes = closes.loc[:, ~closes.columns.duplicated()].sort_index()
+        closes = teman.drop_unfinished_bar(closes)
+        if closes.shape[1] < 0.8 * len(tickers):
+            log(f"Teman: bara {closes.shape[1]} av {len(tickers)} aktier, behåller gamla")
+            return old
+        spy = sp_closes["SPY"] if "SPY" in sp_closes else None
+        block = teman.build_themes(closes, universe, spy)
+        block["checked_for"] = target
+        block["updated_utc"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        top = [r["name"] for r in block["periods"]["30d"][:5]]
+        log(f"Teman: {block['n_themes']} teman, {block['n_stocks']} aktier, kursdag {block['asof']}, "
+            f"topp 30d {top} ({time.time() - t0:.0f}s)")
+        return block
+    except Exception as exc:  # noqa: BLE001
+        log(f"Teman misslyckades ({exc}), behåller gamla")
+        return old
+
+
 # ----------------------------------------------------------------------------
 def main() -> int:
     t0 = time.time()
@@ -388,6 +436,8 @@ def main() -> int:
     spx = spx_block(closes)
     comp = composite(breadth, vix, spx)
 
+    themes = themes_block(closes)
+
     now_utc = datetime.now(timezone.utc)
     data = {
         "updated_utc": now_utc.strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -399,6 +449,7 @@ def main() -> int:
         "weights": comp["weights"],
         "breadth": breadth,
         "sectors": sectors,
+        "themes": themes,
         "vix": vix,
         "spx": spx,
         "universe": "S&P 500",

@@ -126,6 +126,43 @@
   .row .v{text-align:right;font-weight:700;font-variant-numeric:tabular-nums;color:var(--cream)}
   .spxline{font-size:12px;color:var(--faint);margin-top:8px}
 
+  /* ---------- Teman (industries) ---------- */
+  .th-wrap{display:grid;gap:9px}
+  .th{border-radius:12px;background:rgba(255,251,240,.04);border:1px solid var(--line);position:relative}
+  .th.hot{background:linear-gradient(135deg,rgba(46,75,163,.55),rgba(46,75,163,.18));border-color:rgba(76,107,208,.9);box-shadow:0 0 0 1px rgba(76,107,208,.35),0 8px 24px rgba(46,75,163,.35)}
+  .th-head{display:grid;grid-template-columns:30px 1fr auto;align-items:center;gap:12px;padding:11px 13px;width:100%;
+    background:transparent;border:0;color:inherit;font:inherit;text-align:left;cursor:pointer}
+  .th-head:focus-visible{outline:2px solid var(--accent-2);outline-offset:2px;border-radius:12px}
+  .th .rank{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;font-weight:800;font-size:13px;background:rgba(255,251,240,.08)}
+  .th.hot .rank{background:var(--accent-2);color:#fff}
+  .th .nm{font-weight:700;font-size:14.5px;line-height:1.3}
+  .th .nm small{display:block;font-size:11.5px;color:var(--faint);font-weight:500;margin-top:2px}
+  .th .ret{text-align:right;font-weight:800;font-size:17px;font-variant-numeric:tabular-nums}
+  .th .ret small{display:block;font-size:11px;font-weight:500;color:var(--faint)}
+  .th .flame{position:absolute;top:-9px;right:12px;background:var(--warn);color:#1b1400;font-size:10px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:999px}
+  .th .open-btn{display:inline-block;margin-top:5px;font-size:11px;font-weight:700;letter-spacing:.04em;color:var(--accent-2);
+    border:1px solid rgba(76,107,208,.6);border-radius:999px;padding:1px 9px}
+  .th.open .open-btn{background:var(--accent-2);color:#fff;border-color:var(--accent-2)}
+  .th-body{display:none;padding:0 13px 12px}
+  .th.open .th-body{display:block}
+  .lt{width:100%;border-collapse:collapse;font-size:12.5px;font-variant-numeric:tabular-nums}
+  .lt th{white-space:nowrap;font-size:10.5px;font-weight:600;color:var(--faint);text-transform:uppercase;letter-spacing:.06em;text-align:right;padding:6px 4px;border-bottom:1px solid var(--line)}
+  .lt th:nth-child(-n+2){text-align:left}
+  .lt td{padding:6px 4px;border-bottom:1px solid var(--line);text-align:right;color:var(--muted);white-space:nowrap}
+  .lt td:nth-child(-n+2){text-align:left}
+  .lt tr:last-child td{border-bottom:0}
+  .lt .tk{font-weight:800;color:var(--cream)}
+  .lt .co{max-width:170px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .rs{display:inline-block;min-width:28px;text-align:center;font-weight:800;border-radius:6px;padding:1px 5px;color:#0b1a12}
+  .ma{display:inline-block;width:8px;height:8px;border-radius:50%}
+  .lt-note{font-size:11.5px;color:var(--faint);margin-top:8px}
+  .th-more{margin-top:10px;background:transparent;border:1px solid var(--line);color:var(--muted);font:inherit;font-size:12px;font-weight:600;
+    padding:6px 12px;border-radius:999px;cursor:pointer}
+  .th-more:hover{color:var(--cream)}
+  .row.th-row{grid-template-columns:28px minmax(0,1.6fr) 1fr 58px}
+  .row.th-row span:nth-child(2){overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  @media (max-width:520px){.lt .hide-s{display:none}.lt .co{max-width:96px}}
+
   /* ---------- VIX ---------- */
   .big{font-size:44px;font-weight:800;line-height:1;letter-spacing:-.03em;font-variant-numeric:tabular-nums}
   .big-row{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
@@ -276,19 +313,20 @@ html.fill body{padding-top:50px}
       </section>
       </div>
 
-      <!-- Sektorer -->
+      <!-- Teman (industries) -->
       <section class="card span-7">
-        <h2>Hetaste sektorerna
+        <h2>Hetaste temana <span class="tag" id="th-count"></span>
           <div class="toggle" id="toggle">
             <button data-p="7d">7 dagar</button><button data-p="30d">30 dagar</button><button data-p="6m">6 mån</button>
           </div>
         </h2>
         <div class="body">
-          <div class="top3" id="top3"></div>
-          <div class="rest" id="rest"></div>
+          <div class="th-wrap" id="top3"></div>
+          <div class="rest" id="rest" style="margin-top:12px"></div>
+          <div id="th-more-wrap"></div>
           <div class="spxline" id="spxline"></div>
         </div>
-        <div class="explain"><b>Förklaring:</b> Avkastning för de elva sektor-ETF:erna (SPDR) som tillsammans utgör S&amp;P 500. Pengarna roterar alltid någonstans, och de starkaste aktierna hittar du nästan alltid i de starkaste sektorerna. Leder <b>Teknik, Sällanköp eller Kommunikation</b> är marknaden i risk-on-läge. Leder <b>Dagligvaror, Kraftförsörjning eller Hälsovård</b> söker kapitalet skydd (risk-off), även om index ser okej ut.</div>
+        <div class="explain"><b>Förklaring:</b> Ett tema är en industry, till exempel Semiconductors, Homebuilding eller Restaurants. Vi rankar över 100 teman bland alla amerikanska aktier med börsvärde över 1 miljard $. Temats siffra är hur den <b>mittersta aktien</b> i temat har gått, så en enskild jätte kan inte dra upp hela temat. De starkaste aktierna hittar du nästan alltid i de starkaste temana. <b>Klicka på ett av de fem starkaste temana</b> för att se de tio aktier i temat som har högst <b>RS</b> (relativ styrka mot marknaden, 1–99, där 99 betyder starkare än 99 % av alla aktier). Listan räknas om varje kväll efter amerikansk stängning, så nya starka aktier roterar in automatiskt.</div>
       </section>
 
       <!-- VIX -->
@@ -497,12 +535,79 @@ function render(d){
   $("foot-src").textContent = `Källa: ${d.source || "Yahoo Finance"} · ${b.n || ""} aktier i urvalet · Uppdateras automatiskt varje timme under amerikansk handel`;
 }
 
+let OPEN = {};      // vilka teman som är utfällda
+let SHOW_ALL = false;
+
 function renderSectors(){
+  document.querySelectorAll("#toggle button").forEach(btn => btn.classList.toggle("on", btn.dataset.p===PERIOD));
+  const T = DATA.themes;
+  if (T && T.periods && (T.periods[PERIOD]||[]).length) return renderThemes(T);
+  renderOldSectors();
+}
+
+function renderThemes(T){
+  const list = T.periods[PERIOD] || [];
+  const lbl = {"7d":"7 dagar","30d":"30 dagar","6m":"6 månader"}[PERIOD];
+  $("th-count").textContent = `${list.length} teman`;
+  $("top3").innerHTML = list.slice(0,5).map((x,i) => {
+    const L = (T.leaders||{})[x.id];
+    const can = x.top10 && L && L.stocks && L.stocks.length;
+    const open = can && OPEN[x.id];
+    return `
+    <div class="th ${i===0?"hot":""} ${open?"open":""}" data-id="${esc(x.id)}">${i===0?'<span class="flame">🔥 Hetast just nu</span>':""}
+      <button class="th-head" type="button" ${can?"":"disabled"} aria-expanded="${open?"true":"false"}">
+        <div class="rank">${i+1}</div>
+        <div class="nm">${esc(x.name)}<small>${x.n} aktier · ${x.up_pct} % har stigit${x.vs_spx!=null?` · ${x.vs_spx>=0?"+":""}${fmt(x.vs_spx)} p.e. mot S&amp;P 500`:""}</small>
+          ${can?`<span class="open-btn">${open?"Dölj ▴":`Topp ${Math.min(10,L.stocks.length)} ▾`}</span>`:""}</div>
+        <div class="ret ${clsOf(x.ret)}-c">${sgn(x.ret)}<small>${lbl}</small></div>
+      </button>
+      ${can?`<div class="th-body">${leaderTable(L)}</div>`:""}
+    </div>`;
+  }).join("") || `<div class="spxline">Ingen temadata.</div>`;
+
+  document.querySelectorAll("#top3 .th-head").forEach(b => b.addEventListener("click", () => {
+    const id = b.parentElement.dataset.id; OPEN[id] = !OPEN[id]; renderThemes(T);
+  }));
+
+  const restAll = list.slice(5);
+  const rest = SHOW_ALL ? restAll : restAll.slice(0,10);
+  const maxAbs = Math.max(1, ...list.map(x=>Math.abs(x.ret||0)));
+  $("rest").innerHTML = rest.map((x,i) => {
+    const w = Math.abs(x.ret)/maxAbs*50;
+    const f = x.ret>=0 ? `left:50%;width:${w}%;background:var(--bull)` : `right:50%;width:${w}%;background:var(--bear)`;
+    return `<div class="row th-row"><span>${i+6}</span><span title="${esc(x.name)} · ${x.n} aktier">${esc(x.name)}</span><div class="t"><div class="f" style="${f}"></div></div><span class="v ${clsOf(x.ret)}-c">${sgn(x.ret)}</span></div>`;
+  }).join("");
+  $("th-more-wrap").innerHTML = restAll.length>10 ? `<button class="th-more" id="th-more" type="button">${SHOW_ALL?"Visa färre":`Visa alla ${list.length} teman`}</button>` : "";
+  const mb = $("th-more"); if (mb) mb.addEventListener("click", () => { SHOW_ALL = !SHOW_ALL; renderThemes(T); });
+
+  const spxRet = (T.spx||{})[PERIOD];
+  $("spxline").textContent = (spxRet==null ? "" : `S&P 500 samma period: ${sgn(spxRet)}. `) +
+    `Teman och topplistor räknas om en gång per dag efter amerikansk stängning (kursdag ${T.asof||"–"}).`;
+}
+
+function rsColor(r){ return r>=90?"var(--bull)":r>=80?"#8fd6a8":r>=60?"var(--warn)":"#e9a3a3"; }
+
+function leaderTable(L){
+  const rows = L.stocks.map(s => `<tr>
+      <td class="tk">${esc(s.t)}</td>
+      <td class="co" title="${esc(s.name)}">${esc(s.name)}</td>
+      <td><span class="rs" style="background:${rsColor(s.rs)}">${s.rs}</span></td>
+      <td class="${clsOf(s.vs_spx_3m)}-c">${sgn(s.vs_spx_3m)}</td>
+      <td class="hide-s ${clsOf(s.ret_1m)}-c">${sgn(s.ret_1m)}</td>
+      <td class="hide-s">${s.from_high==null?"–":s.from_high>=-0.5?"vid high":sgn(s.from_high)}</td>
+      <td><span class="ma" title="${s.over_ma50?"Över":"Under"} MA50" style="background:${s.over_ma50?"var(--bull)":"var(--bear)"}"></span></td>
+    </tr>`).join("");
+  return `<table class="lt"><thead><tr><th>Ticker</th><th>Bolag</th><th>RS</th><th>vs S&amp;P 3m</th><th class="hide-s">1 mån</th><th class="hide-s">Från 52v-high</th><th>MA50</th></tr></thead><tbody>${rows}</tbody></table>
+    <div class="lt-note">Sorterat på RS. ${L.n} aktier i temat. Grön prick = kursen över MA50. Utbildning, inte köpråd: gör alltid din egen analys.</div>`;
+}
+
+function renderOldSectors(){
   const sec = DATA.sectors || {};
   const list = sec[PERIOD] || [];
   const spxRet = sec[PERIOD+"_spx"];
-  document.querySelectorAll("#toggle button").forEach(btn => btn.classList.toggle("on", btn.dataset.p===PERIOD));
   const lbl = {"7d":"7 dagar","30d":"30 dagar","6m":"6 månader"}[PERIOD];
+  $("th-count").textContent = "Sektorer";
+  $("th-more-wrap").innerHTML = "";
   $("top3").innerHTML = list.slice(0,3).map((x,i) => `
     <div class="sec ${i===0?"hot":""}">${i===0?'<span class="flame">🔥 Hetast just nu</span>':""}
       <div class="rank">${i+1}</div>
@@ -590,6 +695,11 @@ function observations(d){
                : {c:"warn",t:`${lead.name} leder sektorerna senaste 30 dagarna (${sgn(lead.ret)}).`};
     o.push(tone);
   }
+  const th=((d.themes||{}).periods||{})["30d"]||[];
+  if(th.length){
+    o.push({c:"bull",t:`Hetaste temat senaste 30 dagarna: ${esc(th[0].name)} (${sgn(th[0].ret)}). Klicka på det under Hetaste temana för topp 10.`});
+  }
+
   return o.slice(0,6);
 }
 
