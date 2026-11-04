@@ -1,15 +1,15 @@
 {
- "updated_utc": "2026-11-04T02:24:05Z",
- "updated_se": "2026-11-04 03:24",
+ "updated_utc": "2026-11-04T14:30:07Z",
+ "updated_se": "2026-11-04 15:30",
  "market_date": "2026-11-03",
- "score": 66,
+ "score": 68,
  "regime": "bullish",
  "components": {
   "ma50": 65.5,
   "ma20": 70.7,
   "ma200": 61.3,
   "highlow": 92.3,
-  "vix": 57.1,
+  "vix": 70.2,
   "trend": 45.0
  },
  "weights": {
@@ -4357,15 +4357,15 @@
   "updated_utc": "2026-11-04T00:42:17Z"
  },
  "vix": {
-  "last": 20.83,
-  "prev": 21.15,
-  "chg_pct": -1.51,
-  "avg20": 17.57,
+  "last": 17.97,
+  "prev": 20.83,
+  "chg_pct": -13.73,
+  "avg20": 17.72,
   "hi_52w": 31.05,
   "lo_52w": 13.47,
-  "pct_rank_1y": 85.0,
+  "pct_rank_1y": 62.0,
   "vix3m": 21.27,
-  "term_ratio": 0.979
+  "term_ratio": 0.845
  },
  "spx": {
   "last": 7568.92,
