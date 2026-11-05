@@ -1076,10 +1076,6 @@
 "sector": "Financials"
 },
 {
-"symbol": "KVUE",
-"sector": "Consumer Staples"
-},
-{
 "symbol": "KDP",
 "sector": "Consumer Staples"
 },
@@ -1386,6 +1382,10 @@
 {
 "symbol": "OXY",
 "sector": "Energy"
+},
+{
+"symbol": "OKTA",
+"sector": "Information Technology"
 },
 {
 "symbol": "ODFL",
