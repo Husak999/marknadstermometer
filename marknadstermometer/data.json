@@ -1,6 +1,6 @@
 {
- "updated_utc": "2026-11-06T02:32:33Z",
- "updated_se": "2026-11-06 03:32",
+ "updated_utc": "2026-11-06T14:15:21Z",
+ "updated_se": "2026-11-06 15:15",
  "market_date": "2026-11-05",
  "score": 56,
  "regime": "neutral",
@@ -9,7 +9,7 @@
   "ma20": 63.8,
   "ma200": 58.4,
   "highlow": 63.6,
-  "vix": 31.4,
+  "vix": 37.0,
   "trend": 45.0
  },
  "weights": {
@@ -4195,15 +4195,15 @@
   "updated_utc": "2026-11-06T01:38:53Z"
  },
  "vix": {
-  "last": 28.18,
-  "prev": 16.61,
-  "chg_pct": 69.66,
-  "avg20": 18.29,
+  "last": 26.57,
+  "prev": 28.18,
+  "chg_pct": -5.71,
+  "avg20": 18.87,
   "hi_52w": 31.05,
   "lo_52w": 13.47,
-  "pct_rank_1y": 98.0,
+  "pct_rank_1y": 96.0,
   "vix3m": 25.55,
-  "term_ratio": 1.103
+  "term_ratio": 1.04
  },
  "spx": {
   "last": 7353.73,
