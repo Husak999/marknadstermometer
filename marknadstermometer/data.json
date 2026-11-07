@@ -1,14 +1,14 @@
 {
- "updated_utc": "2026-11-07T00:10:45Z",
- "updated_se": "2026-11-07 01:10",
+ "updated_utc": "2026-11-07T01:59:24Z",
+ "updated_se": "2026-11-07 02:59",
  "market_date": "2026-11-06",
- "score": 56,
+ "score": 54,
  "regime": "neutral",
  "components": {
   "ma50": 61.4,
-  "ma20": 59.6,
-  "ma200": 55.8,
-  "highlow": 64.3,
+  "ma20": 60.0,
+  "ma200": 55.6,
+  "highlow": 53.3,
   "vix": 40.3,
   "trend": 45.0
  },
@@ -21,19 +21,19 @@
   "trend": 0.1
  },
  "breadth": {
-  "ma20": 59.6,
+  "ma20": 60.0,
   "ma20_n": 503,
   "ma50": 61.4,
   "ma50_n": 502,
-  "ma200": 55.8,
+  "ma200": 55.6,
   "ma200_n": 500,
-  "highs_52w": 9,
-  "lows_52w": 5,
+  "highs_52w": 8,
+  "lows_52w": 7,
   "n_52w": 502,
-  "highs_20d": 29,
-  "lows_20d": 51,
+  "highs_20d": 28,
+  "lows_20d": 71,
   "n_20d": 503,
-  "up_5d_pct": 52.3,
+  "up_5d_pct": 52.5,
   "n": 503,
   "date": "2026-11-06"
  },
@@ -42,14 +42,14 @@
    {
     "etf": "XLC",
     "name": "Kommunikation",
-    "ret": 4.89,
-    "vs_spx": 7.59
+    "ret": 3.09,
+    "vs_spx": 5.79
    },
    {
     "etf": "XLRE",
     "name": "Fastigheter",
-    "ret": 1.92,
-    "vs_spx": 4.62
+    "ret": 2.88,
+    "vs_spx": 5.58
    },
    {
     "etf": "XLY",
@@ -123,8 +123,8 @@
    {
     "etf": "XLRE",
     "name": "Fastigheter",
-    "ret": 8.45,
-    "vs_spx": 13.84
+    "ret": 7.79,
+    "vs_spx": 13.18
    },
    {
     "etf": "XLF",
@@ -165,8 +165,8 @@
    {
     "etf": "XLC",
     "name": "Kommunikation",
-    "ret": -5.82,
-    "vs_spx": -0.43
+    "ret": -6.55,
+    "vs_spx": -1.16
    },
    {
     "etf": "XLK",
@@ -210,8 +210,8 @@
    {
     "etf": "XLRE",
     "name": "Fastigheter",
-    "ret": -0.92,
-    "vs_spx": -0.6
+    "ret": -0.23,
+    "vs_spx": 0.09
    },
    {
     "etf": "XLY",
@@ -240,8 +240,8 @@
    {
     "etf": "XLC",
     "name": "Kommunikation",
-    "ret": -10.39,
-    "vs_spx": -10.07
+    "ret": -11.11,
+    "vs_spx": -10.79
    }
   ],
   "6m_spx": -0.32
