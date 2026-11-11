@@ -1,15 +1,15 @@
 {
- "updated_utc": "2026-11-11T01:58:29Z",
- "updated_se": "2026-11-11 02:58",
+ "updated_utc": "2026-11-11T14:19:13Z",
+ "updated_se": "2026-11-11 15:19",
  "market_date": "2026-11-10",
- "score": 68,
+ "score": 69,
  "regime": "bullish",
  "components": {
-  "ma50": 69.1,
+  "ma50": 68.9,
   "ma20": 70.6,
-  "ma200": 63.0,
-  "highlow": 93.5,
-  "vix": 62.7,
+  "ma200": 62.6,
+  "highlow": 90.6,
+  "vix": 68.6,
   "trend": 45.0
  },
  "weights": {
@@ -23,17 +23,17 @@
  "breadth": {
   "ma20": 70.6,
   "ma20_n": 503,
-  "ma50": 69.1,
+  "ma50": 68.9,
   "ma50_n": 502,
-  "ma200": 63.0,
+  "ma200": 62.6,
   "ma200_n": 500,
   "highs_52w": 29,
-  "lows_52w": 2,
+  "lows_52w": 3,
   "n_52w": 502,
-  "highs_20d": 74,
-  "lows_20d": 12,
+  "highs_20d": 68,
+  "lows_20d": 16,
   "n_20d": 503,
-  "up_5d_pct": 65.0,
+  "up_5d_pct": 65.2,
   "n": 503,
   "date": "2026-11-10"
  },
@@ -42,8 +42,8 @@
    {
     "etf": "XLC",
     "name": "Kommunikation",
-    "ret": 7.08,
-    "vs_spx": 7.67
+    "ret": 6.23,
+    "vs_spx": 6.82
    },
    {
     "etf": "XLY",
@@ -66,8 +66,8 @@
    {
     "etf": "XLRE",
     "name": "Fastigheter",
-    "ret": 2.29,
-    "vs_spx": 2.88
+    "ret": 2.08,
+    "vs_spx": 2.67
    },
    {
     "etf": "XLF",
@@ -121,16 +121,16 @@
     "vs_spx": 12.79
    },
    {
-    "etf": "XLRE",
-    "name": "Fastigheter",
-    "ret": 7.28,
-    "vs_spx": 10.96
-   },
-   {
     "etf": "XLY",
     "name": "Sällanköpsvaror",
     "ret": 7.27,
     "vs_spx": 10.95
+   },
+   {
+    "etf": "XLRE",
+    "name": "Fastigheter",
+    "ret": 7.14,
+    "vs_spx": 10.82
    },
    {
     "etf": "XLB",
@@ -159,8 +159,8 @@
    {
     "etf": "XLC",
     "name": "Kommunikation",
-    "ret": -2.74,
-    "vs_spx": 0.94
+    "ret": -2.37,
+    "vs_spx": 1.31
    },
    {
     "etf": "XLE",
@@ -216,8 +216,8 @@
    {
     "etf": "XLRE",
     "name": "Fastigheter",
-    "ret": 0.16,
-    "vs_spx": -1.43
+    "ret": 0.0,
+    "vs_spx": -1.59
    },
    {
     "etf": "XLI",
@@ -240,8 +240,8 @@
    {
     "etf": "XLC",
     "name": "Kommunikation",
-    "ret": -7.11,
-    "vs_spx": -8.7
+    "ret": -6.99,
+    "vs_spx": -8.58
    }
   ],
   "6m_spx": 1.59
@@ -4314,15 +4314,15 @@
   "updated_utc": "2026-11-11T01:20:33Z"
  },
  "vix": {
-  "last": 19.46,
-  "prev": 19.92,
-  "chg_pct": -2.31,
-  "avg20": 19.27,
+  "last": 18.28,
+  "prev": 19.46,
+  "chg_pct": -6.06,
+  "avg20": 19.34,
   "hi_52w": 31.05,
   "lo_52w": 13.47,
-  "pct_rank_1y": 76.0,
+  "pct_rank_1y": 63.0,
   "vix3m": 20.64,
-  "term_ratio": 0.943
+  "term_ratio": 0.886
  },
  "spx": {
   "last": 7520.93,
