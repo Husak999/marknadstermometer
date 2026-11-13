@@ -1,15 +1,15 @@
 {
- "updated_utc": "2026-11-12T20:53:16Z",
- "updated_se": "2026-11-12 21:53",
- "market_date": "2026-11-12",
- "score": 67,
+ "updated_utc": "2026-11-13T01:56:16Z",
+ "updated_se": "2026-11-13 02:56",
+ "market_date": "2026-11-11",
+ "score": 71,
  "regime": "bullish",
  "components": {
-  "ma50": 70.3,
-  "ma20": 66.2,
-  "ma200": 61.4,
-  "highlow": 88.9,
-  "vix": 65.6,
+  "ma50": 71.7,
+  "ma20": 72.6,
+  "ma200": 63.6,
+  "highlow": 96.8,
+  "vix": 66.5,
   "trend": 45.0
  },
  "weights": {
@@ -21,1933 +21,1942 @@
   "trend": 0.1
  },
  "breadth": {
-  "ma20": 66.2,
+  "ma20": 72.6,
   "ma20_n": 503,
-  "ma50": 70.3,
+  "ma50": 71.7,
   "ma50_n": 502,
-  "ma200": 61.4,
+  "ma200": 63.6,
   "ma200_n": 500,
-  "highs_52w": 16,
-  "lows_52w": 2,
+  "highs_52w": 30,
+  "lows_52w": 1,
   "n_52w": 502,
-  "highs_20d": 35,
-  "lows_20d": 11,
+  "highs_20d": 77,
+  "lows_20d": 3,
   "n_20d": 503,
-  "up_5d_pct": 61.4,
+  "up_5d_pct": 42.9,
   "n": 503,
-  "date": "2026-11-12"
+  "date": "2026-11-11"
  },
  "sectors": {
   "7d": [
    {
-    "etf": "XLK",
-    "name": "Teknik",
-    "ret": 6.76,
-    "vs_spx": 3.53
-   },
-   {
-    "etf": "XLE",
-    "name": "Energi",
-    "ret": 4.43,
-    "vs_spx": 1.2
+    "etf": "XLC",
+    "name": "Kommunikation",
+    "ret": 3.47,
+    "vs_spx": 4.38
    },
    {
     "etf": "XLI",
     "name": "Industri",
-    "ret": 4.33,
-    "vs_spx": 1.1
-   },
-   {
-    "etf": "XLC",
-    "name": "Kommunikation",
-    "ret": 2.95,
-    "vs_spx": -0.28
-   },
-   {
-    "etf": "XLY",
-    "name": "Sällanköpsvaror",
-    "ret": 2.37,
-    "vs_spx": -0.86
-   },
-   {
-    "etf": "XLV",
-    "name": "Hälsovård",
-    "ret": 1.68,
-    "vs_spx": -1.55
-   },
-   {
-    "etf": "XLF",
-    "name": "Finans",
-    "ret": 1.27,
-    "vs_spx": -1.96
+    "ret": 0.89,
+    "vs_spx": 1.8
    },
    {
     "etf": "XLU",
     "name": "Kraftförsörjning",
-    "ret": 1.2,
-    "vs_spx": -2.03
+    "ret": 0.48,
+    "vs_spx": 1.39
    },
    {
-    "etf": "XLRE",
-    "name": "Fastigheter",
-    "ret": 0.24,
-    "vs_spx": -2.99
+    "etf": "XLE",
+    "name": "Energi",
+    "ret": -0.24,
+    "vs_spx": 0.67
    },
    {
-    "etf": "XLB",
-    "name": "Material",
-    "ret": 0.16,
-    "vs_spx": -3.07
+    "etf": "XLV",
+    "name": "Hälsovård",
+    "ret": -0.37,
+    "vs_spx": 0.54
    },
    {
     "etf": "XLP",
     "name": "Dagligvaror",
-    "ret": -0.09,
-    "vs_spx": -3.32
+    "ret": -0.53,
+    "vs_spx": 0.38
+   },
+   {
+    "etf": "XLF",
+    "name": "Finans",
+    "ret": -0.96,
+    "vs_spx": -0.05
+   },
+   {
+    "etf": "XLY",
+    "name": "Sällanköpsvaror",
+    "ret": -1.1,
+    "vs_spx": -0.19
+   },
+   {
+    "etf": "XLRE",
+    "name": "Fastigheter",
+    "ret": -1.17,
+    "vs_spx": -0.26
+   },
+   {
+    "etf": "XLK",
+    "name": "Teknik",
+    "ret": -1.21,
+    "vs_spx": -0.3
+   },
+   {
+    "etf": "XLB",
+    "name": "Material",
+    "ret": -1.63,
+    "vs_spx": -0.72
    }
   ],
-  "7d_spx": 3.23,
+  "7d_spx": -0.91,
   "30d": [
    {
     "etf": "XLV",
     "name": "Hälsovård",
-    "ret": 10.82,
-    "vs_spx": 13.56
+    "ret": 9.86,
+    "vs_spx": 12.21
    },
    {
     "etf": "XLP",
     "name": "Dagligvaror",
-    "ret": 8.28,
-    "vs_spx": 11.02
+    "ret": 8.34,
+    "vs_spx": 10.69
    },
    {
     "etf": "XLY",
     "name": "Sällanköpsvaror",
-    "ret": 7.18,
-    "vs_spx": 9.92
-   },
-   {
-    "etf": "XLF",
-    "name": "Finans",
-    "ret": 6.22,
-    "vs_spx": 8.96
-   },
-   {
-    "etf": "XLRE",
-    "name": "Fastigheter",
-    "ret": 6.16,
-    "vs_spx": 8.9
+    "ret": 7.77,
+    "vs_spx": 10.12
    },
    {
     "etf": "XLB",
     "name": "Material",
-    "ret": 5.42,
-    "vs_spx": 8.16
+    "ret": 7.24,
+    "vs_spx": 9.59
+   },
+   {
+    "etf": "XLF",
+    "name": "Finans",
+    "ret": 6.5,
+    "vs_spx": 8.85
+   },
+   {
+    "etf": "XLRE",
+    "name": "Fastigheter",
+    "ret": 6.37,
+    "vs_spx": 8.72
    },
    {
     "etf": "XLU",
     "name": "Kraftförsörjning",
-    "ret": 4.66,
-    "vs_spx": 7.4
+    "ret": 5.26,
+    "vs_spx": 7.61
    },
    {
     "etf": "XLI",
     "name": "Industri",
-    "ret": 0.49,
-    "vs_spx": 3.23
-   },
-   {
-    "etf": "XLE",
-    "name": "Energi",
-    "ret": -4.23,
-    "vs_spx": -1.49
+    "ret": 1.08,
+    "vs_spx": 3.43
    },
    {
     "etf": "XLC",
     "name": "Kommunikation",
-    "ret": -4.33,
-    "vs_spx": -1.59
+    "ret": -2.56,
+    "vs_spx": -0.21
+   },
+   {
+    "etf": "XLE",
+    "name": "Energi",
+    "ret": -4.0,
+    "vs_spx": -1.65
    },
    {
     "etf": "XLK",
     "name": "Teknik",
-    "ret": -11.68,
-    "vs_spx": -8.94
+    "ret": -11.2,
+    "vs_spx": -8.85
    }
   ],
-  "30d_spx": -2.74,
+  "30d_spx": -2.35,
   "6m": [
    {
     "etf": "XLV",
     "name": "Hälsovård",
-    "ret": 28.22,
-    "vs_spx": 27.08
+    "ret": 28.79,
+    "vs_spx": 26.43
    },
    {
     "etf": "XLF",
     "name": "Finans",
-    "ret": 13.53,
-    "vs_spx": 12.39
+    "ret": 14.98,
+    "vs_spx": 12.62
    },
    {
     "etf": "XLE",
     "name": "Energi",
-    "ret": 10.83,
-    "vs_spx": 9.69
+    "ret": 9.96,
+    "vs_spx": 7.6
    },
    {
     "etf": "XLP",
     "name": "Dagligvaror",
-    "ret": 7.28,
-    "vs_spx": 6.14
+    "ret": 7.94,
+    "vs_spx": 5.58
    },
    {
     "etf": "XLY",
     "name": "Sällanköpsvaror",
-    "ret": 1.48,
-    "vs_spx": 0.34
+    "ret": 1.91,
+    "vs_spx": -0.45
    },
    {
     "etf": "XLB",
     "name": "Material",
-    "ret": 1.44,
-    "vs_spx": 0.3
+    "ret": 1.84,
+    "vs_spx": -0.52
    },
    {
     "etf": "XLRE",
     "name": "Fastigheter",
-    "ret": 1.13,
-    "vs_spx": -0.01
-   },
-   {
-    "etf": "XLU",
-    "name": "Kraftförsörjning",
-    "ret": -2.4,
-    "vs_spx": -3.54
-   },
-   {
-    "etf": "XLI",
-    "name": "Industri",
-    "ret": -2.87,
-    "vs_spx": -4.01
+    "ret": 0.86,
+    "vs_spx": -1.5
    },
    {
     "etf": "XLK",
     "name": "Teknik",
-    "ret": -3.43,
-    "vs_spx": -4.57
+    "ret": -1.41,
+    "vs_spx": -3.77
+   },
+   {
+    "etf": "XLI",
+    "name": "Industri",
+    "ret": -1.53,
+    "vs_spx": -3.89
+   },
+   {
+    "etf": "XLU",
+    "name": "Kraftförsörjning",
+    "ret": -1.9,
+    "vs_spx": -4.26
    },
    {
     "etf": "XLC",
     "name": "Kommunikation",
-    "ret": -8.28,
-    "vs_spx": -9.42
+    "ret": -6.99,
+    "vs_spx": -9.35
    }
   ],
-  "6m_spx": 1.14
+  "6m_spx": 2.36
  },
  "themes": {
   "periods": {
    "7d": [
     {
-     "id": "Precious Metals",
-     "name": "Precious Metals (guld/silver)",
-     "ret": 13.02,
-     "vs_spx": 13.6,
-     "n": 38,
-     "up_pct": 97,
-     "top10": true
-    },
-    {
-     "id": "Air Freight/Delivery Services",
-     "name": "Air Freight/Delivery Services",
-     "ret": 12.11,
-     "vs_spx": 12.69,
-     "n": 17,
-     "up_pct": 94,
-     "top10": true
-    },
-    {
-     "id": "Food Distributors",
-     "name": "Food Distributors",
-     "ret": 6.0,
-     "vs_spx": 6.59,
-     "n": 6,
+     "id": "Water Sewer Pipeline Comm & Power Line Construction",
+     "name": "Infrastructure Construction",
+     "ret": 6.36,
+     "vs_spx": 7.27,
+     "n": 5,
      "up_pct": 100,
      "top10": true
     },
     {
-     "id": "Broadcasting",
-     "name": "Broadcasting",
-     "ret": 5.76,
-     "vs_spx": 6.35,
-     "n": 10,
-     "up_pct": 90,
+     "id": "Engineering & Construction",
+     "name": "Engineering & Construction",
+     "ret": 5.66,
+     "vs_spx": 6.57,
+     "n": 8,
+     "up_pct": 88,
      "top10": true
     },
     {
-     "id": "Ophthalmic Goods",
-     "name": "Ophthalmic Goods",
-     "ret": 5.6,
-     "vs_spx": 6.18,
-     "n": 6,
-     "up_pct": 83,
+     "id": "Radio And Television Broadcasting And Communications Equipment",
+     "name": "Communications Equipment",
+     "ret": 4.94,
+     "vs_spx": 5.85,
+     "n": 8,
+     "up_pct": 88,
      "top10": true
     },
     {
-     "id": "Other Specialty Stores",
-     "name": "Other Specialty Stores",
-     "ret": 5.2,
-     "vs_spx": 5.79,
-     "n": 15,
-     "up_pct": 80,
-     "top10": false
-    },
-    {
-     "id": "RETAIL: Building Materials",
-     "name": "Retail: Building Materials",
-     "ret": 5.2,
-     "vs_spx": 5.78,
-     "n": 9,
-     "up_pct": 78,
-     "top10": false
-    },
-    {
-     "id": "Hospital/Nursing Management",
-     "name": "Hospital/Nursing Management",
-     "ret": 5.18,
-     "vs_spx": 5.77,
-     "n": 13,
+     "id": "Semiconductors",
+     "name": "Semiconductors",
+     "ret": 4.02,
+     "vs_spx": 4.94,
+     "n": 64,
      "up_pct": 77,
-     "top10": false
+     "top10": true
     },
     {
-     "id": "Department/Specialty Retail Stores",
-     "name": "Department/Specialty Retail Stores",
-     "ret": 5.03,
-     "vs_spx": 5.61,
-     "n": 13,
-     "up_pct": 100,
-     "top10": false
+     "id": "Computer Communications Equipment",
+     "name": "Computer Communications Equipment",
+     "ret": 3.72,
+     "vs_spx": 4.64,
+     "n": 6,
+     "up_pct": 50,
+     "top10": true
     },
     {
-     "id": "Cable & Other Pay Television Services",
-     "name": "Cable & Pay TV",
-     "ret": 4.91,
-     "vs_spx": 5.5,
-     "n": 11,
-     "up_pct": 82,
-     "top10": false
-    },
-    {
-     "id": "Agricultural Chemicals",
-     "name": "Agricultural Chemicals",
-     "ret": 4.75,
-     "vs_spx": 5.34,
-     "n": 5,
-     "up_pct": 80,
-     "top10": false
-    },
-    {
-     "id": "Misc Health and Biotechnology Services",
-     "name": "Misc Health and Biotechnology Services",
-     "ret": 4.65,
-     "vs_spx": 5.24,
-     "n": 5,
-     "up_pct": 80,
-     "top10": false
-    },
-    {
-     "id": "Beverages (Production/Distribution)",
-     "name": "Beverages",
-     "ret": 4.53,
-     "vs_spx": 5.11,
-     "n": 18,
-     "up_pct": 89,
-     "top10": false
-    },
-    {
-     "id": "Apparel",
-     "name": "Apparel",
-     "ret": 4.49,
-     "vs_spx": 5.08,
-     "n": 13,
-     "up_pct": 85,
-     "top10": false
-    },
-    {
-     "id": "Meat/Poultry/Fish",
-     "name": "Meat/Poultry/Fish",
-     "ret": 4.47,
-     "vs_spx": 5.06,
-     "n": 5,
-     "up_pct": 100,
-     "top10": false
-    },
-    {
-     "id": "Building operators",
-     "name": "Building Operators",
-     "ret": 4.18,
-     "vs_spx": 4.77,
-     "n": 5,
-     "up_pct": 80,
-     "top10": false
-    },
-    {
-     "id": "Industrial Specialties",
-     "name": "Industrial Specialties",
-     "ret": 4.08,
-     "vs_spx": 4.66,
-     "n": 22,
-     "up_pct": 68,
-     "top10": false
-    },
-    {
-     "id": "Catalog/Specialty Distribution",
-     "name": "Catalog/Specialty Distribution",
-     "ret": 4.03,
-     "vs_spx": 4.61,
-     "n": 12,
-     "up_pct": 83,
+     "id": "Fluid Controls",
+     "name": "Fluid Controls",
+     "ret": 3.63,
+     "vs_spx": 4.55,
+     "n": 6,
+     "up_pct": 67,
      "top10": false
     },
     {
      "id": "Aerospace",
      "name": "Aerospace",
-     "ret": 3.96,
-     "vs_spx": 4.55,
+     "ret": 3.46,
+     "vs_spx": 4.37,
      "n": 17,
      "up_pct": 76,
      "top10": false
     },
     {
-     "id": "Recreational Games/Products/Toys",
-     "name": "Recreational Games/Products/Toys",
-     "ret": 3.95,
-     "vs_spx": 4.54,
-     "n": 6,
-     "up_pct": 67,
-     "top10": false
-    },
-    {
-     "id": "Hotels/Resorts",
-     "name": "Hotels/Resorts",
-     "ret": 3.78,
-     "vs_spx": 4.37,
-     "n": 25,
-     "up_pct": 80,
-     "top10": false
-    },
-    {
-     "id": "Coal Mining",
-     "name": "Coal Mining",
-     "ret": 3.28,
-     "vs_spx": 3.87,
-     "n": 7,
-     "up_pct": 57,
-     "top10": false
-    },
-    {
-     "id": "Biotechnology: Laboratory Analytical Instruments",
-     "name": "Lab Instruments",
-     "ret": 3.11,
-     "vs_spx": 3.7,
-     "n": 10,
-     "up_pct": 70,
-     "top10": false
-    },
-    {
-     "id": "Homebuilding",
-     "name": "Homebuilding",
-     "ret": 2.83,
-     "vs_spx": 3.42,
-     "n": 20,
-     "up_pct": 90,
-     "top10": false
-    },
-    {
-     "id": "Biotechnology: Electromedical & Electrotherapeutic Apparatus",
-     "name": "Medical Devices: Electromedical",
-     "ret": 2.81,
-     "vs_spx": 3.4,
-     "n": 7,
-     "up_pct": 86,
-     "top10": false
-    },
-    {
-     "id": "Office Equipment/Supplies/Services",
-     "name": "Office Equipment/Supplies/Services",
-     "ret": 2.72,
-     "vs_spx": 3.31,
-     "n": 7,
-     "up_pct": 100,
-     "top10": false
-    },
-    {
-     "id": "Food Chains",
-     "name": "Food Chains",
-     "ret": 2.61,
-     "vs_spx": 3.2,
-     "n": 8,
-     "up_pct": 75,
-     "top10": false
-    },
-    {
-     "id": "Medical/Dental Instruments",
-     "name": "Medical/Dental Instruments",
-     "ret": 2.57,
-     "vs_spx": 3.16,
-     "n": 39,
-     "up_pct": 69,
-     "top10": false
-    },
-    {
-     "id": "Package Goods/Cosmetics",
-     "name": "Package Goods/Cosmetics",
-     "ret": 2.57,
-     "vs_spx": 3.16,
-     "n": 12,
-     "up_pct": 83,
-     "top10": false
-    },
-    {
-     "id": "Forest Products",
-     "name": "Forest Products",
-     "ret": 2.38,
-     "vs_spx": 2.97,
-     "n": 5,
-     "up_pct": 80,
-     "top10": false
-    },
-    {
-     "id": "Biotechnology: Pharmaceutical Preparations",
-     "name": "Pharma & Biotech",
-     "ret": 2.38,
-     "vs_spx": 2.96,
-     "n": 146,
-     "up_pct": 69,
-     "top10": false
-    },
-    {
-     "id": "Retail-Auto Dealers and Gas Stations",
-     "name": "Auto Dealers",
-     "ret": 2.36,
-     "vs_spx": 2.95,
-     "n": 13,
-     "up_pct": 85,
-     "top10": false
-    },
-    {
-     "id": "Computer Communications Equipment",
-     "name": "Computer Communications Equipment",
-     "ret": 2.36,
-     "vs_spx": 2.94,
-     "n": 6,
-     "up_pct": 50,
-     "top10": false
-    },
-    {
-     "id": "Commercial Banks",
-     "name": "Commercial Banks",
-     "ret": 2.33,
-     "vs_spx": 2.91,
-     "n": 27,
-     "up_pct": 70,
-     "top10": false
-    },
-    {
-     "id": "Water Supply",
-     "name": "Water Supply",
-     "ret": 2.33,
-     "vs_spx": 2.91,
-     "n": 7,
-     "up_pct": 100,
-     "top10": false
-    },
-    {
-     "id": "Medical Specialities",
-     "name": "Medical Specialities",
-     "ret": 2.1,
-     "vs_spx": 2.69,
-     "n": 29,
-     "up_pct": 62,
-     "top10": false
-    },
-    {
-     "id": "Business Services",
-     "name": "Business Services",
-     "ret": 2.1,
-     "vs_spx": 2.69,
-     "n": 47,
-     "up_pct": 74,
-     "top10": false
-    },
-    {
-     "id": "Accident &Health Insurance",
-     "name": "Accident & Health Insurance",
-     "ret": 2.1,
-     "vs_spx": 2.68,
-     "n": 5,
-     "up_pct": 80,
-     "top10": false
-    },
-    {
-     "id": "Garments and Clothing",
-     "name": "Garments and Clothing",
-     "ret": 2.07,
-     "vs_spx": 2.66,
-     "n": 5,
-     "up_pct": 100,
-     "top10": false
-    },
-    {
-     "id": "Biotechnology: Biological Products (No Diagnostic Substances)",
-     "name": "Biotech: Biologics",
-     "ret": 2.04,
-     "vs_spx": 2.63,
-     "n": 42,
-     "up_pct": 69,
-     "top10": false
-    },
-    {
-     "id": "Restaurants",
-     "name": "Restaurants",
-     "ret": 2.01,
-     "vs_spx": 2.6,
-     "n": 22,
-     "up_pct": 64,
-     "top10": false
-    },
-    {
-     "id": "Biotechnology: In Vitro & In Vivo Diagnostic Substances",
-     "name": "Biotech: Diagnostics",
-     "ret": 1.99,
-     "vs_spx": 2.58,
-     "n": 6,
-     "up_pct": 67,
-     "top10": false
-    },
-    {
-     "id": "EDP Services",
-     "name": "IT Services",
-     "ret": 1.99,
-     "vs_spx": 2.58,
-     "n": 52,
-     "up_pct": 62,
-     "top10": false
-    },
-    {
-     "id": "Containers/Packaging",
-     "name": "Containers/Packaging",
-     "ret": 1.97,
-     "vs_spx": 2.56,
-     "n": 11,
-     "up_pct": 73,
-     "top10": false
-    },
-    {
-     "id": "Life Insurance",
-     "name": "Life Insurance",
-     "ret": 1.79,
-     "vs_spx": 2.38,
-     "n": 21,
-     "up_pct": 81,
-     "top10": false
-    },
-    {
-     "id": "Radio And Television Broadcasting And Communications Equipment",
-     "name": "Communications Equipment",
-     "ret": 1.79,
-     "vs_spx": 2.37,
-     "n": 8,
-     "up_pct": 50,
-     "top10": false
-    },
-    {
-     "id": "Investment Managers",
-     "name": "Investment Managers",
-     "ret": 1.74,
-     "vs_spx": 2.32,
-     "n": 46,
-     "up_pct": 78,
-     "top10": false
-    },
-    {
-     "id": "Real Estate Investment Trusts",
-     "name": "REITs",
-     "ret": 1.64,
-     "vs_spx": 2.23,
-     "n": 114,
-     "up_pct": 76,
-     "top10": false
-    },
-    {
-     "id": "Power Generation",
-     "name": "Power Generation",
-     "ret": 1.64,
-     "vs_spx": 2.23,
-     "n": 19,
-     "up_pct": 89,
-     "top10": false
-    },
-    {
-     "id": "Property-Casualty Insurers",
-     "name": "Property-Casualty Insurers",
-     "ret": 1.6,
-     "vs_spx": 2.18,
-     "n": 52,
-     "up_pct": 71,
-     "top10": false
-    },
-    {
-     "id": "Auto Manufacturing",
-     "name": "Auto Manufacturing",
-     "ret": 1.51,
-     "vs_spx": 2.09,
-     "n": 12,
-     "up_pct": 67,
-     "top10": false
-    },
-    {
-     "id": "Services-Misc. Amusement & Recreation",
-     "name": "Leisure & Recreation",
-     "ret": 1.48,
-     "vs_spx": 2.07,
-     "n": 26,
-     "up_pct": 65,
-     "top10": false
-    },
-    {
-     "id": "Building Materials",
-     "name": "Building Materials",
-     "ret": 1.42,
-     "vs_spx": 2.01,
-     "n": 7,
-     "up_pct": 57,
-     "top10": false
-    },
-    {
-     "id": "Home Furnishings",
-     "name": "Home Furnishings",
-     "ret": 1.41,
-     "vs_spx": 2.0,
-     "n": 8,
-     "up_pct": 62,
-     "top10": false
-    },
-    {
-     "id": "Medical/Nursing Services",
-     "name": "Medical/Nursing Services",
-     "ret": 1.3,
-     "vs_spx": 1.88,
-     "n": 16,
-     "up_pct": 56,
-     "top10": false
-    },
-    {
-     "id": "Plastic Products",
-     "name": "Plastic Products",
-     "ret": 1.27,
-     "vs_spx": 1.86,
-     "n": 5,
-     "up_pct": 60,
-     "top10": false
-    },
-    {
-     "id": "Oil/Gas Transmission",
-     "name": "Oil/Gas Transmission",
-     "ret": 1.24,
-     "vs_spx": 1.83,
-     "n": 12,
-     "up_pct": 58,
-     "top10": false
-    },
-    {
-     "id": "Savings Institutions",
-     "name": "Savings Institutions",
-     "ret": 1.19,
-     "vs_spx": 1.77,
-     "n": 8,
-     "up_pct": 88,
-     "top10": false
-    },
-    {
-     "id": "Farming/Seeds/Milling",
-     "name": "Farming/Seeds/Milling",
-     "ret": 1.17,
-     "vs_spx": 1.76,
-     "n": 10,
-     "up_pct": 70,
-     "top10": false
-    },
-    {
-     "id": "Real Estate",
-     "name": "Real Estate",
-     "ret": 1.09,
-     "vs_spx": 1.68,
-     "n": 25,
-     "up_pct": 68,
-     "top10": false
-    },
-    {
-     "id": "Consumer Electronics/Appliances",
-     "name": "Consumer Electronics/Appliances",
-     "ret": 0.81,
-     "vs_spx": 1.4,
-     "n": 11,
-     "up_pct": 73,
-     "top10": false
-    },
-    {
-     "id": "Railroads",
-     "name": "Railroads",
-     "ret": 0.8,
-     "vs_spx": 1.39,
-     "n": 8,
-     "up_pct": 75,
-     "top10": false
-    },
-    {
-     "id": "Investment Bankers/Brokers/Service",
-     "name": "Brokers & Investment Banks",
-     "ret": 0.77,
-     "vs_spx": 1.36,
-     "n": 44,
-     "up_pct": 66,
-     "top10": false
-    },
-    {
-     "id": "Specialty Insurers",
-     "name": "Specialty Insurers",
-     "ret": 0.75,
-     "vs_spx": 1.33,
-     "n": 20,
-     "up_pct": 70,
-     "top10": false
-    },
-    {
-     "id": "Fluid Controls",
-     "name": "Fluid Controls",
-     "ret": 0.69,
-     "vs_spx": 1.27,
-     "n": 6,
-     "up_pct": 67,
-     "top10": false
-    },
-    {
-     "id": "Diversified Commercial Services",
-     "name": "Diversified Commercial Services",
-     "ret": 0.51,
-     "vs_spx": 1.09,
-     "n": 21,
-     "up_pct": 62,
-     "top10": false
-    },
-    {
-     "id": "Shoe Manufacturing",
-     "name": "Shoe Manufacturing",
-     "ret": 0.49,
-     "vs_spx": 1.08,
-     "n": 7,
-     "up_pct": 71,
-     "top10": false
-    },
-    {
-     "id": "Electric Utilities: Central",
-     "name": "Electric Utilities",
-     "ret": 0.46,
-     "vs_spx": 1.05,
-     "n": 56,
-     "up_pct": 57,
-     "top10": false
-    },
-    {
-     "id": "Professional Services",
-     "name": "Professional Services",
-     "ret": 0.46,
-     "vs_spx": 1.05,
-     "n": 13,
-     "up_pct": 62,
-     "top10": false
-    },
-    {
-     "id": "Computer Software: Programming Data Processing",
-     "name": "Software: Data & Cloud",
-     "ret": 0.43,
-     "vs_spx": 1.02,
-     "n": 28,
-     "up_pct": 54,
-     "top10": false
-    },
-    {
-     "id": "Major Banks",
-     "name": "Major Banks",
-     "ret": 0.39,
-     "vs_spx": 0.98,
-     "n": 143,
-     "up_pct": 64,
-     "top10": false
-    },
-    {
-     "id": "Biotechnology: Commercial Physical & Biological Resarch",
-     "name": "Biotech: Contract Research",
-     "ret": 0.29,
-     "vs_spx": 0.88,
-     "n": 6,
-     "up_pct": 67,
-     "top10": false
-    },
-    {
-     "id": "Clothing/Shoe/Accessory Stores",
-     "name": "Clothing/Shoe/Accessory Stores",
-     "ret": 0.29,
-     "vs_spx": 0.88,
-     "n": 9,
-     "up_pct": 56,
-     "top10": false
-    },
-    {
-     "id": "Finance/Investors Services",
-     "name": "Finance/Investors Services",
-     "ret": 0.21,
-     "vs_spx": 0.8,
-     "n": 8,
-     "up_pct": 50,
-     "top10": false
-    },
-    {
-     "id": "Metal Mining",
-     "name": "Metal Mining",
-     "ret": 0.12,
-     "vs_spx": 0.71,
-     "n": 14,
-     "up_pct": 50,
-     "top10": false
-    },
-    {
-     "id": "Computer Software: Prepackaged Software",
-     "name": "Software",
-     "ret": 0.08,
-     "vs_spx": 0.67,
-     "n": 122,
-     "up_pct": 50,
-     "top10": false
-    },
-    {
-     "id": "Industrial Machinery/Components",
-     "name": "Industrial Machinery",
-     "ret": -0.06,
-     "vs_spx": 0.53,
-     "n": 102,
-     "up_pct": 49,
-     "top10": false
-    },
-    {
-     "id": "Major Chemicals",
-     "name": "Major Chemicals",
-     "ret": -0.13,
-     "vs_spx": 0.45,
-     "n": 33,
-     "up_pct": 48,
-     "top10": false
-    },
-    {
-     "id": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
-     "name": "Nonmetallic Mining",
-     "ret": -0.17,
-     "vs_spx": 0.42,
-     "n": 11,
-     "up_pct": 45,
-     "top10": false
-    },
-    {
-     "id": "Environmental Services",
-     "name": "Environmental Services",
-     "ret": -0.23,
-     "vs_spx": 0.36,
-     "n": 6,
-     "up_pct": 50,
-     "top10": false
-    },
-    {
-     "id": "Finance: Consumer Services",
-     "name": "Consumer Finance",
-     "ret": -0.37,
-     "vs_spx": 0.22,
-     "n": 61,
-     "up_pct": 49,
-     "top10": false
-    },
-    {
-     "id": "Packaged Foods",
-     "name": "Packaged Foods",
-     "ret": -0.4,
-     "vs_spx": 0.19,
-     "n": 21,
-     "up_pct": 43,
-     "top10": false
-    },
-    {
-     "id": "Telecommunications Equipment",
-     "name": "Telecommunications Equipment",
-     "ret": -0.51,
-     "vs_spx": 0.08,
-     "n": 41,
-     "up_pct": 46,
-     "top10": false
-    },
-    {
-     "id": "Other Consumer Services",
-     "name": "Other Consumer Services",
-     "ret": -0.56,
-     "vs_spx": 0.03,
-     "n": 22,
-     "up_pct": 45,
-     "top10": false
-    },
-    {
      "id": "Military/Government/Technical",
      "name": "Defense & Government Tech",
-     "ret": -0.8,
-     "vs_spx": -0.21,
+     "ret": 3.07,
+     "vs_spx": 3.98,
      "n": 28,
-     "up_pct": 50,
+     "up_pct": 64,
      "top10": false
     },
     {
-     "id": "Computer Manufacturing",
-     "name": "Computer Manufacturing",
-     "ret": -0.84,
-     "vs_spx": -0.25,
+     "id": "Recreational Games/Products/Toys",
+     "name": "Recreational Games/Products/Toys",
+     "ret": 2.64,
+     "vs_spx": 3.55,
      "n": 6,
-     "up_pct": 50,
+     "up_pct": 67,
      "top10": false
     },
     {
-     "id": "Transportation Services",
-     "name": "Transportation Services",
-     "ret": -1.01,
-     "vs_spx": -0.42,
-     "n": 11,
-     "up_pct": 45,
-     "top10": false
-    },
-    {
-     "id": "Auto Parts:O.E.M.",
-     "name": "Auto Parts",
-     "ret": -1.07,
-     "vs_spx": -0.49,
-     "n": 20,
-     "up_pct": 40,
-     "top10": false
-    },
-    {
-     "id": "Finance Companies",
-     "name": "Finance Companies",
-     "ret": -1.12,
-     "vs_spx": -0.53,
-     "n": 13,
-     "up_pct": 38,
-     "top10": false
-    },
-    {
-     "id": "Steel/Iron Ore",
-     "name": "Steel/Iron Ore",
-     "ret": -1.59,
-     "vs_spx": -1.0,
-     "n": 12,
-     "up_pct": 42,
-     "top10": false
-    },
-    {
-     "id": "Publishing",
-     "name": "Publishing",
-     "ret": -1.61,
-     "vs_spx": -1.02,
-     "n": 5,
-     "up_pct": 40,
-     "top10": false
-    },
-    {
-     "id": "Trucking Freight/Courier Services",
-     "name": "Trucking Freight/Courier Services",
-     "ret": -1.69,
-     "vs_spx": -1.1,
-     "n": 11,
-     "up_pct": 27,
-     "top10": false
-    },
-    {
-     "id": "Medicinal Chemicals and Botanical Products",
-     "name": "Medicinal Chemicals",
-     "ret": -2.34,
-     "vs_spx": -1.75,
-     "n": 6,
-     "up_pct": 17,
-     "top10": false
-    },
-    {
-     "id": "Metal Fabrications",
-     "name": "Metal Fabrications",
-     "ret": -2.79,
-     "vs_spx": -2.21,
-     "n": 25,
-     "up_pct": 16,
-     "top10": false
-    },
-    {
-     "id": "Semiconductors",
-     "name": "Semiconductors",
-     "ret": -4.12,
-     "vs_spx": -3.53,
-     "n": 63,
-     "up_pct": 22,
-     "top10": false
-    },
-    {
-     "id": "Marine Transportation",
-     "name": "Marine Transportation",
-     "ret": -4.15,
-     "vs_spx": -3.56,
-     "n": 38,
-     "up_pct": 34,
-     "top10": false
-    },
-    {
-     "id": "Oil and Gas Field Machinery",
-     "name": "Oil and Gas Field Machinery",
-     "ret": -4.38,
-     "vs_spx": -3.79,
-     "n": 9,
-     "up_pct": 11,
-     "top10": false
-    },
-    {
-     "id": "Natural Gas Distribution",
-     "name": "Natural Gas Distribution",
-     "ret": -5.33,
-     "vs_spx": -4.74,
-     "n": 24,
-     "up_pct": 12,
+     "id": "Air Freight/Delivery Services",
+     "name": "Air Freight/Delivery Services",
+     "ret": 2.53,
+     "vs_spx": 3.44,
+     "n": 16,
+     "up_pct": 94,
      "top10": false
     },
     {
      "id": "Electrical Products",
      "name": "Electrical Products",
-     "ret": -5.43,
-     "vs_spx": -4.84,
-     "n": 22,
-     "up_pct": 23,
-     "top10": false
-    },
-    {
-     "id": "Electronic Components",
-     "name": "Electronic Components",
-     "ret": -5.55,
-     "vs_spx": -4.96,
-     "n": 14,
-     "up_pct": 29,
-     "top10": false
-    },
-    {
-     "id": "Oil & Gas Production",
-     "name": "Oil & Gas E&P",
-     "ret": -6.29,
-     "vs_spx": -5.7,
-     "n": 61,
-     "up_pct": 11,
-     "top10": false
-    },
-    {
-     "id": "Oilfield Services/Equipment",
-     "name": "Oilfield Services/Equipment",
-     "ret": -7.71,
-     "vs_spx": -7.12,
-     "n": 10,
-     "up_pct": 0,
-     "top10": false
-    },
-    {
-     "id": "Water Sewer Pipeline Comm & Power Line Construction",
-     "name": "Infrastructure Construction",
-     "ret": -8.42,
-     "vs_spx": -7.84,
-     "n": 5,
-     "up_pct": 0,
-     "top10": false
-    },
-    {
-     "id": "Integrated oil Companies",
-     "name": "Integrated Oil",
-     "ret": -9.19,
-     "vs_spx": -8.6,
-     "n": 16,
-     "up_pct": 0,
-     "top10": false
-    },
-    {
-     "id": "Engineering & Construction",
-     "name": "Engineering & Construction",
-     "ret": -11.92,
-     "vs_spx": -11.33,
-     "n": 8,
-     "up_pct": 12,
-     "top10": false
-    }
-   ],
-   "30d": [
-    {
-     "id": "Apparel",
-     "name": "Apparel",
-     "ret": 16.79,
-     "vs_spx": 20.47,
-     "n": 13,
-     "up_pct": 92,
-     "top10": true
-    },
-    {
-     "id": "Biotechnology: Electromedical & Electrotherapeutic Apparatus",
-     "name": "Medical Devices: Electromedical",
-     "ret": 16.29,
-     "vs_spx": 19.97,
-     "n": 7,
-     "up_pct": 100,
-     "top10": true
-    },
-    {
-     "id": "Ophthalmic Goods",
-     "name": "Ophthalmic Goods",
-     "ret": 16.22,
-     "vs_spx": 19.9,
-     "n": 6,
-     "up_pct": 100,
-     "top10": true
-    },
-    {
-     "id": "Other Specialty Stores",
-     "name": "Other Specialty Stores",
-     "ret": 15.24,
-     "vs_spx": 18.92,
-     "n": 15,
-     "up_pct": 80,
-     "top10": true
-    },
-    {
-     "id": "Broadcasting",
-     "name": "Broadcasting",
-     "ret": 15.21,
-     "vs_spx": 18.89,
-     "n": 10,
-     "up_pct": 90,
-     "top10": true
-    },
-    {
-     "id": "Aerospace",
-     "name": "Aerospace",
-     "ret": 15.12,
-     "vs_spx": 18.79,
-     "n": 17,
-     "up_pct": 82,
-     "top10": false
-    },
-    {
-     "id": "Forest Products",
-     "name": "Forest Products",
-     "ret": 14.98,
-     "vs_spx": 18.66,
-     "n": 5,
-     "up_pct": 100,
-     "top10": false
-    },
-    {
-     "id": "Garments and Clothing",
-     "name": "Garments and Clothing",
-     "ret": 14.31,
-     "vs_spx": 17.99,
-     "n": 5,
-     "up_pct": 100,
-     "top10": false
-    },
-    {
-     "id": "Building Materials",
-     "name": "Building Materials",
-     "ret": 14.06,
-     "vs_spx": 17.74,
-     "n": 7,
-     "up_pct": 86,
-     "top10": false
-    },
-    {
-     "id": "Hotels/Resorts",
-     "name": "Hotels/Resorts",
-     "ret": 13.81,
-     "vs_spx": 17.49,
-     "n": 25,
-     "up_pct": 84,
-     "top10": false
-    },
-    {
-     "id": "Containers/Packaging",
-     "name": "Containers/Packaging",
-     "ret": 13.5,
-     "vs_spx": 17.18,
-     "n": 11,
-     "up_pct": 100,
-     "top10": false
-    },
-    {
-     "id": "Cable & Other Pay Television Services",
-     "name": "Cable & Pay TV",
-     "ret": 13.36,
-     "vs_spx": 17.04,
-     "n": 11,
-     "up_pct": 64,
-     "top10": false
-    },
-    {
-     "id": "RETAIL: Building Materials",
-     "name": "Retail: Building Materials",
-     "ret": 13.05,
-     "vs_spx": 16.73,
-     "n": 9,
-     "up_pct": 89,
-     "top10": false
-    },
-    {
-     "id": "Recreational Games/Products/Toys",
-     "name": "Recreational Games/Products/Toys",
-     "ret": 13.0,
-     "vs_spx": 16.68,
-     "n": 6,
-     "up_pct": 83,
-     "top10": false
-    },
-    {
-     "id": "Restaurants",
-     "name": "Restaurants",
-     "ret": 12.95,
-     "vs_spx": 16.63,
-     "n": 22,
-     "up_pct": 82,
-     "top10": false
-    },
-    {
-     "id": "Beverages (Production/Distribution)",
-     "name": "Beverages",
-     "ret": 12.82,
-     "vs_spx": 16.5,
-     "n": 18,
-     "up_pct": 94,
-     "top10": false
-    },
-    {
-     "id": "Homebuilding",
-     "name": "Homebuilding",
-     "ret": 12.71,
-     "vs_spx": 16.39,
-     "n": 20,
-     "up_pct": 85,
-     "top10": false
-    },
-    {
-     "id": "Industrial Specialties",
-     "name": "Industrial Specialties",
-     "ret": 12.66,
-     "vs_spx": 16.34,
-     "n": 22,
-     "up_pct": 64,
-     "top10": false
-    },
-    {
-     "id": "Environmental Services",
-     "name": "Environmental Services",
-     "ret": 12.34,
-     "vs_spx": 16.02,
-     "n": 6,
-     "up_pct": 67,
-     "top10": false
-    },
-    {
-     "id": "Air Freight/Delivery Services",
-     "name": "Air Freight/Delivery Services",
-     "ret": 12.19,
-     "vs_spx": 15.87,
-     "n": 17,
-     "up_pct": 82,
-     "top10": false
-    },
-    {
-     "id": "Food Chains",
-     "name": "Food Chains",
-     "ret": 12.13,
-     "vs_spx": 15.81,
-     "n": 8,
-     "up_pct": 75,
-     "top10": false
-    },
-    {
-     "id": "Department/Specialty Retail Stores",
-     "name": "Department/Specialty Retail Stores",
-     "ret": 11.99,
-     "vs_spx": 15.67,
-     "n": 13,
-     "up_pct": 85,
-     "top10": false
-    },
-    {
-     "id": "Hospital/Nursing Management",
-     "name": "Hospital/Nursing Management",
-     "ret": 11.82,
-     "vs_spx": 15.5,
-     "n": 13,
-     "up_pct": 77,
-     "top10": false
-    },
-    {
-     "id": "Diversified Commercial Services",
-     "name": "Diversified Commercial Services",
-     "ret": 11.75,
-     "vs_spx": 15.43,
+     "ret": 2.52,
+     "vs_spx": 3.43,
      "n": 21,
+     "up_pct": 90,
+     "top10": false
+    },
+    {
+     "id": "Coal Mining",
+     "name": "Coal Mining",
+     "ret": 2.4,
+     "vs_spx": 3.31,
+     "n": 7,
      "up_pct": 86,
      "top10": false
     },
     {
-     "id": "Shoe Manufacturing",
-     "name": "Shoe Manufacturing",
-     "ret": 10.76,
-     "vs_spx": 14.44,
-     "n": 7,
-     "up_pct": 71,
-     "top10": false
-    },
-    {
-     "id": "Building operators",
-     "name": "Building Operators",
-     "ret": 10.3,
-     "vs_spx": 13.98,
-     "n": 5,
+     "id": "Computer Software: Programming Data Processing",
+     "name": "Software: Data & Cloud",
+     "ret": 2.19,
+     "vs_spx": 3.1,
+     "n": 30,
      "up_pct": 60,
      "top10": false
     },
     {
-     "id": "Biotechnology: Biological Products (No Diagnostic Substances)",
-     "name": "Biotech: Biologics",
-     "ret": 10.17,
-     "vs_spx": 13.85,
-     "n": 41,
-     "up_pct": 66,
-     "top10": false
-    },
-    {
-     "id": "Specialty Insurers",
-     "name": "Specialty Insurers",
-     "ret": 9.96,
-     "vs_spx": 13.64,
-     "n": 20,
-     "up_pct": 85,
-     "top10": false
-    },
-    {
-     "id": "Agricultural Chemicals",
-     "name": "Agricultural Chemicals",
-     "ret": 9.7,
-     "vs_spx": 13.38,
-     "n": 5,
-     "up_pct": 80,
-     "top10": false
-    },
-    {
-     "id": "Medical/Nursing Services",
-     "name": "Medical/Nursing Services",
-     "ret": 9.7,
-     "vs_spx": 13.38,
-     "n": 16,
-     "up_pct": 75,
-     "top10": false
-    },
-    {
-     "id": "Business Services",
-     "name": "Business Services",
-     "ret": 9.45,
-     "vs_spx": 13.13,
-     "n": 47,
+     "id": "Metal Fabrications",
+     "name": "Metal Fabrications",
+     "ret": 2.04,
+     "vs_spx": 2.95,
+     "n": 25,
      "up_pct": 72,
-     "top10": false
-    },
-    {
-     "id": "Water Supply",
-     "name": "Water Supply",
-     "ret": 9.29,
-     "vs_spx": 12.97,
-     "n": 7,
-     "up_pct": 86,
-     "top10": false
-    },
-    {
-     "id": "Power Generation",
-     "name": "Power Generation",
-     "ret": 9.03,
-     "vs_spx": 12.71,
-     "n": 19,
-     "up_pct": 100,
-     "top10": false
-    },
-    {
-     "id": "Package Goods/Cosmetics",
-     "name": "Package Goods/Cosmetics",
-     "ret": 9.0,
-     "vs_spx": 12.68,
-     "n": 12,
-     "up_pct": 83,
-     "top10": false
-    },
-    {
-     "id": "Packaged Foods",
-     "name": "Packaged Foods",
-     "ret": 8.85,
-     "vs_spx": 12.53,
-     "n": 21,
-     "up_pct": 71,
      "top10": false
     },
     {
      "id": "Accident &Health Insurance",
      "name": "Accident & Health Insurance",
-     "ret": 8.16,
-     "vs_spx": 11.84,
-     "n": 5,
-     "up_pct": 60,
-     "top10": false
-    },
-    {
-     "id": "Medical/Dental Instruments",
-     "name": "Medical/Dental Instruments",
-     "ret": 8.11,
-     "vs_spx": 11.79,
-     "n": 39,
-     "up_pct": 74,
-     "top10": false
-    },
-    {
-     "id": "Retail-Auto Dealers and Gas Stations",
-     "name": "Auto Dealers",
-     "ret": 8.08,
-     "vs_spx": 11.76,
-     "n": 13,
-     "up_pct": 85,
-     "top10": false
-    },
-    {
-     "id": "Railroads",
-     "name": "Railroads",
-     "ret": 8.04,
-     "vs_spx": 11.72,
-     "n": 8,
-     "up_pct": 100,
-     "top10": false
-    },
-    {
-     "id": "Misc Health and Biotechnology Services",
-     "name": "Misc Health and Biotechnology Services",
-     "ret": 7.98,
-     "vs_spx": 11.66,
+     "ret": 1.44,
+     "vs_spx": 2.36,
      "n": 5,
      "up_pct": 80,
      "top10": false
     },
     {
-     "id": "Biotechnology: Commercial Physical & Biological Resarch",
-     "name": "Biotech: Contract Research",
-     "ret": 7.62,
-     "vs_spx": 11.3,
-     "n": 6,
-     "up_pct": 83,
-     "top10": false
-    },
-    {
-     "id": "Clothing/Shoe/Accessory Stores",
-     "name": "Clothing/Shoe/Accessory Stores",
-     "ret": 7.44,
-     "vs_spx": 11.12,
-     "n": 9,
-     "up_pct": 67,
-     "top10": false
-    },
-    {
-     "id": "Property-Casualty Insurers",
-     "name": "Property-Casualty Insurers",
-     "ret": 7.12,
-     "vs_spx": 10.8,
-     "n": 52,
-     "up_pct": 79,
-     "top10": false
-    },
-    {
-     "id": "EDP Services",
-     "name": "IT Services",
-     "ret": 7.01,
-     "vs_spx": 10.69,
-     "n": 52,
-     "up_pct": 62,
-     "top10": false
-    },
-    {
-     "id": "Military/Government/Technical",
-     "name": "Defense & Government Tech",
-     "ret": 6.96,
-     "vs_spx": 10.64,
-     "n": 28,
+     "id": "Beverages (Production/Distribution)",
+     "name": "Beverages",
+     "ret": 1.41,
+     "vs_spx": 2.32,
+     "n": 18,
      "up_pct": 61,
+     "top10": false
+    },
+    {
+     "id": "Cable & Other Pay Television Services",
+     "name": "Cable & Pay TV",
+     "ret": 1.21,
+     "vs_spx": 2.12,
+     "n": 11,
+     "up_pct": 73,
      "top10": false
     },
     {
      "id": "Biotechnology: Pharmaceutical Preparations",
      "name": "Pharma & Biotech",
-     "ret": 6.74,
-     "vs_spx": 10.42,
+     "ret": 1.11,
+     "vs_spx": 2.03,
      "n": 146,
-     "up_pct": 71,
+     "up_pct": 58,
      "top10": false
     },
     {
-     "id": "Food Distributors",
-     "name": "Food Distributors",
-     "ret": 6.46,
-     "vs_spx": 10.14,
-     "n": 6,
-     "up_pct": 67,
-     "top10": false
-    },
-    {
-     "id": "Oil/Gas Transmission",
-     "name": "Oil/Gas Transmission",
-     "ret": 6.17,
-     "vs_spx": 9.85,
-     "n": 12,
-     "up_pct": 67,
-     "top10": false
-    },
-    {
-     "id": "Biotechnology: Laboratory Analytical Instruments",
-     "name": "Lab Instruments",
-     "ret": 5.37,
-     "vs_spx": 9.05,
-     "n": 10,
-     "up_pct": 80,
-     "top10": false
-    },
-    {
-     "id": "Major Banks",
-     "name": "Major Banks",
-     "ret": 5.27,
-     "vs_spx": 8.95,
-     "n": 143,
-     "up_pct": 85,
-     "top10": false
-    },
-    {
-     "id": "Office Equipment/Supplies/Services",
-     "name": "Office Equipment/Supplies/Services",
-     "ret": 5.16,
-     "vs_spx": 8.84,
-     "n": 7,
-     "up_pct": 71,
-     "top10": false
-    },
-    {
-     "id": "Plastic Products",
-     "name": "Plastic Products",
-     "ret": 5.14,
-     "vs_spx": 8.82,
-     "n": 5,
-     "up_pct": 60,
-     "top10": false
-    },
-    {
-     "id": "Consumer Electronics/Appliances",
-     "name": "Consumer Electronics/Appliances",
-     "ret": 5.13,
-     "vs_spx": 8.81,
-     "n": 11,
-     "up_pct": 64,
-     "top10": false
-    },
-    {
-     "id": "Investment Managers",
-     "name": "Investment Managers",
-     "ret": 5.06,
-     "vs_spx": 8.74,
-     "n": 46,
-     "up_pct": 76,
-     "top10": false
-    },
-    {
-     "id": "Real Estate Investment Trusts",
-     "name": "REITs",
-     "ret": 4.76,
-     "vs_spx": 8.44,
-     "n": 114,
-     "up_pct": 78,
-     "top10": false
-    },
-    {
-     "id": "Life Insurance",
-     "name": "Life Insurance",
-     "ret": 4.73,
-     "vs_spx": 8.41,
-     "n": 21,
-     "up_pct": 67,
+     "id": "Telecommunications Equipment",
+     "name": "Telecommunications Equipment",
+     "ret": 1.03,
+     "vs_spx": 1.94,
+     "n": 41,
+     "up_pct": 56,
      "top10": false
     },
     {
      "id": "Services-Misc. Amusement & Recreation",
      "name": "Leisure & Recreation",
-     "ret": 4.65,
-     "vs_spx": 8.33,
-     "n": 25,
-     "up_pct": 64,
+     "ret": 0.81,
+     "vs_spx": 1.73,
+     "n": 26,
+     "up_pct": 58,
      "top10": false
     },
     {
-     "id": "Auto Manufacturing",
-     "name": "Auto Manufacturing",
-     "ret": 4.47,
-     "vs_spx": 8.15,
-     "n": 12,
-     "up_pct": 75,
-     "top10": false
-    },
-    {
-     "id": "Professional Services",
-     "name": "Professional Services",
-     "ret": 4.39,
-     "vs_spx": 8.07,
-     "n": 13,
-     "up_pct": 62,
-     "top10": false
-    },
-    {
-     "id": "Savings Institutions",
-     "name": "Savings Institutions",
-     "ret": 4.27,
-     "vs_spx": 7.95,
-     "n": 8,
-     "up_pct": 88,
-     "top10": false
-    },
-    {
-     "id": "Medical Specialities",
-     "name": "Medical Specialities",
-     "ret": 4.11,
-     "vs_spx": 7.79,
-     "n": 29,
-     "up_pct": 66,
-     "top10": false
-    },
-    {
-     "id": "Catalog/Specialty Distribution",
-     "name": "Catalog/Specialty Distribution",
-     "ret": 4.05,
-     "vs_spx": 7.73,
-     "n": 12,
-     "up_pct": 83,
-     "top10": false
-    },
-    {
-     "id": "Meat/Poultry/Fish",
-     "name": "Meat/Poultry/Fish",
-     "ret": 3.44,
-     "vs_spx": 7.12,
+     "id": "Agricultural Chemicals",
+     "name": "Agricultural Chemicals",
+     "ret": 0.8,
+     "vs_spx": 1.72,
      "n": 5,
      "up_pct": 60,
      "top10": false
     },
     {
-     "id": "Real Estate",
-     "name": "Real Estate",
-     "ret": 3.05,
-     "vs_spx": 6.73,
-     "n": 25,
-     "up_pct": 84,
+     "id": "Industrial Machinery/Components",
+     "name": "Industrial Machinery",
+     "ret": 0.79,
+     "vs_spx": 1.71,
+     "n": 102,
+     "up_pct": 57,
+     "top10": false
+    },
+    {
+     "id": "Oil and Gas Field Machinery",
+     "name": "Oil and Gas Field Machinery",
+     "ret": 0.76,
+     "vs_spx": 1.67,
+     "n": 9,
+     "up_pct": 56,
      "top10": false
     },
     {
      "id": "Biotechnology: In Vitro & In Vivo Diagnostic Substances",
      "name": "Biotech: Diagnostics",
-     "ret": 2.01,
-     "vs_spx": 5.69,
+     "ret": 0.52,
+     "vs_spx": 1.43,
      "n": 6,
      "up_pct": 67,
      "top10": false
     },
     {
-     "id": "Home Furnishings",
-     "name": "Home Furnishings",
-     "ret": 1.71,
-     "vs_spx": 5.39,
-     "n": 8,
-     "up_pct": 75,
+     "id": "Electronic Components",
+     "name": "Electronic Components",
+     "ret": 0.48,
+     "vs_spx": 1.39,
+     "n": 14,
+     "up_pct": 50,
      "top10": false
     },
     {
-     "id": "Electric Utilities: Central",
-     "name": "Electric Utilities",
-     "ret": 1.69,
-     "vs_spx": 5.37,
-     "n": 56,
-     "up_pct": 61,
+     "id": "Environmental Services",
+     "name": "Environmental Services",
+     "ret": 0.42,
+     "vs_spx": 1.33,
+     "n": 6,
+     "up_pct": 67,
      "top10": false
     },
     {
-     "id": "Major Chemicals",
-     "name": "Major Chemicals",
-     "ret": 1.4,
-     "vs_spx": 5.08,
-     "n": 33,
+     "id": "Hotels/Resorts",
+     "name": "Hotels/Resorts",
+     "ret": 0.42,
+     "vs_spx": 1.33,
+     "n": 25,
+     "up_pct": 64,
+     "top10": false
+    },
+    {
+     "id": "Metal Mining",
+     "name": "Metal Mining",
+     "ret": 0.4,
+     "vs_spx": 1.32,
+     "n": 14,
+     "up_pct": 57,
+     "top10": false
+    },
+    {
+     "id": "Plastic Products",
+     "name": "Plastic Products",
+     "ret": 0.38,
+     "vs_spx": 1.29,
+     "n": 5,
+     "up_pct": 60,
+     "top10": false
+    },
+    {
+     "id": "Biotechnology: Commercial Physical & Biological Resarch",
+     "name": "Biotech: Contract Research",
+     "ret": 0.37,
+     "vs_spx": 1.29,
+     "n": 6,
+     "up_pct": 50,
+     "top10": false
+    },
+    {
+     "id": "Consumer Electronics/Appliances",
+     "name": "Consumer Electronics/Appliances",
+     "ret": 0.33,
+     "vs_spx": 1.24,
+     "n": 11,
      "up_pct": 55,
      "top10": false
     },
     {
-     "id": "Computer Software: Prepackaged Software",
-     "name": "Software",
-     "ret": 1.17,
-     "vs_spx": 4.85,
-     "n": 122,
-     "up_pct": 52,
+     "id": "Oil & Gas Production",
+     "name": "Oil & Gas E&P",
+     "ret": 0.32,
+     "vs_spx": 1.24,
+     "n": 62,
+     "up_pct": 55,
+     "top10": false
+    },
+    {
+     "id": "Misc Health and Biotechnology Services",
+     "name": "Misc Health and Biotechnology Services",
+     "ret": 0.31,
+     "vs_spx": 1.22,
+     "n": 5,
+     "up_pct": 60,
+     "top10": false
+    },
+    {
+     "id": "Precious Metals",
+     "name": "Precious Metals (guld/silver)",
+     "ret": 0.27,
+     "vs_spx": 1.18,
+     "n": 38,
+     "up_pct": 55,
+     "top10": false
+    },
+    {
+     "id": "Diversified Commercial Services",
+     "name": "Diversified Commercial Services",
+     "ret": 0.2,
+     "vs_spx": 1.11,
+     "n": 21,
+     "up_pct": 57,
+     "top10": false
+    },
+    {
+     "id": "Biotechnology: Laboratory Analytical Instruments",
+     "name": "Lab Instruments",
+     "ret": 0.19,
+     "vs_spx": 1.11,
+     "n": 10,
+     "up_pct": 50,
+     "top10": false
+    },
+    {
+     "id": "Biotechnology: Electromedical & Electrotherapeutic Apparatus",
+     "name": "Medical Devices: Electromedical",
+     "ret": 0.03,
+     "vs_spx": 0.94,
+     "n": 7,
+     "up_pct": 57,
+     "top10": false
+    },
+    {
+     "id": "Food Distributors",
+     "name": "Food Distributors",
+     "ret": -0.08,
+     "vs_spx": 0.83,
+     "n": 6,
+     "up_pct": 33,
+     "top10": false
+    },
+    {
+     "id": "Other Specialty Stores",
+     "name": "Other Specialty Stores",
+     "ret": -0.1,
+     "vs_spx": 0.81,
+     "n": 15,
+     "up_pct": 47,
+     "top10": false
+    },
+    {
+     "id": "Oil/Gas Transmission",
+     "name": "Oil/Gas Transmission",
+     "ret": -0.13,
+     "vs_spx": 0.79,
+     "n": 12,
+     "up_pct": 50,
      "top10": false
     },
     {
      "id": "Investment Bankers/Brokers/Service",
      "name": "Brokers & Investment Banks",
-     "ret": 0.4,
-     "vs_spx": 4.08,
-     "n": 44,
-     "up_pct": 55,
+     "ret": -0.18,
+     "vs_spx": 0.73,
+     "n": 45,
+     "up_pct": 42,
      "top10": false
     },
     {
-     "id": "Medicinal Chemicals and Botanical Products",
-     "name": "Medicinal Chemicals",
-     "ret": 0.24,
-     "vs_spx": 3.92,
-     "n": 6,
-     "up_pct": 50,
-     "top10": false
-    },
-    {
-     "id": "Finance/Investors Services",
-     "name": "Finance/Investors Services",
-     "ret": -0.31,
-     "vs_spx": 3.37,
-     "n": 8,
-     "up_pct": 50,
-     "top10": false
-    },
-    {
-     "id": "Transportation Services",
-     "name": "Transportation Services",
-     "ret": -1.13,
-     "vs_spx": 2.55,
-     "n": 11,
-     "up_pct": 36,
-     "top10": false
-    },
-    {
-     "id": "Fluid Controls",
-     "name": "Fluid Controls",
-     "ret": -2.01,
-     "vs_spx": 1.67,
-     "n": 6,
+     "id": "Marine Transportation",
+     "name": "Marine Transportation",
+     "ret": -0.19,
+     "vs_spx": 0.72,
+     "n": 38,
      "up_pct": 50,
      "top10": false
     },
     {
      "id": "Finance Companies",
      "name": "Finance Companies",
-     "ret": -2.07,
-     "vs_spx": 1.61,
+     "ret": -0.22,
+     "vs_spx": 0.7,
      "n": 13,
-     "up_pct": 38,
+     "up_pct": 31,
      "top10": false
     },
     {
-     "id": "Steel/Iron Ore",
-     "name": "Steel/Iron Ore",
-     "ret": -2.14,
-     "vs_spx": 1.54,
-     "n": 12,
-     "up_pct": 42,
+     "id": "Office Equipment/Supplies/Services",
+     "name": "Office Equipment/Supplies/Services",
+     "ret": -0.24,
+     "vs_spx": 0.67,
+     "n": 7,
+     "up_pct": 29,
      "top10": false
     },
     {
-     "id": "Telecommunications Equipment",
-     "name": "Telecommunications Equipment",
-     "ret": -2.39,
-     "vs_spx": 1.29,
-     "n": 41,
-     "up_pct": 37,
-     "top10": false
-    },
-    {
-     "id": "Industrial Machinery/Components",
-     "name": "Industrial Machinery",
-     "ret": -2.67,
-     "vs_spx": 1.01,
-     "n": 102,
-     "up_pct": 44,
-     "top10": false
-    },
-    {
-     "id": "Computer Manufacturing",
-     "name": "Computer Manufacturing",
-     "ret": -2.84,
-     "vs_spx": 0.84,
-     "n": 6,
+     "id": "Industrial Specialties",
+     "name": "Industrial Specialties",
+     "ret": -0.3,
+     "vs_spx": 0.62,
+     "n": 22,
      "up_pct": 50,
      "top10": false
     },
     {
-     "id": "Computer Software: Programming Data Processing",
-     "name": "Software: Data & Cloud",
-     "ret": -2.93,
-     "vs_spx": 0.75,
-     "n": 28,
-     "up_pct": 46,
+     "id": "Life Insurance",
+     "name": "Life Insurance",
+     "ret": -0.33,
+     "vs_spx": 0.58,
+     "n": 21,
+     "up_pct": 48,
      "top10": false
     },
     {
-     "id": "Farming/Seeds/Milling",
-     "name": "Farming/Seeds/Milling",
-     "ret": -3.08,
-     "vs_spx": 0.6,
-     "n": 10,
+     "id": "Property-Casualty Insurers",
+     "name": "Property-Casualty Insurers",
+     "ret": -0.34,
+     "vs_spx": 0.58,
+     "n": 52,
      "up_pct": 40,
      "top10": false
     },
     {
      "id": "Natural Gas Distribution",
      "name": "Natural Gas Distribution",
-     "ret": -3.2,
-     "vs_spx": 0.48,
+     "ret": -0.39,
+     "vs_spx": 0.52,
      "n": 24,
+     "up_pct": 50,
+     "top10": false
+    },
+    {
+     "id": "Water Supply",
+     "name": "Water Supply",
+     "ret": -0.4,
+     "vs_spx": 0.51,
+     "n": 7,
      "up_pct": 29,
+     "top10": false
+    },
+    {
+     "id": "Electric Utilities: Central",
+     "name": "Electric Utilities",
+     "ret": -0.46,
+     "vs_spx": 0.45,
+     "n": 56,
+     "up_pct": 43,
+     "top10": false
+    },
+    {
+     "id": "Ophthalmic Goods",
+     "name": "Ophthalmic Goods",
+     "ret": -0.47,
+     "vs_spx": 0.45,
+     "n": 6,
+     "up_pct": 50,
+     "top10": false
+    },
+    {
+     "id": "Department/Specialty Retail Stores",
+     "name": "Department/Specialty Retail Stores",
+     "ret": -0.5,
+     "vs_spx": 0.41,
+     "n": 13,
+     "up_pct": 31,
+     "top10": false
+    },
+    {
+     "id": "Biotechnology: Biological Products (No Diagnostic Substances)",
+     "name": "Biotech: Biologics",
+     "ret": -0.53,
+     "vs_spx": 0.38,
+     "n": 44,
+     "up_pct": 45,
+     "top10": false
+    },
+    {
+     "id": "Power Generation",
+     "name": "Power Generation",
+     "ret": -0.54,
+     "vs_spx": 0.37,
+     "n": 19,
+     "up_pct": 42,
+     "top10": false
+    },
+    {
+     "id": "Business Services",
+     "name": "Business Services",
+     "ret": -0.59,
+     "vs_spx": 0.32,
+     "n": 47,
+     "up_pct": 47,
+     "top10": false
+    },
+    {
+     "id": "Food Chains",
+     "name": "Food Chains",
+     "ret": -0.64,
+     "vs_spx": 0.27,
+     "n": 8,
+     "up_pct": 50,
      "top10": false
     },
     {
      "id": "Commercial Banks",
      "name": "Commercial Banks",
-     "ret": -3.22,
-     "vs_spx": 0.46,
+     "ret": -0.68,
+     "vs_spx": 0.23,
      "n": 27,
      "up_pct": 41,
      "top10": false
     },
     {
+     "id": "Catalog/Specialty Distribution",
+     "name": "Catalog/Specialty Distribution",
+     "ret": -0.73,
+     "vs_spx": 0.18,
+     "n": 12,
+     "up_pct": 42,
+     "top10": false
+    },
+    {
+     "id": "Medical/Nursing Services",
+     "name": "Medical/Nursing Services",
+     "ret": -0.74,
+     "vs_spx": 0.17,
+     "n": 16,
+     "up_pct": 50,
+     "top10": false
+    },
+    {
+     "id": "Finance: Consumer Services",
+     "name": "Consumer Finance",
+     "ret": -0.88,
+     "vs_spx": 0.03,
+     "n": 61,
+     "up_pct": 41,
+     "top10": false
+    },
+    {
+     "id": "Major Chemicals",
+     "name": "Major Chemicals",
+     "ret": -0.88,
+     "vs_spx": 0.03,
+     "n": 33,
+     "up_pct": 36,
+     "top10": false
+    },
+    {
+     "id": "Hospital/Nursing Management",
+     "name": "Hospital/Nursing Management",
+     "ret": -0.91,
+     "vs_spx": 0.0,
+     "n": 13,
+     "up_pct": 38,
+     "top10": false
+    },
+    {
+     "id": "Real Estate Investment Trusts",
+     "name": "REITs",
+     "ret": -0.96,
+     "vs_spx": -0.05,
+     "n": 114,
+     "up_pct": 26,
+     "top10": false
+    },
+    {
+     "id": "Investment Managers",
+     "name": "Investment Managers",
+     "ret": -0.97,
+     "vs_spx": -0.06,
+     "n": 46,
+     "up_pct": 41,
+     "top10": false
+    },
+    {
+     "id": "Farming/Seeds/Milling",
+     "name": "Farming/Seeds/Milling",
+     "ret": -0.98,
+     "vs_spx": -0.07,
+     "n": 9,
+     "up_pct": 44,
+     "top10": false
+    },
+    {
+     "id": "Steel/Iron Ore",
+     "name": "Steel/Iron Ore",
+     "ret": -1.0,
+     "vs_spx": -0.09,
+     "n": 12,
+     "up_pct": 42,
+     "top10": false
+    },
+    {
+     "id": "Computer Manufacturing",
+     "name": "Computer Manufacturing",
+     "ret": -1.02,
+     "vs_spx": -0.11,
+     "n": 6,
+     "up_pct": 50,
+     "top10": false
+    },
+    {
+     "id": "Retail-Auto Dealers and Gas Stations",
+     "name": "Auto Dealers",
+     "ret": -1.07,
+     "vs_spx": -0.16,
+     "n": 13,
+     "up_pct": 31,
+     "top10": false
+    },
+    {
+     "id": "Package Goods/Cosmetics",
+     "name": "Package Goods/Cosmetics",
+     "ret": -1.09,
+     "vs_spx": -0.18,
+     "n": 12,
+     "up_pct": 33,
+     "top10": false
+    },
+    {
+     "id": "Finance/Investors Services",
+     "name": "Finance/Investors Services",
+     "ret": -1.13,
+     "vs_spx": -0.22,
+     "n": 8,
+     "up_pct": 38,
+     "top10": false
+    },
+    {
+     "id": "Computer Software: Prepackaged Software",
+     "name": "Software",
+     "ret": -1.14,
+     "vs_spx": -0.22,
+     "n": 123,
+     "up_pct": 40,
+     "top10": false
+    },
+    {
+     "id": "RETAIL: Building Materials",
+     "name": "Retail: Building Materials",
+     "ret": -1.16,
+     "vs_spx": -0.25,
+     "n": 9,
+     "up_pct": 44,
+     "top10": false
+    },
+    {
+     "id": "EDP Services",
+     "name": "IT Services",
+     "ret": -1.28,
+     "vs_spx": -0.37,
+     "n": 52,
+     "up_pct": 42,
+     "top10": false
+    },
+    {
+     "id": "Auto Manufacturing",
+     "name": "Auto Manufacturing",
+     "ret": -1.33,
+     "vs_spx": -0.42,
+     "n": 12,
+     "up_pct": 33,
+     "top10": false
+    },
+    {
+     "id": "Specialty Insurers",
+     "name": "Specialty Insurers",
+     "ret": -1.41,
+     "vs_spx": -0.5,
+     "n": 21,
+     "up_pct": 19,
+     "top10": false
+    },
+    {
+     "id": "Major Banks",
+     "name": "Major Banks",
+     "ret": -1.42,
+     "vs_spx": -0.5,
+     "n": 143,
+     "up_pct": 13,
+     "top10": false
+    },
+    {
+     "id": "Medical/Dental Instruments",
+     "name": "Medical/Dental Instruments",
+     "ret": -1.47,
+     "vs_spx": -0.56,
+     "n": 39,
+     "up_pct": 28,
+     "top10": false
+    },
+    {
+     "id": "Railroads",
+     "name": "Railroads",
+     "ret": -1.59,
+     "vs_spx": -0.67,
+     "n": 8,
+     "up_pct": 12,
+     "top10": false
+    },
+    {
+     "id": "Transportation Services",
+     "name": "Transportation Services",
+     "ret": -1.6,
+     "vs_spx": -0.69,
+     "n": 11,
+     "up_pct": 36,
+     "top10": false
+    },
+    {
+     "id": "Apparel",
+     "name": "Apparel",
+     "ret": -1.6,
+     "vs_spx": -0.69,
+     "n": 13,
+     "up_pct": 46,
+     "top10": false
+    },
+    {
+     "id": "Integrated oil Companies",
+     "name": "Integrated Oil",
+     "ret": -1.6,
+     "vs_spx": -0.69,
+     "n": 16,
+     "up_pct": 19,
+     "top10": false
+    },
+    {
+     "id": "Savings Institutions",
+     "name": "Savings Institutions",
+     "ret": -1.77,
+     "vs_spx": -0.86,
+     "n": 8,
+     "up_pct": 25,
+     "top10": false
+    },
+    {
+     "id": "Medicinal Chemicals and Botanical Products",
+     "name": "Medicinal Chemicals",
+     "ret": -1.92,
+     "vs_spx": -1.01,
+     "n": 6,
+     "up_pct": 17,
+     "top10": false
+    },
+    {
+     "id": "Restaurants",
+     "name": "Restaurants",
+     "ret": -2.16,
+     "vs_spx": -1.24,
+     "n": 22,
+     "up_pct": 27,
+     "top10": false
+    },
+    {
+     "id": "Auto Parts:O.E.M.",
+     "name": "Auto Parts",
+     "ret": -2.23,
+     "vs_spx": -1.32,
+     "n": 21,
+     "up_pct": 38,
+     "top10": false
+    },
+    {
+     "id": "Oilfield Services/Equipment",
+     "name": "Oilfield Services/Equipment",
+     "ret": -2.29,
+     "vs_spx": -1.37,
+     "n": 10,
+     "up_pct": 20,
+     "top10": false
+    },
+    {
+     "id": "Containers/Packaging",
+     "name": "Containers/Packaging",
+     "ret": -2.38,
+     "vs_spx": -1.46,
+     "n": 11,
+     "up_pct": 9,
+     "top10": false
+    },
+    {
+     "id": "Broadcasting",
+     "name": "Broadcasting",
+     "ret": -2.4,
+     "vs_spx": -1.48,
+     "n": 11,
+     "up_pct": 45,
+     "top10": false
+    },
+    {
+     "id": "Building operators",
+     "name": "Building Operators",
+     "ret": -2.41,
+     "vs_spx": -1.5,
+     "n": 5,
+     "up_pct": 0,
+     "top10": false
+    },
+    {
      "id": "Trucking Freight/Courier Services",
      "name": "Trucking Freight/Courier Services",
+     "ret": -2.43,
+     "vs_spx": -1.51,
+     "n": 11,
+     "up_pct": 18,
+     "top10": false
+    },
+    {
+     "id": "Real Estate",
+     "name": "Real Estate",
+     "ret": -2.58,
+     "vs_spx": -1.66,
+     "n": 25,
+     "up_pct": 28,
+     "top10": false
+    },
+    {
+     "id": "Building Materials",
+     "name": "Building Materials",
+     "ret": -2.65,
+     "vs_spx": -1.74,
+     "n": 7,
+     "up_pct": 14,
+     "top10": false
+    },
+    {
+     "id": "Other Consumer Services",
+     "name": "Other Consumer Services",
+     "ret": -2.68,
+     "vs_spx": -1.76,
+     "n": 23,
+     "up_pct": 26,
+     "top10": false
+    },
+    {
+     "id": "Professional Services",
+     "name": "Professional Services",
+     "ret": -2.68,
+     "vs_spx": -1.76,
+     "n": 13,
+     "up_pct": 8,
+     "top10": false
+    },
+    {
+     "id": "Medical Specialities",
+     "name": "Medical Specialities",
+     "ret": -2.72,
+     "vs_spx": -1.8,
+     "n": 29,
+     "up_pct": 31,
+     "top10": false
+    },
+    {
+     "id": "Packaged Foods",
+     "name": "Packaged Foods",
+     "ret": -2.88,
+     "vs_spx": -1.97,
+     "n": 21,
+     "up_pct": 29,
+     "top10": false
+    },
+    {
+     "id": "Meat/Poultry/Fish",
+     "name": "Meat/Poultry/Fish",
+     "ret": -2.94,
+     "vs_spx": -2.03,
+     "n": 5,
+     "up_pct": 0,
+     "top10": false
+    },
+    {
+     "id": "Garments and Clothing",
+     "name": "Garments and Clothing",
+     "ret": -3.2,
+     "vs_spx": -2.28,
+     "n": 5,
+     "up_pct": 0,
+     "top10": false
+    },
+    {
+     "id": "Home Furnishings",
+     "name": "Home Furnishings",
      "ret": -3.66,
-     "vs_spx": 0.02,
+     "vs_spx": -2.74,
+     "n": 8,
+     "up_pct": 0,
+     "top10": false
+    },
+    {
+     "id": "Forest Products",
+     "name": "Forest Products",
+     "ret": -4.86,
+     "vs_spx": -3.95,
+     "n": 5,
+     "up_pct": 20,
+     "top10": false
+    },
+    {
+     "id": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
+     "name": "Nonmetallic Mining",
+     "ret": -4.9,
+     "vs_spx": -3.99,
+     "n": 11,
+     "up_pct": 9,
+     "top10": false
+    },
+    {
+     "id": "Shoe Manufacturing",
+     "name": "Shoe Manufacturing",
+     "ret": -5.36,
+     "vs_spx": -4.45,
+     "n": 7,
+     "up_pct": 14,
+     "top10": false
+    },
+    {
+     "id": "Homebuilding",
+     "name": "Homebuilding",
+     "ret": -5.85,
+     "vs_spx": -4.94,
+     "n": 19,
+     "up_pct": 21,
+     "top10": false
+    },
+    {
+     "id": "Clothing/Shoe/Accessory Stores",
+     "name": "Clothing/Shoe/Accessory Stores",
+     "ret": -6.3,
+     "vs_spx": -5.38,
+     "n": 9,
+     "up_pct": 22,
+     "top10": false
+    },
+    {
+     "id": "Publishing",
+     "name": "Publishing",
+     "ret": -7.17,
+     "vs_spx": -6.25,
+     "n": 5,
+     "up_pct": 40,
+     "top10": false
+    }
+   ],
+   "30d": [
+    {
+     "id": "Broadcasting",
+     "name": "Broadcasting",
+     "ret": 18.1,
+     "vs_spx": 20.46,
+     "n": 11,
+     "up_pct": 82,
+     "top10": true
+    },
+    {
+     "id": "Other Specialty Stores",
+     "name": "Other Specialty Stores",
+     "ret": 16.14,
+     "vs_spx": 18.49,
+     "n": 15,
+     "up_pct": 80,
+     "top10": true
+    },
+    {
+     "id": "Industrial Specialties",
+     "name": "Industrial Specialties",
+     "ret": 15.65,
+     "vs_spx": 18.0,
+     "n": 22,
+     "up_pct": 73,
+     "top10": true
+    },
+    {
+     "id": "Forest Products",
+     "name": "Forest Products",
+     "ret": 15.29,
+     "vs_spx": 17.64,
+     "n": 5,
+     "up_pct": 100,
+     "top10": true
+    },
+    {
+     "id": "Ophthalmic Goods",
+     "name": "Ophthalmic Goods",
+     "ret": 14.65,
+     "vs_spx": 17.0,
+     "n": 6,
+     "up_pct": 100,
+     "top10": true
+    },
+    {
+     "id": "RETAIL: Building Materials",
+     "name": "Retail: Building Materials",
+     "ret": 14.51,
+     "vs_spx": 16.86,
+     "n": 9,
+     "up_pct": 89,
+     "top10": false
+    },
+    {
+     "id": "Hotels/Resorts",
+     "name": "Hotels/Resorts",
+     "ret": 14.15,
+     "vs_spx": 16.5,
+     "n": 25,
+     "up_pct": 84,
+     "top10": false
+    },
+    {
+     "id": "Apparel",
+     "name": "Apparel",
+     "ret": 13.75,
+     "vs_spx": 16.1,
+     "n": 13,
+     "up_pct": 92,
+     "top10": false
+    },
+    {
+     "id": "Environmental Services",
+     "name": "Environmental Services",
+     "ret": 13.64,
+     "vs_spx": 15.99,
+     "n": 6,
+     "up_pct": 83,
+     "top10": false
+    },
+    {
+     "id": "Aerospace",
+     "name": "Aerospace",
+     "ret": 13.55,
+     "vs_spx": 15.9,
+     "n": 17,
+     "up_pct": 82,
+     "top10": false
+    },
+    {
+     "id": "Restaurants",
+     "name": "Restaurants",
+     "ret": 13.18,
+     "vs_spx": 15.53,
+     "n": 22,
+     "up_pct": 82,
+     "top10": false
+    },
+    {
+     "id": "Homebuilding",
+     "name": "Homebuilding",
+     "ret": 13.0,
+     "vs_spx": 15.35,
+     "n": 19,
+     "up_pct": 84,
+     "top10": false
+    },
+    {
+     "id": "Garments and Clothing",
+     "name": "Garments and Clothing",
+     "ret": 12.71,
+     "vs_spx": 15.06,
+     "n": 5,
+     "up_pct": 100,
+     "top10": false
+    },
+    {
+     "id": "Building Materials",
+     "name": "Building Materials",
+     "ret": 12.61,
+     "vs_spx": 14.96,
+     "n": 7,
+     "up_pct": 86,
+     "top10": false
+    },
+    {
+     "id": "Beverages (Production/Distribution)",
+     "name": "Beverages",
+     "ret": 12.59,
+     "vs_spx": 14.94,
+     "n": 18,
+     "up_pct": 94,
+     "top10": false
+    },
+    {
+     "id": "Air Freight/Delivery Services",
+     "name": "Air Freight/Delivery Services",
+     "ret": 11.93,
+     "vs_spx": 14.28,
+     "n": 16,
+     "up_pct": 81,
+     "top10": false
+    },
+    {
+     "id": "Biotechnology: Electromedical & Electrotherapeutic Apparatus",
+     "name": "Medical Devices: Electromedical",
+     "ret": 11.93,
+     "vs_spx": 14.28,
+     "n": 7,
+     "up_pct": 100,
+     "top10": false
+    },
+    {
+     "id": "Containers/Packaging",
+     "name": "Containers/Packaging",
+     "ret": 11.18,
+     "vs_spx": 13.53,
+     "n": 11,
+     "up_pct": 100,
+     "top10": false
+    },
+    {
+     "id": "Department/Specialty Retail Stores",
+     "name": "Department/Specialty Retail Stores",
+     "ret": 10.93,
+     "vs_spx": 13.28,
+     "n": 13,
+     "up_pct": 85,
+     "top10": false
+    },
+    {
+     "id": "Diversified Commercial Services",
+     "name": "Diversified Commercial Services",
+     "ret": 10.78,
+     "vs_spx": 13.13,
+     "n": 21,
+     "up_pct": 95,
+     "top10": false
+    },
+    {
+     "id": "Cable & Other Pay Television Services",
+     "name": "Cable & Pay TV",
+     "ret": 10.5,
+     "vs_spx": 12.85,
+     "n": 11,
+     "up_pct": 64,
+     "top10": false
+    },
+    {
+     "id": "Recreational Games/Products/Toys",
+     "name": "Recreational Games/Products/Toys",
+     "ret": 10.49,
+     "vs_spx": 12.84,
+     "n": 6,
+     "up_pct": 83,
+     "top10": false
+    },
+    {
+     "id": "Hospital/Nursing Management",
+     "name": "Hospital/Nursing Management",
+     "ret": 10.34,
+     "vs_spx": 12.7,
+     "n": 13,
+     "up_pct": 77,
+     "top10": false
+    },
+    {
+     "id": "Food Chains",
+     "name": "Food Chains",
+     "ret": 10.33,
+     "vs_spx": 12.68,
+     "n": 8,
+     "up_pct": 75,
+     "top10": false
+    },
+    {
+     "id": "Specialty Insurers",
+     "name": "Specialty Insurers",
+     "ret": 10.16,
+     "vs_spx": 12.52,
+     "n": 21,
+     "up_pct": 90,
+     "top10": false
+    },
+    {
+     "id": "Building operators",
+     "name": "Building Operators",
+     "ret": 10.12,
+     "vs_spx": 12.47,
+     "n": 5,
+     "up_pct": 60,
+     "top10": false
+    },
+    {
+     "id": "Retail-Auto Dealers and Gas Stations",
+     "name": "Auto Dealers",
+     "ret": 10.05,
+     "vs_spx": 12.4,
+     "n": 13,
+     "up_pct": 92,
+     "top10": false
+    },
+    {
+     "id": "Military/Government/Technical",
+     "name": "Defense & Government Tech",
+     "ret": 9.85,
+     "vs_spx": 12.2,
+     "n": 28,
+     "up_pct": 68,
+     "top10": false
+    },
+    {
+     "id": "Biotechnology: Biological Products (No Diagnostic Substances)",
+     "name": "Biotech: Biologics",
+     "ret": 9.68,
+     "vs_spx": 12.03,
+     "n": 43,
+     "up_pct": 70,
+     "top10": false
+    },
+    {
+     "id": "Medical/Nursing Services",
+     "name": "Medical/Nursing Services",
+     "ret": 9.33,
+     "vs_spx": 11.68,
+     "n": 16,
+     "up_pct": 75,
+     "top10": false
+    },
+    {
+     "id": "Business Services",
+     "name": "Business Services",
+     "ret": 9.32,
+     "vs_spx": 11.67,
+     "n": 47,
+     "up_pct": 74,
+     "top10": false
+    },
+    {
+     "id": "Consumer Electronics/Appliances",
+     "name": "Consumer Electronics/Appliances",
+     "ret": 9.19,
+     "vs_spx": 11.54,
+     "n": 11,
+     "up_pct": 82,
+     "top10": false
+    },
+    {
+     "id": "Biotechnology: Pharmaceutical Preparations",
+     "name": "Pharma & Biotech",
+     "ret": 8.69,
+     "vs_spx": 11.04,
+     "n": 146,
+     "up_pct": 71,
+     "top10": false
+    },
+    {
+     "id": "Biotechnology: Commercial Physical & Biological Resarch",
+     "name": "Biotech: Contract Research",
+     "ret": 8.5,
+     "vs_spx": 10.86,
+     "n": 6,
+     "up_pct": 100,
+     "top10": false
+    },
+    {
+     "id": "Power Generation",
+     "name": "Power Generation",
+     "ret": 8.39,
+     "vs_spx": 10.74,
+     "n": 19,
+     "up_pct": 89,
+     "top10": false
+    },
+    {
+     "id": "Package Goods/Cosmetics",
+     "name": "Package Goods/Cosmetics",
+     "ret": 8.37,
+     "vs_spx": 10.72,
+     "n": 12,
+     "up_pct": 83,
+     "top10": false
+    },
+    {
+     "id": "Shoe Manufacturing",
+     "name": "Shoe Manufacturing",
+     "ret": 8.15,
+     "vs_spx": 10.5,
+     "n": 7,
+     "up_pct": 71,
+     "top10": false
+    },
+    {
+     "id": "Water Supply",
+     "name": "Water Supply",
+     "ret": 8.1,
+     "vs_spx": 10.45,
+     "n": 7,
+     "up_pct": 86,
+     "top10": false
+    },
+    {
+     "id": "Railroads",
+     "name": "Railroads",
+     "ret": 8.06,
+     "vs_spx": 10.42,
+     "n": 8,
+     "up_pct": 100,
+     "top10": false
+    },
+    {
+     "id": "Agricultural Chemicals",
+     "name": "Agricultural Chemicals",
+     "ret": 7.56,
+     "vs_spx": 9.91,
+     "n": 5,
+     "up_pct": 80,
+     "top10": false
+    },
+    {
+     "id": "Biotechnology: Laboratory Analytical Instruments",
+     "name": "Lab Instruments",
+     "ret": 7.45,
+     "vs_spx": 9.8,
+     "n": 10,
+     "up_pct": 90,
+     "top10": false
+    },
+    {
+     "id": "EDP Services",
+     "name": "IT Services",
+     "ret": 6.96,
+     "vs_spx": 9.31,
+     "n": 52,
+     "up_pct": 65,
+     "top10": false
+    },
+    {
+     "id": "Accident &Health Insurance",
+     "name": "Accident & Health Insurance",
+     "ret": 6.35,
+     "vs_spx": 8.7,
+     "n": 5,
+     "up_pct": 60,
+     "top10": false
+    },
+    {
+     "id": "Oil/Gas Transmission",
+     "name": "Oil/Gas Transmission",
+     "ret": 6.31,
+     "vs_spx": 8.66,
+     "n": 12,
+     "up_pct": 67,
+     "top10": false
+    },
+    {
+     "id": "Food Distributors",
+     "name": "Food Distributors",
+     "ret": 6.26,
+     "vs_spx": 8.61,
+     "n": 6,
+     "up_pct": 67,
+     "top10": false
+    },
+    {
+     "id": "Medical/Dental Instruments",
+     "name": "Medical/Dental Instruments",
+     "ret": 6.16,
+     "vs_spx": 8.51,
+     "n": 39,
+     "up_pct": 67,
+     "top10": false
+    },
+    {
+     "id": "Property-Casualty Insurers",
+     "name": "Property-Casualty Insurers",
+     "ret": 5.82,
+     "vs_spx": 8.17,
+     "n": 52,
+     "up_pct": 79,
+     "top10": false
+    },
+    {
+     "id": "Investment Managers",
+     "name": "Investment Managers",
+     "ret": 5.53,
+     "vs_spx": 7.88,
+     "n": 46,
+     "up_pct": 74,
+     "top10": false
+    },
+    {
+     "id": "Services-Misc. Amusement & Recreation",
+     "name": "Leisure & Recreation",
+     "ret": 5.34,
+     "vs_spx": 7.69,
+     "n": 25,
+     "up_pct": 76,
+     "top10": false
+    },
+    {
+     "id": "Catalog/Specialty Distribution",
+     "name": "Catalog/Specialty Distribution",
+     "ret": 5.04,
+     "vs_spx": 7.39,
+     "n": 12,
+     "up_pct": 83,
+     "top10": false
+    },
+    {
+     "id": "Plastic Products",
+     "name": "Plastic Products",
+     "ret": 5.02,
+     "vs_spx": 7.37,
+     "n": 5,
+     "up_pct": 60,
+     "top10": false
+    },
+    {
+     "id": "Misc Health and Biotechnology Services",
+     "name": "Misc Health and Biotechnology Services",
+     "ret": 4.76,
+     "vs_spx": 7.11,
+     "n": 5,
+     "up_pct": 80,
+     "top10": false
+    },
+    {
+     "id": "Packaged Foods",
+     "name": "Packaged Foods",
+     "ret": 4.62,
+     "vs_spx": 6.97,
+     "n": 21,
+     "up_pct": 67,
+     "top10": false
+    },
+    {
+     "id": "Professional Services",
+     "name": "Professional Services",
+     "ret": 4.47,
+     "vs_spx": 6.82,
+     "n": 13,
+     "up_pct": 62,
+     "top10": false
+    },
+    {
+     "id": "Life Insurance",
+     "name": "Life Insurance",
+     "ret": 4.45,
+     "vs_spx": 6.8,
+     "n": 21,
+     "up_pct": 67,
+     "top10": false
+    },
+    {
+     "id": "Major Banks",
+     "name": "Major Banks",
+     "ret": 4.25,
+     "vs_spx": 6.6,
+     "n": 143,
+     "up_pct": 80,
+     "top10": false
+    },
+    {
+     "id": "Clothing/Shoe/Accessory Stores",
+     "name": "Clothing/Shoe/Accessory Stores",
+     "ret": 4.12,
+     "vs_spx": 6.47,
+     "n": 9,
+     "up_pct": 78,
+     "top10": false
+    },
+    {
+     "id": "Real Estate Investment Trusts",
+     "name": "REITs",
+     "ret": 4.11,
+     "vs_spx": 6.46,
+     "n": 114,
+     "up_pct": 75,
+     "top10": false
+    },
+    {
+     "id": "Office Equipment/Supplies/Services",
+     "name": "Office Equipment/Supplies/Services",
+     "ret": 3.66,
+     "vs_spx": 6.01,
+     "n": 7,
+     "up_pct": 71,
+     "top10": false
+    },
+    {
+     "id": "Meat/Poultry/Fish",
+     "name": "Meat/Poultry/Fish",
+     "ret": 3.57,
+     "vs_spx": 5.92,
+     "n": 5,
+     "up_pct": 60,
+     "top10": false
+    },
+    {
+     "id": "Savings Institutions",
+     "name": "Savings Institutions",
+     "ret": 3.53,
+     "vs_spx": 5.88,
+     "n": 8,
+     "up_pct": 88,
+     "top10": false
+    },
+    {
+     "id": "Major Chemicals",
+     "name": "Major Chemicals",
+     "ret": 3.28,
+     "vs_spx": 5.63,
+     "n": 33,
+     "up_pct": 58,
+     "top10": false
+    },
+    {
+     "id": "Medicinal Chemicals and Botanical Products",
+     "name": "Medicinal Chemicals",
+     "ret": 2.96,
+     "vs_spx": 5.31,
+     "n": 6,
+     "up_pct": 50,
+     "top10": false
+    },
+    {
+     "id": "Real Estate",
+     "name": "Real Estate",
+     "ret": 2.96,
+     "vs_spx": 5.31,
+     "n": 25,
+     "up_pct": 72,
+     "top10": false
+    },
+    {
+     "id": "Medical Specialities",
+     "name": "Medical Specialities",
+     "ret": 2.96,
+     "vs_spx": 5.31,
+     "n": 29,
+     "up_pct": 62,
+     "top10": false
+    },
+    {
+     "id": "Home Furnishings",
+     "name": "Home Furnishings",
+     "ret": 2.89,
+     "vs_spx": 5.24,
+     "n": 8,
+     "up_pct": 75,
+     "top10": false
+    },
+    {
+     "id": "Auto Manufacturing",
+     "name": "Auto Manufacturing",
+     "ret": 2.75,
+     "vs_spx": 5.1,
+     "n": 12,
+     "up_pct": 83,
+     "top10": false
+    },
+    {
+     "id": "Biotechnology: In Vitro & In Vivo Diagnostic Substances",
+     "name": "Biotech: Diagnostics",
+     "ret": 1.97,
+     "vs_spx": 4.32,
+     "n": 6,
+     "up_pct": 67,
+     "top10": false
+    },
+    {
+     "id": "Computer Software: Prepackaged Software",
+     "name": "Software",
+     "ret": 1.51,
+     "vs_spx": 3.86,
+     "n": 123,
+     "up_pct": 54,
+     "top10": false
+    },
+    {
+     "id": "Electric Utilities: Central",
+     "name": "Electric Utilities",
+     "ret": 1.35,
+     "vs_spx": 3.7,
+     "n": 56,
+     "up_pct": 61,
+     "top10": false
+    },
+    {
+     "id": "Investment Bankers/Brokers/Service",
+     "name": "Brokers & Investment Banks",
+     "ret": 1.25,
+     "vs_spx": 3.6,
+     "n": 45,
+     "up_pct": 60,
+     "top10": false
+    },
+    {
+     "id": "Transportation Services",
+     "name": "Transportation Services",
+     "ret": 0.32,
+     "vs_spx": 2.67,
+     "n": 11,
+     "up_pct": 55,
+     "top10": false
+    },
+    {
+     "id": "Finance/Investors Services",
+     "name": "Finance/Investors Services",
+     "ret": 0.2,
+     "vs_spx": 2.55,
+     "n": 8,
+     "up_pct": 50,
+     "top10": false
+    },
+    {
+     "id": "Radio And Television Broadcasting And Communications Equipment",
+     "name": "Communications Equipment",
+     "ret": -0.1,
+     "vs_spx": 2.25,
+     "n": 8,
+     "up_pct": 50,
+     "top10": false
+    },
+    {
+     "id": "Steel/Iron Ore",
+     "name": "Steel/Iron Ore",
+     "ret": -0.15,
+     "vs_spx": 2.2,
+     "n": 12,
+     "up_pct": 42,
+     "top10": false
+    },
+    {
+     "id": "Computer Software: Programming Data Processing",
+     "name": "Software: Data & Cloud",
+     "ret": -0.91,
+     "vs_spx": 1.44,
+     "n": 30,
+     "up_pct": 50,
+     "top10": false
+    },
+    {
+     "id": "Telecommunications Equipment",
+     "name": "Telecommunications Equipment",
+     "ret": -1.02,
+     "vs_spx": 1.33,
+     "n": 41,
+     "up_pct": 46,
+     "top10": false
+    },
+    {
+     "id": "Fluid Controls",
+     "name": "Fluid Controls",
+     "ret": -1.25,
+     "vs_spx": 1.11,
+     "n": 6,
+     "up_pct": 50,
+     "top10": false
+    },
+    {
+     "id": "Industrial Machinery/Components",
+     "name": "Industrial Machinery",
+     "ret": -1.6,
+     "vs_spx": 0.75,
+     "n": 102,
+     "up_pct": 47,
+     "top10": false
+    },
+    {
+     "id": "Commercial Banks",
+     "name": "Commercial Banks",
+     "ret": -1.83,
+     "vs_spx": 0.52,
+     "n": 27,
+     "up_pct": 44,
+     "top10": false
+    },
+    {
+     "id": "Finance Companies",
+     "name": "Finance Companies",
+     "ret": -2.01,
+     "vs_spx": 0.34,
+     "n": 13,
+     "up_pct": 31,
+     "top10": false
+    },
+    {
+     "id": "Finance: Consumer Services",
+     "name": "Consumer Finance",
+     "ret": -2.21,
+     "vs_spx": 0.14,
+     "n": 60,
+     "up_pct": 38,
+     "top10": false
+    },
+    {
+     "id": "Natural Gas Distribution",
+     "name": "Natural Gas Distribution",
+     "ret": -2.34,
+     "vs_spx": 0.01,
+     "n": 24,
+     "up_pct": 25,
+     "top10": false
+    },
+    {
+     "id": "Computer Manufacturing",
+     "name": "Computer Manufacturing",
+     "ret": -3.29,
+     "vs_spx": -0.94,
+     "n": 6,
+     "up_pct": 33,
+     "top10": false
+    },
+    {
+     "id": "Trucking Freight/Courier Services",
+     "name": "Trucking Freight/Courier Services",
+     "ret": -3.3,
+     "vs_spx": -0.95,
      "n": 11,
      "up_pct": 36,
      "top10": false
@@ -1955,98 +1964,80 @@
     {
      "id": "Publishing",
      "name": "Publishing",
-     "ret": -4.15,
-     "vs_spx": -0.47,
+     "ret": -3.56,
+     "vs_spx": -1.21,
      "n": 5,
      "up_pct": 40,
      "top10": false
     },
     {
-     "id": "Finance: Consumer Services",
-     "name": "Consumer Finance",
-     "ret": -4.52,
-     "vs_spx": -0.84,
-     "n": 60,
-     "up_pct": 38,
-     "top10": false
-    },
-    {
      "id": "Auto Parts:O.E.M.",
      "name": "Auto Parts",
-     "ret": -5.09,
-     "vs_spx": -1.41,
-     "n": 20,
-     "up_pct": 40,
-     "top10": false
-    },
-    {
-     "id": "Radio And Television Broadcasting And Communications Equipment",
-     "name": "Communications Equipment",
-     "ret": -5.11,
-     "vs_spx": -1.43,
-     "n": 8,
+     "ret": -4.33,
+     "vs_spx": -1.98,
+     "n": 21,
      "up_pct": 38,
      "top10": false
     },
     {
      "id": "Oil & Gas Production",
      "name": "Oil & Gas E&P",
-     "ret": -5.58,
-     "vs_spx": -1.9,
-     "n": 61,
-     "up_pct": 20,
+     "ret": -4.81,
+     "vs_spx": -2.46,
+     "n": 62,
+     "up_pct": 21,
      "top10": false
     },
     {
      "id": "Precious Metals",
      "name": "Precious Metals (guld/silver)",
-     "ret": -5.61,
-     "vs_spx": -1.93,
-     "n": 38,
-     "up_pct": 21,
-     "top10": false
-    },
-    {
-     "id": "Other Consumer Services",
-     "name": "Other Consumer Services",
-     "ret": -5.94,
-     "vs_spx": -2.26,
-     "n": 22,
-     "up_pct": 36,
-     "top10": false
-    },
-    {
-     "id": "Coal Mining",
-     "name": "Coal Mining",
-     "ret": -6.48,
+     "ret": -5.15,
      "vs_spx": -2.8,
-     "n": 7,
-     "up_pct": 29,
+     "n": 38,
+     "up_pct": 18,
      "top10": false
     },
     {
-     "id": "Oil and Gas Field Machinery",
-     "name": "Oil and Gas Field Machinery",
-     "ret": -7.22,
-     "vs_spx": -3.54,
+     "id": "Farming/Seeds/Milling",
+     "name": "Farming/Seeds/Milling",
+     "ret": -5.61,
+     "vs_spx": -3.26,
      "n": 9,
-     "up_pct": 22,
+     "up_pct": 33,
      "top10": false
     },
     {
      "id": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
      "name": "Nonmetallic Mining",
-     "ret": -7.64,
-     "vs_spx": -3.96,
+     "ret": -5.73,
+     "vs_spx": -3.38,
      "n": 11,
      "up_pct": 45,
      "top10": false
     },
     {
+     "id": "Oil and Gas Field Machinery",
+     "name": "Oil and Gas Field Machinery",
+     "ret": -6.13,
+     "vs_spx": -3.78,
+     "n": 9,
+     "up_pct": 22,
+     "top10": false
+    },
+    {
+     "id": "Other Consumer Services",
+     "name": "Other Consumer Services",
+     "ret": -7.23,
+     "vs_spx": -4.88,
+     "n": 23,
+     "up_pct": 35,
+     "top10": false
+    },
+    {
      "id": "Marine Transportation",
      "name": "Marine Transportation",
-     "ret": -8.57,
-     "vs_spx": -4.89,
+     "ret": -7.72,
+     "vs_spx": -5.37,
      "n": 38,
      "up_pct": 21,
      "top10": false
@@ -2054,91 +2045,100 @@
     {
      "id": "Metal Fabrications",
      "name": "Metal Fabrications",
-     "ret": -9.41,
-     "vs_spx": -5.73,
+     "ret": -7.73,
+     "vs_spx": -5.38,
      "n": 25,
-     "up_pct": 32,
+     "up_pct": 40,
      "top10": false
     },
     {
-     "id": "Integrated oil Companies",
-     "name": "Integrated Oil",
-     "ret": -12.13,
-     "vs_spx": -8.45,
-     "n": 16,
-     "up_pct": 12,
+     "id": "Coal Mining",
+     "name": "Coal Mining",
+     "ret": -8.68,
+     "vs_spx": -6.33,
+     "n": 7,
+     "up_pct": 29,
      "top10": false
     },
     {
      "id": "Computer Communications Equipment",
      "name": "Computer Communications Equipment",
-     "ret": -14.31,
-     "vs_spx": -10.63,
+     "ret": -8.8,
+     "vs_spx": -6.45,
      "n": 6,
-     "up_pct": 17,
+     "up_pct": 33,
      "top10": false
     },
     {
-     "id": "Oilfield Services/Equipment",
-     "name": "Oilfield Services/Equipment",
-     "ret": -15.67,
-     "vs_spx": -11.99,
-     "n": 10,
-     "up_pct": 10,
-     "top10": false
-    },
-    {
-     "id": "Metal Mining",
-     "name": "Metal Mining",
-     "ret": -16.27,
-     "vs_spx": -12.59,
-     "n": 14,
-     "up_pct": 0,
-     "top10": false
-    },
-    {
-     "id": "Water Sewer Pipeline Comm & Power Line Construction",
-     "name": "Infrastructure Construction",
-     "ret": -16.41,
-     "vs_spx": -12.73,
-     "n": 5,
-     "up_pct": 0,
+     "id": "Integrated oil Companies",
+     "name": "Integrated Oil",
+     "ret": -10.15,
+     "vs_spx": -7.8,
+     "n": 16,
+     "up_pct": 12,
      "top10": false
     },
     {
      "id": "Semiconductors",
      "name": "Semiconductors",
-     "ret": -20.15,
-     "vs_spx": -16.47,
-     "n": 63,
-     "up_pct": 13,
+     "ret": -11.84,
+     "vs_spx": -9.49,
+     "n": 64,
+     "up_pct": 20,
+     "top10": false
+    },
+    {
+     "id": "Oilfield Services/Equipment",
+     "name": "Oilfield Services/Equipment",
+     "ret": -12.39,
+     "vs_spx": -10.04,
+     "n": 10,
+     "up_pct": 30,
+     "top10": false
+    },
+    {
+     "id": "Water Sewer Pipeline Comm & Power Line Construction",
+     "name": "Infrastructure Construction",
+     "ret": -12.77,
+     "vs_spx": -10.42,
+     "n": 5,
+     "up_pct": 0,
+     "top10": false
+    },
+    {
+     "id": "Metal Mining",
+     "name": "Metal Mining",
+     "ret": -15.27,
+     "vs_spx": -12.92,
+     "n": 14,
+     "up_pct": 7,
      "top10": false
     },
     {
      "id": "Engineering & Construction",
      "name": "Engineering & Construction",
-     "ret": -20.36,
-     "vs_spx": -16.68,
+     "ret": -15.71,
+     "vs_spx": -13.36,
      "n": 8,
      "up_pct": 25,
      "top10": false
     },
     {
-     "id": "Electrical Products",
-     "name": "Electrical Products",
-     "ret": -21.57,
-     "vs_spx": -17.89,
-     "n": 22,
-     "up_pct": 27,
+     "id": "Electronic Components",
+     "name": "Electronic Components",
+     "ret": -16.94,
+     "vs_spx": -14.59,
+     "n": 14,
+     "up_pct": 29,
      "top10": false
     },
     {
-     "id": "Electronic Components",
-     "name": "Electronic Components",
-     "ret": -23.78,
-     "vs_spx": -20.1,
-     "n": 14,
-     "up_pct": 14,
+     "id": "Electrical Products",
+     "name": "Electrical Products",
+     "ret": -17.03,
+     "vs_spx": -14.67,
+     "n": 21,
+     "up_pct": 24,
      "top10": false
     }
    ],
@@ -2146,8 +2146,8 @@
     {
      "id": "Biotechnology: Commercial Physical & Biological Resarch",
      "name": "Biotech: Contract Research",
-     "ret": 63.07,
-     "vs_spx": 61.47,
+     "ret": 64.69,
+     "vs_spx": 62.34,
      "n": 6,
      "up_pct": 100,
      "top10": true
@@ -2155,62 +2155,62 @@
     {
      "id": "Biotechnology: Laboratory Analytical Instruments",
      "name": "Lab Instruments",
-     "ret": 58.72,
-     "vs_spx": 57.13,
+     "ret": 57.73,
+     "vs_spx": 55.38,
      "n": 10,
      "up_pct": 100,
      "top10": true
     },
     {
-     "id": "Biotechnology: Electromedical & Electrotherapeutic Apparatus",
-     "name": "Medical Devices: Electromedical",
-     "ret": 42.26,
-     "vs_spx": 40.67,
-     "n": 7,
-     "up_pct": 100,
-     "top10": true
-    },
-    {
-     "id": "Medical Specialities",
-     "name": "Medical Specialities",
-     "ret": 41.05,
-     "vs_spx": 39.45,
-     "n": 29,
-     "up_pct": 86,
-     "top10": true
-    },
-    {
      "id": "Professional Services",
      "name": "Professional Services",
-     "ret": 37.82,
-     "vs_spx": 36.23,
+     "ret": 48.1,
+     "vs_spx": 45.74,
      "n": 13,
      "up_pct": 92,
      "top10": true
     },
     {
+     "id": "Medical Specialities",
+     "name": "Medical Specialities",
+     "ret": 42.91,
+     "vs_spx": 40.55,
+     "n": 29,
+     "up_pct": 90,
+     "top10": true
+    },
+    {
+     "id": "Biotechnology: Electromedical & Electrotherapeutic Apparatus",
+     "name": "Medical Devices: Electromedical",
+     "ret": 42.81,
+     "vs_spx": 40.46,
+     "n": 7,
+     "up_pct": 100,
+     "top10": true
+    },
+    {
      "id": "Computer Software: Prepackaged Software",
      "name": "Software",
-     "ret": 36.17,
-     "vs_spx": 34.58,
-     "n": 120,
-     "up_pct": 78,
+     "ret": 40.92,
+     "vs_spx": 38.57,
+     "n": 121,
+     "up_pct": 81,
      "top10": false
     },
     {
      "id": "Specialty Insurers",
      "name": "Specialty Insurers",
-     "ret": 30.64,
-     "vs_spx": 29.05,
+     "ret": 33.45,
+     "vs_spx": 31.09,
      "n": 20,
-     "up_pct": 80,
+     "up_pct": 90,
      "top10": false
     },
     {
      "id": "Medical/Nursing Services",
      "name": "Medical/Nursing Services",
-     "ret": 29.39,
-     "vs_spx": 27.8,
+     "ret": 29.2,
+     "vs_spx": 26.84,
      "n": 16,
      "up_pct": 81,
      "top10": false
@@ -2218,476 +2218,530 @@
     {
      "id": "Medical/Dental Instruments",
      "name": "Medical/Dental Instruments",
-     "ret": 27.37,
-     "vs_spx": 25.78,
+     "ret": 28.4,
+     "vs_spx": 26.04,
      "n": 39,
      "up_pct": 72,
      "top10": false
     },
     {
-     "id": "Biotechnology: Biological Products (No Diagnostic Substances)",
-     "name": "Biotech: Biologics",
-     "ret": 27.03,
-     "vs_spx": 25.44,
-     "n": 41,
-     "up_pct": 78,
-     "top10": false
-    },
-    {
      "id": "Package Goods/Cosmetics",
      "name": "Package Goods/Cosmetics",
-     "ret": 26.13,
-     "vs_spx": 24.53,
+     "ret": 26.81,
+     "vs_spx": 24.45,
      "n": 12,
-     "up_pct": 92,
+     "up_pct": 100,
      "top10": false
     },
     {
      "id": "Catalog/Specialty Distribution",
      "name": "Catalog/Specialty Distribution",
-     "ret": 24.08,
-     "vs_spx": 22.49,
+     "ret": 26.71,
+     "vs_spx": 24.35,
      "n": 12,
      "up_pct": 83,
      "top10": false
     },
     {
-     "id": "Plastic Products",
-     "name": "Plastic Products",
-     "ret": 22.08,
-     "vs_spx": 20.49,
-     "n": 5,
-     "up_pct": 80,
-     "top10": false
-    },
-    {
-     "id": "Department/Specialty Retail Stores",
-     "name": "Department/Specialty Retail Stores",
-     "ret": 21.58,
-     "vs_spx": 19.99,
-     "n": 13,
-     "up_pct": 77,
+     "id": "Biotechnology: Biological Products (No Diagnostic Substances)",
+     "name": "Biotech: Biologics",
+     "ret": 26.49,
+     "vs_spx": 24.13,
+     "n": 43,
+     "up_pct": 72,
      "top10": false
     },
     {
      "id": "Business Services",
      "name": "Business Services",
-     "ret": 20.92,
-     "vs_spx": 19.33,
+     "ret": 25.49,
+     "vs_spx": 23.14,
      "n": 46,
      "up_pct": 70,
      "top10": false
     },
     {
-     "id": "Office Equipment/Supplies/Services",
-     "name": "Office Equipment/Supplies/Services",
-     "ret": 18.95,
-     "vs_spx": 17.36,
-     "n": 7,
-     "up_pct": 86,
-     "top10": false
-    },
-    {
-     "id": "Garments and Clothing",
-     "name": "Garments and Clothing",
-     "ret": 18.53,
-     "vs_spx": 16.94,
+     "id": "Plastic Products",
+     "name": "Plastic Products",
+     "ret": 21.38,
+     "vs_spx": 19.02,
      "n": 5,
      "up_pct": 100,
      "top10": false
     },
     {
+     "id": "Garments and Clothing",
+     "name": "Garments and Clothing",
+     "ret": 20.49,
+     "vs_spx": 18.13,
+     "n": 5,
+     "up_pct": 100,
+     "top10": false
+    },
+    {
+     "id": "Department/Specialty Retail Stores",
+     "name": "Department/Specialty Retail Stores",
+     "ret": 19.41,
+     "vs_spx": 17.05,
+     "n": 13,
+     "up_pct": 77,
+     "top10": false
+    },
+    {
+     "id": "Biotechnology: In Vitro & In Vivo Diagnostic Substances",
+     "name": "Biotech: Diagnostics",
+     "ret": 19.11,
+     "vs_spx": 16.75,
+     "n": 6,
+     "up_pct": 67,
+     "top10": false
+    },
+    {
      "id": "Computer Manufacturing",
      "name": "Computer Manufacturing",
-     "ret": 18.22,
+     "ret": 18.99,
      "vs_spx": 16.63,
      "n": 5,
      "up_pct": 80,
      "top10": false
     },
     {
-     "id": "Biotechnology: In Vitro & In Vivo Diagnostic Substances",
-     "name": "Biotech: Diagnostics",
-     "ret": 18.04,
-     "vs_spx": 16.45,
-     "n": 6,
-     "up_pct": 67,
-     "top10": false
-    },
-    {
-     "id": "EDP Services",
-     "name": "IT Services",
-     "ret": 17.99,
-     "vs_spx": 16.4,
-     "n": 50,
-     "up_pct": 66,
-     "top10": false
-    },
-    {
-     "id": "Hospital/Nursing Management",
-     "name": "Hospital/Nursing Management",
-     "ret": 17.39,
-     "vs_spx": 15.8,
-     "n": 13,
-     "up_pct": 85,
-     "top10": false
-    },
-    {
-     "id": "Diversified Commercial Services",
-     "name": "Diversified Commercial Services",
-     "ret": 15.61,
-     "vs_spx": 14.02,
-     "n": 21,
-     "up_pct": 76,
-     "top10": false
-    },
-    {
-     "id": "Property-Casualty Insurers",
-     "name": "Property-Casualty Insurers",
-     "ret": 15.58,
-     "vs_spx": 13.99,
-     "n": 52,
-     "up_pct": 81,
-     "top10": false
-    },
-    {
-     "id": "Water Supply",
-     "name": "Water Supply",
-     "ret": 15.22,
-     "vs_spx": 13.63,
+     "id": "Office Equipment/Supplies/Services",
+     "name": "Office Equipment/Supplies/Services",
+     "ret": 18.65,
+     "vs_spx": 16.29,
      "n": 7,
      "up_pct": 86,
      "top10": false
     },
     {
-     "id": "Hotels/Resorts",
-     "name": "Hotels/Resorts",
-     "ret": 15.07,
-     "vs_spx": 13.48,
-     "n": 25,
-     "up_pct": 64,
-     "top10": false
-    },
-    {
-     "id": "Air Freight/Delivery Services",
-     "name": "Air Freight/Delivery Services",
-     "ret": 14.62,
-     "vs_spx": 13.03,
-     "n": 15,
-     "up_pct": 87,
-     "top10": false
-    },
-    {
-     "id": "Containers/Packaging",
-     "name": "Containers/Packaging",
-     "ret": 13.79,
-     "vs_spx": 12.2,
-     "n": 11,
-     "up_pct": 82,
-     "top10": false
-    },
-    {
-     "id": "Other Specialty Stores",
-     "name": "Other Specialty Stores",
-     "ret": 13.41,
-     "vs_spx": 11.82,
-     "n": 15,
-     "up_pct": 60,
+     "id": "Hospital/Nursing Management",
+     "name": "Hospital/Nursing Management",
+     "ret": 18.36,
+     "vs_spx": 16.0,
+     "n": 13,
+     "up_pct": 85,
      "top10": false
     },
     {
      "id": "Environmental Services",
      "name": "Environmental Services",
-     "ret": 13.01,
-     "vs_spx": 11.42,
+     "ret": 18.28,
+     "vs_spx": 15.93,
      "n": 6,
      "up_pct": 83,
      "top10": false
     },
     {
-     "id": "Food Distributors",
-     "name": "Food Distributors",
-     "ret": 11.61,
-     "vs_spx": 10.02,
-     "n": 6,
+     "id": "Diversified Commercial Services",
+     "name": "Diversified Commercial Services",
+     "ret": 17.9,
+     "vs_spx": 15.55,
+     "n": 21,
+     "up_pct": 81,
+     "top10": false
+    },
+    {
+     "id": "Air Freight/Delivery Services",
+     "name": "Air Freight/Delivery Services",
+     "ret": 17.44,
+     "vs_spx": 15.08,
+     "n": 14,
+     "up_pct": 100,
+     "top10": false
+    },
+    {
+     "id": "Property-Casualty Insurers",
+     "name": "Property-Casualty Insurers",
+     "ret": 17.08,
+     "vs_spx": 14.72,
+     "n": 52,
      "up_pct": 83,
      "top10": false
     },
     {
-     "id": "Forest Products",
-     "name": "Forest Products",
-     "ret": 11.38,
-     "vs_spx": 9.79,
-     "n": 5,
-     "up_pct": 80,
+     "id": "Other Specialty Stores",
+     "name": "Other Specialty Stores",
+     "ret": 15.9,
+     "vs_spx": 13.54,
+     "n": 15,
+     "up_pct": 60,
      "top10": false
     },
     {
-     "id": "Biotechnology: Pharmaceutical Preparations",
-     "name": "Pharma & Biotech",
-     "ret": 11.25,
-     "vs_spx": 9.66,
-     "n": 141,
-     "up_pct": 64,
+     "id": "EDP Services",
+     "name": "IT Services",
+     "ret": 14.69,
+     "vs_spx": 12.33,
+     "n": 50,
+     "up_pct": 68,
      "top10": false
     },
     {
-     "id": "Railroads",
-     "name": "Railroads",
-     "ret": 11.05,
-     "vs_spx": 9.46,
-     "n": 8,
-     "up_pct": 75,
+     "id": "Water Supply",
+     "name": "Water Supply",
+     "ret": 14.68,
+     "vs_spx": 12.33,
+     "n": 7,
+     "up_pct": 86,
      "top10": false
     },
     {
      "id": "Integrated oil Companies",
      "name": "Integrated Oil",
-     "ret": 10.87,
-     "vs_spx": 9.28,
+     "ret": 14.43,
+     "vs_spx": 12.07,
      "n": 16,
      "up_pct": 81,
      "top10": false
     },
     {
+     "id": "Clothing/Shoe/Accessory Stores",
+     "name": "Clothing/Shoe/Accessory Stores",
+     "ret": 13.94,
+     "vs_spx": 11.58,
+     "n": 9,
+     "up_pct": 67,
+     "top10": false
+    },
+    {
      "id": "Consumer Electronics/Appliances",
      "name": "Consumer Electronics/Appliances",
-     "ret": 10.79,
-     "vs_spx": 9.2,
+     "ret": 13.39,
+     "vs_spx": 11.03,
      "n": 11,
      "up_pct": 64,
      "top10": false
     },
     {
-     "id": "Restaurants",
-     "name": "Restaurants",
-     "ret": 9.95,
-     "vs_spx": 8.36,
-     "n": 21,
-     "up_pct": 81,
+     "id": "Containers/Packaging",
+     "name": "Containers/Packaging",
+     "ret": 12.96,
+     "vs_spx": 10.6,
+     "n": 11,
+     "up_pct": 82,
      "top10": false
     },
     {
-     "id": "Savings Institutions",
-     "name": "Savings Institutions",
-     "ret": 9.79,
-     "vs_spx": 8.2,
-     "n": 8,
-     "up_pct": 75,
-     "top10": false
-    },
-    {
-     "id": "Clothing/Shoe/Accessory Stores",
-     "name": "Clothing/Shoe/Accessory Stores",
-     "ret": 9.78,
-     "vs_spx": 8.19,
-     "n": 9,
-     "up_pct": 67,
-     "top10": false
-    },
-    {
-     "id": "Major Banks",
-     "name": "Major Banks",
-     "ret": 9.14,
-     "vs_spx": 7.55,
-     "n": 143,
-     "up_pct": 79,
-     "top10": false
-    },
-    {
-     "id": "Recreational Games/Products/Toys",
-     "name": "Recreational Games/Products/Toys",
-     "ret": 9.11,
-     "vs_spx": 7.52,
-     "n": 6,
-     "up_pct": 100,
-     "top10": false
-    },
-    {
-     "id": "Accident &Health Insurance",
-     "name": "Accident & Health Insurance",
-     "ret": 9.02,
-     "vs_spx": 7.43,
-     "n": 5,
-     "up_pct": 80,
-     "top10": false
-    },
-    {
-     "id": "Services-Misc. Amusement & Recreation",
-     "name": "Leisure & Recreation",
-     "ret": 8.67,
-     "vs_spx": 7.08,
+     "id": "Hotels/Resorts",
+     "name": "Hotels/Resorts",
+     "ret": 12.18,
+     "vs_spx": 9.82,
      "n": 25,
-     "up_pct": 64,
-     "top10": false
-    },
-    {
-     "id": "Ophthalmic Goods",
-     "name": "Ophthalmic Goods",
-     "ret": 8.49,
-     "vs_spx": 6.9,
-     "n": 6,
-     "up_pct": 67,
-     "top10": false
-    },
-    {
-     "id": "Beverages (Production/Distribution)",
-     "name": "Beverages",
-     "ret": 8.16,
-     "vs_spx": 6.57,
-     "n": 18,
-     "up_pct": 78,
-     "top10": false
-    },
-    {
-     "id": "Commercial Banks",
-     "name": "Commercial Banks",
-     "ret": 8.07,
-     "vs_spx": 6.48,
-     "n": 27,
-     "up_pct": 81,
+     "up_pct": 68,
      "top10": false
     },
     {
      "id": "RETAIL: Building Materials",
      "name": "Retail: Building Materials",
-     "ret": 7.95,
-     "vs_spx": 6.36,
+     "ret": 11.95,
+     "vs_spx": 9.59,
      "n": 9,
      "up_pct": 78,
      "top10": false
     },
     {
-     "id": "Packaged Foods",
-     "name": "Packaged Foods",
-     "ret": 7.28,
-     "vs_spx": 5.69,
-     "n": 21,
-     "up_pct": 62,
+     "id": "Railroads",
+     "name": "Railroads",
+     "ret": 11.76,
+     "vs_spx": 9.4,
+     "n": 8,
+     "up_pct": 75,
      "top10": false
     },
     {
-     "id": "Medicinal Chemicals and Botanical Products",
-     "name": "Medicinal Chemicals",
-     "ret": 6.57,
-     "vs_spx": 4.98,
+     "id": "Food Distributors",
+     "name": "Food Distributors",
+     "ret": 11.29,
+     "vs_spx": 8.93,
      "n": 6,
-     "up_pct": 67,
+     "up_pct": 83,
+     "top10": false
+    },
+    {
+     "id": "Biotechnology: Pharmaceutical Preparations",
+     "name": "Pharma & Biotech",
+     "ret": 11.07,
+     "vs_spx": 8.71,
+     "n": 141,
+     "up_pct": 61,
+     "top10": false
+    },
+    {
+     "id": "Shoe Manufacturing",
+     "name": "Shoe Manufacturing",
+     "ret": 10.7,
+     "vs_spx": 8.35,
+     "n": 7,
+     "up_pct": 57,
+     "top10": false
+    },
+    {
+     "id": "Commercial Banks",
+     "name": "Commercial Banks",
+     "ret": 10.68,
+     "vs_spx": 8.32,
+     "n": 27,
+     "up_pct": 85,
+     "top10": false
+    },
+    {
+     "id": "Savings Institutions",
+     "name": "Savings Institutions",
+     "ret": 10.44,
+     "vs_spx": 8.08,
+     "n": 8,
+     "up_pct": 75,
+     "top10": false
+    },
+    {
+     "id": "Recreational Games/Products/Toys",
+     "name": "Recreational Games/Products/Toys",
+     "ret": 10.19,
+     "vs_spx": 7.83,
+     "n": 6,
+     "up_pct": 83,
+     "top10": false
+    },
+    {
+     "id": "Accident &Health Insurance",
+     "name": "Accident & Health Insurance",
+     "ret": 10.07,
+     "vs_spx": 7.71,
+     "n": 5,
+     "up_pct": 80,
+     "top10": false
+    },
+    {
+     "id": "Major Banks",
+     "name": "Major Banks",
+     "ret": 9.91,
+     "vs_spx": 7.56,
+     "n": 143,
+     "up_pct": 84,
+     "top10": false
+    },
+    {
+     "id": "Forest Products",
+     "name": "Forest Products",
+     "ret": 8.82,
+     "vs_spx": 6.47,
+     "n": 5,
+     "up_pct": 80,
+     "top10": false
+    },
+    {
+     "id": "Transportation Services",
+     "name": "Transportation Services",
+     "ret": 8.28,
+     "vs_spx": 5.92,
+     "n": 11,
+     "up_pct": 82,
+     "top10": false
+    },
+    {
+     "id": "Services-Misc. Amusement & Recreation",
+     "name": "Leisure & Recreation",
+     "ret": 8.06,
+     "vs_spx": 5.71,
+     "n": 25,
+     "up_pct": 64,
      "top10": false
     },
     {
      "id": "Broadcasting",
      "name": "Broadcasting",
-     "ret": 6.55,
-     "vs_spx": 4.96,
-     "n": 10,
+     "ret": 7.03,
+     "vs_spx": 4.67,
+     "n": 11,
+     "up_pct": 82,
+     "top10": false
+    },
+    {
+     "id": "Restaurants",
+     "name": "Restaurants",
+     "ret": 6.97,
+     "vs_spx": 4.61,
+     "n": 21,
+     "up_pct": 81,
+     "top10": false
+    },
+    {
+     "id": "Beverages (Production/Distribution)",
+     "name": "Beverages",
+     "ret": 6.69,
+     "vs_spx": 4.33,
+     "n": 18,
+     "up_pct": 78,
+     "top10": false
+    },
+    {
+     "id": "Ophthalmic Goods",
+     "name": "Ophthalmic Goods",
+     "ret": 6.37,
+     "vs_spx": 4.01,
+     "n": 6,
+     "up_pct": 83,
+     "top10": false
+    },
+    {
+     "id": "Medicinal Chemicals and Botanical Products",
+     "name": "Medicinal Chemicals",
+     "ret": 6.33,
+     "vs_spx": 3.98,
+     "n": 6,
+     "up_pct": 67,
+     "top10": false
+    },
+    {
+     "id": "Marine Transportation",
+     "name": "Marine Transportation",
+     "ret": 6.26,
+     "vs_spx": 3.9,
+     "n": 38,
+     "up_pct": 63,
+     "top10": false
+    },
+    {
+     "id": "Misc Health and Biotechnology Services",
+     "name": "Misc Health and Biotechnology Services",
+     "ret": 6.2,
+     "vs_spx": 3.84,
+     "n": 5,
      "up_pct": 80,
      "top10": false
     },
     {
      "id": "Apparel",
      "name": "Apparel",
-     "ret": 5.74,
-     "vs_spx": 4.15,
+     "ret": 5.96,
+     "vs_spx": 3.6,
      "n": 12,
-     "up_pct": 75,
+     "up_pct": 67,
      "top10": false
     },
     {
-     "id": "Transportation Services",
-     "name": "Transportation Services",
-     "ret": 5.46,
-     "vs_spx": 3.87,
-     "n": 11,
-     "up_pct": 73,
+     "id": "Packaged Foods",
+     "name": "Packaged Foods",
+     "ret": 5.25,
+     "vs_spx": 2.89,
+     "n": 21,
+     "up_pct": 67,
      "top10": false
     },
     {
      "id": "Homebuilding",
      "name": "Homebuilding",
-     "ret": 4.66,
-     "vs_spx": 3.07,
-     "n": 20,
-     "up_pct": 75,
+     "ret": 4.68,
+     "vs_spx": 2.32,
+     "n": 19,
+     "up_pct": 79,
      "top10": false
     },
     {
      "id": "Industrial Specialties",
      "name": "Industrial Specialties",
-     "ret": 4.21,
-     "vs_spx": 2.62,
+     "ret": 4.32,
+     "vs_spx": 1.97,
      "n": 21,
-     "up_pct": 67,
+     "up_pct": 71,
      "top10": false
     },
     {
      "id": "Life Insurance",
      "name": "Life Insurance",
-     "ret": 4.16,
-     "vs_spx": 2.57,
+     "ret": 4.18,
+     "vs_spx": 1.82,
      "n": 21,
      "up_pct": 57,
      "top10": false
     },
     {
-     "id": "Misc Health and Biotechnology Services",
-     "name": "Misc Health and Biotechnology Services",
-     "ret": 4.09,
-     "vs_spx": 2.5,
-     "n": 5,
-     "up_pct": 80,
-     "top10": false
-    },
-    {
-     "id": "Computer Communications Equipment",
-     "name": "Computer Communications Equipment",
-     "ret": 3.66,
-     "vs_spx": 2.07,
-     "n": 6,
-     "up_pct": 67,
-     "top10": false
-    },
-    {
-     "id": "Food Chains",
-     "name": "Food Chains",
-     "ret": 3.48,
-     "vs_spx": 1.89,
-     "n": 8,
-     "up_pct": 62,
-     "top10": false
-    },
-    {
-     "id": "Shoe Manufacturing",
-     "name": "Shoe Manufacturing",
-     "ret": 2.57,
-     "vs_spx": 0.98,
-     "n": 7,
-     "up_pct": 57,
-     "top10": false
-    },
-    {
-     "id": "Marine Transportation",
-     "name": "Marine Transportation",
-     "ret": 2.46,
-     "vs_spx": 0.87,
-     "n": 38,
-     "up_pct": 55,
-     "top10": false
-    },
-    {
      "id": "Home Furnishings",
      "name": "Home Furnishings",
-     "ret": 2.21,
-     "vs_spx": 0.62,
+     "ret": 3.57,
+     "vs_spx": 1.22,
      "n": 8,
      "up_pct": 50,
      "top10": false
     },
     {
+     "id": "Computer Communications Equipment",
+     "name": "Computer Communications Equipment",
+     "ret": 3.07,
+     "vs_spx": 0.71,
+     "n": 6,
+     "up_pct": 67,
+     "top10": false
+    },
+    {
+     "id": "Aerospace",
+     "name": "Aerospace",
+     "ret": 2.51,
+     "vs_spx": 0.15,
+     "n": 16,
+     "up_pct": 50,
+     "top10": false
+    },
+    {
+     "id": "Food Chains",
+     "name": "Food Chains",
+     "ret": 1.94,
+     "vs_spx": -0.42,
+     "n": 8,
+     "up_pct": 50,
+     "top10": false
+    },
+    {
+     "id": "Power Generation",
+     "name": "Power Generation",
+     "ret": 1.49,
+     "vs_spx": -0.87,
+     "n": 19,
+     "up_pct": 53,
+     "top10": false
+    },
+    {
+     "id": "Finance Companies",
+     "name": "Finance Companies",
+     "ret": 1.37,
+     "vs_spx": -0.99,
+     "n": 13,
+     "up_pct": 54,
+     "top10": false
+    },
+    {
+     "id": "Investment Managers",
+     "name": "Investment Managers",
+     "ret": 1.2,
+     "vs_spx": -1.16,
+     "n": 45,
+     "up_pct": 53,
+     "top10": false
+    },
+    {
+     "id": "Fluid Controls",
+     "name": "Fluid Controls",
+     "ret": 0.48,
+     "vs_spx": -1.88,
+     "n": 6,
+     "up_pct": 50,
+     "top10": false
+    },
+    {
+     "id": "Agricultural Chemicals",
+     "name": "Agricultural Chemicals",
+     "ret": 0.09,
+     "vs_spx": -2.27,
+     "n": 5,
+     "up_pct": 60,
+     "top10": false
+    },
+    {
      "id": "Auto Manufacturing",
      "name": "Auto Manufacturing",
-     "ret": 1.09,
-     "vs_spx": -0.5,
+     "ret": -0.63,
+     "vs_spx": -2.98,
      "n": 12,
      "up_pct": 50,
      "top10": false
@@ -2695,152 +2749,80 @@
     {
      "id": "Steel/Iron Ore",
      "name": "Steel/Iron Ore",
-     "ret": 1.02,
-     "vs_spx": -0.57,
+     "ret": -0.64,
+     "vs_spx": -3.0,
      "n": 12,
-     "up_pct": 58,
-     "top10": false
-    },
-    {
-     "id": "Investment Managers",
-     "name": "Investment Managers",
-     "ret": 0.68,
-     "vs_spx": -0.91,
-     "n": 45,
-     "up_pct": 53,
-     "top10": false
-    },
-    {
-     "id": "Power Generation",
-     "name": "Power Generation",
-     "ret": 0.28,
-     "vs_spx": -1.32,
-     "n": 19,
-     "up_pct": 53,
-     "top10": false
-    },
-    {
-     "id": "Agricultural Chemicals",
-     "name": "Agricultural Chemicals",
-     "ret": 0.26,
-     "vs_spx": -1.33,
-     "n": 5,
-     "up_pct": 60,
-     "top10": false
-    },
-    {
-     "id": "Aerospace",
-     "name": "Aerospace",
-     "ret": -0.43,
-     "vs_spx": -2.02,
-     "n": 16,
-     "up_pct": 44,
-     "top10": false
-    },
-    {
-     "id": "Military/Government/Technical",
-     "name": "Defense & Government Tech",
-     "ret": -0.73,
-     "vs_spx": -2.32,
-     "n": 27,
-     "up_pct": 44,
-     "top10": false
-    },
-    {
-     "id": "Finance Companies",
-     "name": "Finance Companies",
-     "ret": -1.02,
-     "vs_spx": -2.61,
-     "n": 13,
-     "up_pct": 46,
-     "top10": false
-    },
-    {
-     "id": "Fluid Controls",
-     "name": "Fluid Controls",
-     "ret": -1.17,
-     "vs_spx": -2.76,
-     "n": 6,
      "up_pct": 50,
      "top10": false
     },
     {
      "id": "Real Estate Investment Trusts",
      "name": "REITs",
-     "ret": -1.9,
-     "vs_spx": -3.49,
+     "ret": -1.13,
+     "vs_spx": -3.48,
      "n": 113,
-     "up_pct": 44,
-     "top10": false
-    },
-    {
-     "id": "Finance: Consumer Services",
-     "name": "Consumer Finance",
-     "ret": -2.36,
-     "vs_spx": -3.96,
-     "n": 57,
-     "up_pct": 44,
-     "top10": false
-    },
-    {
-     "id": "Retail-Auto Dealers and Gas Stations",
-     "name": "Auto Dealers",
-     "ret": -2.44,
-     "vs_spx": -4.03,
-     "n": 13,
-     "up_pct": 38,
-     "top10": false
-    },
-    {
-     "id": "Investment Bankers/Brokers/Service",
-     "name": "Brokers & Investment Banks",
-     "ret": -2.48,
-     "vs_spx": -4.07,
-     "n": 44,
-     "up_pct": 45,
-     "top10": false
-    },
-    {
-     "id": "Real Estate",
-     "name": "Real Estate",
-     "ret": -2.76,
-     "vs_spx": -4.35,
-     "n": 24,
-     "up_pct": 33,
+     "up_pct": 43,
      "top10": false
     },
     {
      "id": "Cable & Other Pay Television Services",
      "name": "Cable & Pay TV",
-     "ret": -2.91,
-     "vs_spx": -4.5,
+     "ret": -1.42,
+     "vs_spx": -3.78,
      "n": 10,
-     "up_pct": 10,
+     "up_pct": 40,
+     "top10": false
+    },
+    {
+     "id": "Retail-Auto Dealers and Gas Stations",
+     "name": "Auto Dealers",
+     "ret": -1.6,
+     "vs_spx": -3.96,
+     "n": 13,
+     "up_pct": 46,
+     "top10": false
+    },
+    {
+     "id": "Finance: Consumer Services",
+     "name": "Consumer Finance",
+     "ret": -1.61,
+     "vs_spx": -3.96,
+     "n": 57,
+     "up_pct": 47,
      "top10": false
     },
     {
      "id": "Coal Mining",
      "name": "Coal Mining",
-     "ret": -3.21,
-     "vs_spx": -4.8,
+     "ret": -1.86,
+     "vs_spx": -4.21,
      "n": 7,
-     "up_pct": 14,
+     "up_pct": 43,
      "top10": false
     },
     {
      "id": "Oil/Gas Transmission",
      "name": "Oil/Gas Transmission",
-     "ret": -3.61,
-     "vs_spx": -5.2,
+     "ret": -1.88,
+     "vs_spx": -4.24,
      "n": 11,
      "up_pct": 36,
      "top10": false
     },
     {
-     "id": "Natural Gas Distribution",
-     "name": "Natural Gas Distribution",
-     "ret": -4.93,
-     "vs_spx": -6.52,
+     "id": "Investment Bankers/Brokers/Service",
+     "name": "Brokers & Investment Banks",
+     "ret": -1.95,
+     "vs_spx": -4.3,
+     "n": 45,
+     "up_pct": 44,
+     "top10": false
+    },
+    {
+     "id": "Real Estate",
+     "name": "Real Estate",
+     "ret": -3.24,
+     "vs_spx": -5.6,
      "n": 24,
      "up_pct": 33,
      "top10": false
@@ -2848,8 +2830,8 @@
     {
      "id": "Finance/Investors Services",
      "name": "Finance/Investors Services",
-     "ret": -5.02,
-     "vs_spx": -6.61,
+     "ret": -3.6,
+     "vs_spx": -5.96,
      "n": 8,
      "up_pct": 25,
      "top10": false
@@ -2857,35 +2839,71 @@
     {
      "id": "Oil & Gas Production",
      "name": "Oil & Gas E&P",
-     "ret": -5.03,
-     "vs_spx": -6.62,
-     "n": 60,
-     "up_pct": 33,
+     "ret": -3.73,
+     "vs_spx": -6.09,
+     "n": 61,
+     "up_pct": 44,
+     "top10": false
+    },
+    {
+     "id": "Computer Software: Programming Data Processing",
+     "name": "Software: Data & Cloud",
+     "ret": -3.83,
+     "vs_spx": -6.19,
+     "n": 27,
+     "up_pct": 44,
      "top10": false
     },
     {
      "id": "Publishing",
      "name": "Publishing",
-     "ret": -5.2,
-     "vs_spx": -6.79,
+     "ret": -5.28,
+     "vs_spx": -7.63,
      "n": 5,
      "up_pct": 40,
      "top10": false
     },
     {
+     "id": "Military/Government/Technical",
+     "name": "Defense & Government Tech",
+     "ret": -5.61,
+     "vs_spx": -7.97,
+     "n": 27,
+     "up_pct": 37,
+     "top10": false
+    },
+    {
+     "id": "Natural Gas Distribution",
+     "name": "Natural Gas Distribution",
+     "ret": -5.68,
+     "vs_spx": -8.04,
+     "n": 24,
+     "up_pct": 33,
+     "top10": false
+    },
+    {
      "id": "Industrial Machinery/Components",
      "name": "Industrial Machinery",
-     "ret": -7.49,
-     "vs_spx": -9.08,
+     "ret": -5.78,
+     "vs_spx": -8.13,
      "n": 98,
-     "up_pct": 41,
+     "up_pct": 42,
+     "top10": false
+    },
+    {
+     "id": "Electric Utilities: Central",
+     "name": "Electric Utilities",
+     "ret": -6.09,
+     "vs_spx": -8.45,
+     "n": 56,
+     "up_pct": 27,
      "top10": false
     },
     {
      "id": "Building operators",
      "name": "Building Operators",
-     "ret": -7.65,
-     "vs_spx": -9.24,
+     "ret": -6.72,
+     "vs_spx": -9.08,
      "n": 5,
      "up_pct": 40,
      "top10": false
@@ -2893,179 +2911,161 @@
     {
      "id": "Other Consumer Services",
      "name": "Other Consumer Services",
-     "ret": -8.12,
-     "vs_spx": -9.71,
-     "n": 22,
-     "up_pct": 36,
-     "top10": false
-    },
-    {
-     "id": "Electric Utilities: Central",
-     "name": "Electric Utilities",
-     "ret": -8.8,
-     "vs_spx": -10.39,
-     "n": 55,
-     "up_pct": 24,
-     "top10": false
-    },
-    {
-     "id": "Computer Software: Programming Data Processing",
-     "name": "Software: Data & Cloud",
-     "ret": -9.91,
-     "vs_spx": -11.5,
-     "n": 25,
-     "up_pct": 40,
-     "top10": false
-    },
-    {
-     "id": "Meat/Poultry/Fish",
-     "name": "Meat/Poultry/Fish",
-     "ret": -10.63,
-     "vs_spx": -12.22,
-     "n": 5,
-     "up_pct": 20,
-     "top10": false
-    },
-    {
-     "id": "Major Chemicals",
-     "name": "Major Chemicals",
-     "ret": -11.72,
-     "vs_spx": -13.31,
-     "n": 32,
-     "up_pct": 38,
+     "ret": -7.18,
+     "vs_spx": -9.54,
+     "n": 23,
+     "up_pct": 35,
      "top10": false
     },
     {
      "id": "Trucking Freight/Courier Services",
      "name": "Trucking Freight/Courier Services",
-     "ret": -12.09,
-     "vs_spx": -13.68,
+     "ret": -9.87,
+     "vs_spx": -12.23,
      "n": 11,
-     "up_pct": 36,
+     "up_pct": 27,
      "top10": false
     },
     {
      "id": "Telecommunications Equipment",
      "name": "Telecommunications Equipment",
-     "ret": -12.57,
-     "vs_spx": -14.16,
+     "ret": -10.49,
+     "vs_spx": -12.85,
      "n": 41,
      "up_pct": 27,
      "top10": false
     },
     {
-     "id": "Precious Metals",
-     "name": "Precious Metals (guld/silver)",
-     "ret": -12.77,
-     "vs_spx": -14.36,
-     "n": 36,
-     "up_pct": 14,
+     "id": "Meat/Poultry/Fish",
+     "name": "Meat/Poultry/Fish",
+     "ret": -10.49,
+     "vs_spx": -12.85,
+     "n": 5,
+     "up_pct": 40,
      "top10": false
     },
     {
-     "id": "Building Materials",
-     "name": "Building Materials",
-     "ret": -13.04,
-     "vs_spx": -14.63,
-     "n": 7,
-     "up_pct": 29,
+     "id": "Major Chemicals",
+     "name": "Major Chemicals",
+     "ret": -10.58,
+     "vs_spx": -12.94,
+     "n": 32,
+     "up_pct": 38,
      "top10": false
     },
     {
      "id": "Metal Fabrications",
      "name": "Metal Fabrications",
-     "ret": -13.32,
-     "vs_spx": -14.91,
+     "ret": -10.92,
+     "vs_spx": -13.28,
      "n": 23,
-     "up_pct": 26,
+     "up_pct": 30,
      "top10": false
     },
     {
-     "id": "Oil and Gas Field Machinery",
-     "name": "Oil and Gas Field Machinery",
-     "ret": -13.92,
-     "vs_spx": -15.51,
-     "n": 9,
-     "up_pct": 22,
+     "id": "Building Materials",
+     "name": "Building Materials",
+     "ret": -11.49,
+     "vs_spx": -13.84,
+     "n": 7,
+     "up_pct": 29,
      "top10": false
     },
     {
      "id": "Auto Parts:O.E.M.",
      "name": "Auto Parts",
-     "ret": -14.15,
-     "vs_spx": -15.74,
-     "n": 20,
-     "up_pct": 15,
+     "ret": -12.11,
+     "vs_spx": -14.47,
+     "n": 21,
+     "up_pct": 24,
      "top10": false
     },
     {
-     "id": "Farming/Seeds/Milling",
-     "name": "Farming/Seeds/Milling",
-     "ret": -14.95,
-     "vs_spx": -16.54,
+     "id": "Oil and Gas Field Machinery",
+     "name": "Oil and Gas Field Machinery",
+     "ret": -12.15,
+     "vs_spx": -14.51,
      "n": 9,
+     "up_pct": 22,
+     "top10": false
+    },
+    {
+     "id": "Precious Metals",
+     "name": "Precious Metals (guld/silver)",
+     "ret": -12.39,
+     "vs_spx": -14.75,
+     "n": 36,
+     "up_pct": 11,
+     "top10": false
+    },
+    {
+     "id": "Oilfield Services/Equipment",
+     "name": "Oilfield Services/Equipment",
+     "ret": -15.75,
+     "vs_spx": -18.11,
+     "n": 10,
      "up_pct": 0,
      "top10": false
     },
     {
      "id": "Electronic Components",
      "name": "Electronic Components",
-     "ret": -16.42,
-     "vs_spx": -18.01,
+     "ret": -16.09,
+     "vs_spx": -18.44,
      "n": 14,
      "up_pct": 36,
      "top10": false
     },
     {
+     "id": "Farming/Seeds/Milling",
+     "name": "Farming/Seeds/Milling",
+     "ret": -18.59,
+     "vs_spx": -20.95,
+     "n": 8,
+     "up_pct": 0,
+     "top10": false
+    },
+    {
      "id": "Electrical Products",
      "name": "Electrical Products",
-     "ret": -18.15,
-     "vs_spx": -19.74,
-     "n": 22,
-     "up_pct": 27,
+     "ret": -19.09,
+     "vs_spx": -21.44,
+     "n": 21,
+     "up_pct": 24,
      "top10": false
     },
     {
      "id": "Radio And Television Broadcasting And Communications Equipment",
      "name": "Communications Equipment",
-     "ret": -20.17,
-     "vs_spx": -21.76,
+     "ret": -19.9,
+     "vs_spx": -22.25,
      "n": 8,
-     "up_pct": 12,
-     "top10": false
-    },
-    {
-     "id": "Oilfield Services/Equipment",
-     "name": "Oilfield Services/Equipment",
-     "ret": -20.31,
-     "vs_spx": -21.9,
-     "n": 10,
-     "up_pct": 0,
+     "up_pct": 25,
      "top10": false
     },
     {
      "id": "Metal Mining",
      "name": "Metal Mining",
-     "ret": -20.93,
-     "vs_spx": -22.52,
+     "ret": -22.53,
+     "vs_spx": -24.89,
      "n": 14,
-     "up_pct": 7,
+     "up_pct": 14,
      "top10": false
     },
     {
      "id": "Semiconductors",
      "name": "Semiconductors",
-     "ret": -26.56,
-     "vs_spx": -28.15,
-     "n": 61,
-     "up_pct": 11,
+     "ret": -26.55,
+     "vs_spx": -28.9,
+     "n": 62,
+     "up_pct": 16,
      "top10": false
     },
     {
      "id": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
      "name": "Nonmetallic Mining",
-     "ret": -27.57,
-     "vs_spx": -29.16,
+     "ret": -26.76,
+     "vs_spx": -29.12,
      "n": 11,
      "up_pct": 18,
      "top10": false
@@ -3073,8 +3073,8 @@
     {
      "id": "Engineering & Construction",
      "name": "Engineering & Construction",
-     "ret": -37.69,
-     "vs_spx": -39.28,
+     "ret": -35.34,
+     "vs_spx": -37.69,
      "n": 8,
      "up_pct": 0,
      "top10": false
@@ -3082,8 +3082,8 @@
     {
      "id": "Water Sewer Pipeline Comm & Power Line Construction",
      "name": "Infrastructure Construction",
-     "ret": -40.08,
-     "vs_spx": -41.67,
+     "ret": -40.02,
+     "vs_spx": -42.38,
      "n": 5,
      "up_pct": 0,
      "top10": false
@@ -3091,218 +3091,6 @@
    ]
   },
   "leaders": {
-   "Air Freight/Delivery Services": {
-    "name": "Air Freight/Delivery Services",
-    "n": 17,
-    "stocks": [
-     {
-      "t": "ULCC",
-      "name": "Frontier Group Holdings Inc",
-      "rs": 94,
-      "vs_spx_3m": 23.67,
-      "ret_1m": 38.05,
-      "from_high": -3.11,
-      "over_ma50": true,
-      "cap_b": 1.9
-     },
-     {
-      "t": "DAL",
-      "name": "Delta Air Lines Inc",
-      "rs": 82,
-      "vs_spx_3m": 5.45,
-      "ret_1m": 12.21,
-      "from_high": -1.56,
-      "over_ma50": true,
-      "cap_b": 60.7
-     },
-     {
-      "t": "ALGT",
-      "name": "Allegiant Travel Company",
-      "rs": 69,
-      "vs_spx_3m": 15.06,
-      "ret_1m": 23.89,
-      "from_high": -20.54,
-      "over_ma50": true,
-      "cap_b": 2.6
-     },
-     {
-      "t": "CPA",
-      "name": "Copa Holdings S.A",
-      "rs": 68,
-      "vs_spx_3m": 12.02,
-      "ret_1m": 10.42,
-      "from_high": -5.71,
-      "over_ma50": true,
-      "cap_b": 6.1
-     },
-     {
-      "t": "FDX",
-      "name": "FedEx Corporation",
-      "rs": 68,
-      "vs_spx_3m": 0.69,
-      "ret_1m": 9.52,
-      "from_high": -5.86,
-      "over_ma50": true,
-      "cap_b": 74.8
-     },
-     {
-      "t": "LUV",
-      "name": "Southwest Airlines Company",
-      "rs": 64,
-      "vs_spx_3m": 5.9,
-      "ret_1m": 11.19,
-      "from_high": -15.47,
-      "over_ma50": true,
-      "cap_b": 22.7
-     },
-     {
-      "t": "VLRS",
-      "name": "Controladora Vuela Compania de Aviacion ",
-      "rs": 62,
-      "vs_spx_3m": 12.19,
-      "ret_1m": 38.2,
-      "from_high": -19.0,
-      "over_ma50": true,
-      "cap_b": 1.0
-     },
-     {
-      "t": "UAL",
-      "name": "United Airlines Holdings Inc",
-      "rs": 62,
-      "vs_spx_3m": -0.72,
-      "ret_1m": 12.19,
-      "from_high": -11.42,
-      "over_ma50": true,
-      "cap_b": 39.2
-     },
-     {
-      "t": "AERO",
-      "name": "Grupo Aeromexico S.A.B. de C.V",
-      "rs": 55,
-      "vs_spx_3m": 16.73,
-      "ret_1m": 13.81,
-      "from_high": -22.65,
-      "over_ma50": true,
-      "cap_b": 2.6
-     },
-     {
-      "t": "RJET",
-      "name": "Republic Airways Holdings Inc",
-      "rs": 49,
-      "vs_spx_3m": 7.16,
-      "ret_1m": 24.53,
-      "from_high": -15.5,
-      "over_ma50": true,
-      "cap_b": 1.0
-     }
-    ]
-   },
-   "Apparel": {
-    "name": "Apparel",
-    "n": 13,
-    "stocks": [
-     {
-      "t": "FIGS",
-      "name": "FIGS Inc",
-      "rs": 98,
-      "vs_spx_3m": 58.19,
-      "ret_1m": 41.89,
-      "from_high": 0.0,
-      "over_ma50": true,
-      "cap_b": 3.7
-     },
-     {
-      "t": "COLM",
-      "name": "Columbia Sportswear Company",
-      "rs": 85,
-      "vs_spx_3m": 31.27,
-      "ret_1m": 26.68,
-      "from_high": -0.26,
-      "over_ma50": true,
-      "cap_b": 3.6
-     },
-     {
-      "t": "CPRI",
-      "name": "Capri Holdings Limited",
-      "rs": 81,
-      "vs_spx_3m": 42.66,
-      "ret_1m": 45.35,
-      "from_high": -21.44,
-      "over_ma50": true,
-      "cap_b": 2.2
-     },
-     {
-      "t": "ZGN",
-      "name": "Ermenegildo Zegna N.V",
-      "rs": 79,
-      "vs_spx_3m": 4.7,
-      "ret_1m": 12.62,
-      "from_high": -6.36,
-      "over_ma50": true,
-      "cap_b": 3.8
-     },
-     {
-      "t": "LEVI",
-      "name": "Levi Strauss & Co",
-      "rs": 68,
-      "vs_spx_3m": 11.61,
-      "ret_1m": 30.43,
-      "from_high": -4.47,
-      "over_ma50": true,
-      "cap_b": 9.4
-     },
-     {
-      "t": "GIII",
-      "name": "G-III Apparel Group LTD",
-      "rs": 55,
-      "vs_spx_3m": -0.84,
-      "ret_1m": 18.95,
-      "from_high": -12.52,
-      "over_ma50": true,
-      "cap_b": 1.4
-     },
-     {
-      "t": "TPR",
-      "name": "Tapestry Inc",
-      "rs": 43,
-      "vs_spx_3m": -8.86,
-      "ret_1m": 16.67,
-      "from_high": -17.7,
-      "over_ma50": true,
-      "cap_b": 26.7
-     },
-     {
-      "t": "UAA",
-      "name": "Under Armour Inc",
-      "rs": 35,
-      "vs_spx_3m": 1.02,
-      "ret_1m": 4.67,
-      "from_high": -36.61,
-      "over_ma50": true,
-      "cap_b": 2.2
-     },
-     {
-      "t": "CRI",
-      "name": "Carter's Inc",
-      "rs": 33,
-      "vs_spx_3m": -9.29,
-      "ret_1m": 5.96,
-      "from_high": -22.72,
-      "over_ma50": true,
-      "cap_b": 1.3
-     },
-     {
-      "t": "AS",
-      "name": "Amer Sports Inc",
-      "rs": 33,
-      "vs_spx_3m": -0.62,
-      "ret_1m": 13.22,
-      "from_high": -24.07,
-      "over_ma50": true,
-      "cap_b": 17.8
-     }
-    ]
-   },
    "Biotechnology: Commercial Physical & Biological Resarch": {
     "name": "Biotech: Contract Research",
     "n": 6,
@@ -3311,9 +3099,9 @@
       "t": "ABSI",
       "name": "Absci Corporation",
       "rs": 98,
-      "vs_spx_3m": 7.87,
-      "ret_1m": -1.87,
-      "from_high": -17.6,
+      "vs_spx_3m": 9.3,
+      "ret_1m": 4.65,
+      "from_high": -16.36,
       "over_ma50": true,
       "cap_b": 1.7
      },
@@ -3321,51 +3109,51 @@
       "t": "CRL",
       "name": "Charles River Laboratories International",
       "rs": 96,
-      "vs_spx_3m": 24.52,
-      "ret_1m": 14.58,
-      "from_high": -8.06,
+      "vs_spx_3m": 24.16,
+      "ret_1m": 13.53,
+      "from_high": -8.88,
       "over_ma50": true,
-      "cap_b": 16.6
+      "cap_b": 16.4
      },
      {
       "t": "ICLR",
       "name": "ICON plc",
       "rs": 90,
-      "vs_spx_3m": 25.33,
-      "ret_1m": 24.65,
-      "from_high": -5.04,
+      "vs_spx_3m": 21.56,
+      "ret_1m": 21.47,
+      "from_high": -7.32,
       "over_ma50": true,
-      "cap_b": 15.7
+      "cap_b": 15.3
      },
      {
       "t": "IQV",
       "name": "IQVIA Holdings Inc",
       "rs": 89,
-      "vs_spx_3m": 16.76,
-      "ret_1m": 5.88,
-      "from_high": -1.51,
+      "vs_spx_3m": 15.99,
+      "ret_1m": 4.7,
+      "from_high": -1.73,
       "over_ma50": true,
-      "cap_b": 45.4
+      "cap_b": 45.2
      },
      {
       "t": "MEDP",
       "name": "Medpace Holdings Inc",
-      "rs": 86,
-      "vs_spx_3m": 14.24,
-      "ret_1m": 8.58,
-      "from_high": -4.06,
+      "rs": 87,
+      "vs_spx_3m": 16.55,
+      "ret_1m": 7.21,
+      "from_high": -4.03,
       "over_ma50": true,
       "cap_b": 18.6
      },
      {
       "t": "INCY",
       "name": "Incyte Corp",
-      "rs": 65,
-      "vs_spx_3m": 2.53,
-      "ret_1m": 6.66,
-      "from_high": -7.41,
+      "rs": 69,
+      "vs_spx_3m": 3.78,
+      "ret_1m": 9.8,
+      "from_high": -5.9,
       "over_ma50": true,
-      "cap_b": 24.5
+      "cap_b": 24.9
      }
     ]
    },
@@ -3374,72 +3162,72 @@
     "n": 7,
     "stocks": [
      {
+      "t": "AXGN",
+      "name": "Axogen Inc",
+      "rs": 95,
+      "vs_spx_3m": 24.34,
+      "ret_1m": 57.99,
+      "from_high": 0.0,
+      "over_ma50": true,
+      "cap_b": 3.5
+     },
+     {
       "t": "CBLL",
       "name": "CeriBell Inc",
       "rs": 94,
-      "vs_spx_3m": 22.87,
-      "ret_1m": 16.29,
-      "from_high": -2.79,
+      "vs_spx_3m": 21.89,
+      "ret_1m": 10.06,
+      "from_high": -1.66,
       "over_ma50": true,
       "cap_b": 1.1
      },
      {
-      "t": "AXGN",
-      "name": "Axogen Inc",
-      "rs": 91,
-      "vs_spx_3m": 5.38,
-      "ret_1m": 40.85,
-      "from_high": -1.62,
-      "over_ma50": true,
-      "cap_b": 3.0
-     },
-     {
       "t": "ITGR",
       "name": "Integer Holdings Corporation",
-      "rs": 90,
-      "vs_spx_3m": 4.15,
-      "ret_1m": 0.01,
-      "from_high": -0.1,
+      "rs": 89,
+      "vs_spx_3m": 3.62,
+      "ret_1m": 0.13,
+      "from_high": -0.06,
       "over_ma50": true,
       "cap_b": 4.3
      },
      {
       "t": "LIVN",
       "name": "LivaNova PLC",
-      "rs": 89,
-      "vs_spx_3m": 15.75,
-      "ret_1m": 19.31,
-      "from_high": -3.24,
+      "rs": 88,
+      "vs_spx_3m": 13.0,
+      "ret_1m": 17.74,
+      "from_high": -3.41,
       "over_ma50": true,
       "cap_b": 5.0
      },
      {
       "t": "CNMD",
       "name": "CONMED Corporation",
-      "rs": 76,
-      "vs_spx_3m": 6.42,
-      "ret_1m": 15.29,
-      "from_high": -4.57,
+      "rs": 74,
+      "vs_spx_3m": 4.23,
+      "ret_1m": 11.93,
+      "from_high": -5.39,
       "over_ma50": true,
       "cap_b": 1.5
      },
      {
       "t": "MDT",
       "name": "Medtronic plc",
-      "rs": 70,
-      "vs_spx_3m": 14.85,
-      "ret_1m": 14.82,
-      "from_high": -3.57,
+      "rs": 69,
+      "vs_spx_3m": 14.5,
+      "ret_1m": 10.53,
+      "from_high": -3.55,
       "over_ma50": true,
       "cap_b": 130.0
      },
      {
       "t": "TMDX",
       "name": "TransMedics Group Inc",
-      "rs": 40,
-      "vs_spx_3m": 7.43,
-      "ret_1m": 16.79,
-      "from_high": -39.54,
+      "rs": 39,
+      "vs_spx_3m": 4.97,
+      "ret_1m": 17.71,
+      "from_high": -38.83,
       "over_ma50": true,
       "cap_b": 3.2
      }
@@ -3453,99 +3241,99 @@
       "t": "TXG",
       "name": "10x Genomics Inc",
       "rs": 99,
-      "vs_spx_3m": 11.84,
-      "ret_1m": -22.01,
-      "from_high": -35.65,
+      "vs_spx_3m": 9.03,
+      "ret_1m": -17.48,
+      "from_high": -36.52,
       "over_ma50": false,
-      "cap_b": 8.3
+      "cap_b": 8.2
      },
      {
       "t": "RVTY",
       "name": "Revvity Inc",
       "rs": 94,
-      "vs_spx_3m": 37.89,
-      "ret_1m": 3.19,
-      "from_high": -4.03,
+      "vs_spx_3m": 37.0,
+      "ret_1m": 1.7,
+      "from_high": -4.54,
       "over_ma50": true,
-      "cap_b": 17.8
+      "cap_b": 17.7
      },
      {
       "t": "AVTR",
       "name": "Avantor Inc",
-      "rs": 91,
-      "vs_spx_3m": 14.69,
-      "ret_1m": -0.64,
-      "from_high": -9.95,
-      "over_ma50": false,
-      "cap_b": 10.6
+      "rs": 92,
+      "vs_spx_3m": 15.9,
+      "ret_1m": 1.55,
+      "from_high": -9.02,
+      "over_ma50": true,
+      "cap_b": 10.7
      },
      {
-      "t": "A",
-      "name": "Agilent Technologies Inc",
+      "t": "MTD",
+      "name": "Mettler-Toledo International Inc",
       "rs": 88,
-      "vs_spx_3m": 22.92,
-      "ret_1m": 4.3,
-      "from_high": -1.98,
+      "vs_spx_3m": 24.57,
+      "ret_1m": 11.9,
+      "from_high": -0.75,
       "over_ma50": true,
-      "cap_b": 50.1
+      "cap_b": 34.8
      },
      {
       "t": "BRKR",
       "name": "Bruker Corporation",
       "rs": 88,
-      "vs_spx_3m": 7.93,
-      "ret_1m": 5.78,
-      "from_high": -6.46,
+      "vs_spx_3m": 10.06,
+      "ret_1m": 10.95,
+      "from_high": -6.21,
       "over_ma50": true,
       "cap_b": 9.5
      },
      {
-      "t": "MTD",
-      "name": "Mettler-Toledo International Inc",
+      "t": "A",
+      "name": "Agilent Technologies Inc",
       "rs": 87,
-      "vs_spx_3m": 24.67,
-      "ret_1m": 12.99,
-      "from_high": -0.62,
+      "vs_spx_3m": 20.85,
+      "ret_1m": 3.28,
+      "from_high": -2.5,
       "over_ma50": true,
-      "cap_b": 34.8
+      "cap_b": 49.9
      },
      {
       "t": "WAT",
       "name": "Waters Corporation",
-      "rs": 86,
-      "vs_spx_3m": 17.19,
-      "ret_1m": 9.62,
-      "from_high": -0.95,
+      "rs": 85,
+      "vs_spx_3m": 16.2,
+      "ret_1m": 8.98,
+      "from_high": -1.91,
       "over_ma50": true,
-      "cap_b": 46.7
+      "cap_b": 46.3
      },
      {
       "t": "BIO",
       "name": "Bio-Rad Laboratories Inc",
       "rs": 84,
-      "vs_spx_3m": 9.66,
-      "ret_1m": 5.55,
-      "from_high": -0.99,
+      "vs_spx_3m": 9.19,
+      "ret_1m": 5.92,
+      "from_high": -1.11,
       "over_ma50": true,
       "cap_b": 10.4
      },
      {
       "t": "BRKRP",
       "name": "Bruker Corporation 6.375% Mandatory Conv",
-      "rs": 83,
-      "vs_spx_3m": 6.87,
-      "ret_1m": 5.18,
-      "from_high": -5.97,
+      "rs": 84,
+      "vs_spx_3m": 8.36,
+      "ret_1m": 10.65,
+      "from_high": -5.12,
       "over_ma50": true,
-      "cap_b": 69.4
+      "cap_b": 69.6
      },
      {
       "t": "ALMR",
       "name": "Alamar Biosciences Inc",
       "rs": 62,
-      "vs_spx_3m": -1.97,
-      "ret_1m": 24.65,
-      "from_high": -17.39,
+      "vs_spx_3m": -1.66,
+      "ret_1m": 30.4,
+      "from_high": -17.1,
       "over_ma50": true,
       "cap_b": 2.2
      }
@@ -3553,173 +3341,421 @@
    },
    "Broadcasting": {
     "name": "Broadcasting",
-    "n": 10,
+    "n": 11,
     "stocks": [
      {
       "t": "SIRI",
       "name": "SiriusXM Holdings Inc",
       "rs": 87,
-      "vs_spx_3m": 16.28,
-      "ret_1m": 21.61,
-      "from_high": -3.47,
+      "vs_spx_3m": 17.58,
+      "ret_1m": 21.23,
+      "from_high": -3.41,
       "over_ma50": true,
-      "cap_b": 10.8
+      "cap_b": 10.9
      },
      {
       "t": "SPOT",
       "name": "Spotify Technology S.A",
-      "rs": 82,
-      "vs_spx_3m": 26.74,
-      "ret_1m": 14.57,
-      "from_high": -6.43,
+      "rs": 80,
+      "vs_spx_3m": 24.58,
+      "ret_1m": 15.19,
+      "from_high": -5.98,
       "over_ma50": true,
-      "cap_b": 127.7
+      "cap_b": 128.4
      },
      {
       "t": "FWONA",
       "name": "Liberty Media Corporation Series A",
-      "rs": 77,
-      "vs_spx_3m": 12.66,
-      "ret_1m": 19.85,
+      "rs": 79,
+      "vs_spx_3m": 14.23,
+      "ret_1m": 22.68,
       "from_high": 0.0,
       "over_ma50": true,
-      "cap_b": 26.1
+      "cap_b": 26.6
      },
      {
       "t": "FWONK",
       "name": "Liberty Media Corporation Series C",
-      "rs": 69,
-      "vs_spx_3m": 8.07,
-      "ret_1m": 15.84,
+      "rs": 72,
+      "vs_spx_3m": 9.54,
+      "ret_1m": 18.51,
       "from_high": 0.0,
       "over_ma50": true,
-      "cap_b": 27.3
-     },
-     {
-      "t": "FOXA",
-      "name": "Fox Corporation",
-      "rs": 54,
-      "vs_spx_3m": 9.77,
-      "ret_1m": 7.95,
-      "from_high": -11.48,
-      "over_ma50": true,
-      "cap_b": 38.2
+      "cap_b": 27.9
      },
      {
       "t": "NXST",
       "name": "Nexstar Media Group Inc",
-      "rs": 53,
-      "vs_spx_3m": 14.51,
-      "ret_1m": 27.96,
-      "from_high": -18.55,
+      "rs": 55,
+      "vs_spx_3m": 13.5,
+      "ret_1m": 30.64,
+      "from_high": -17.31,
       "over_ma50": true,
-      "cap_b": 6.4
+      "cap_b": 6.5
+     },
+     {
+      "t": "FOXA",
+      "name": "Fox Corporation",
+      "rs": 53,
+      "vs_spx_3m": 6.19,
+      "ret_1m": 8.61,
+      "from_high": -10.68,
+      "over_ma50": true,
+      "cap_b": 38.5
      },
      {
       "t": "SBGI",
       "name": "Sinclair Inc",
-      "rs": 52,
-      "vs_spx_3m": 11.78,
-      "ret_1m": 18.7,
-      "from_high": -11.12,
+      "rs": 46,
+      "vs_spx_3m": 7.37,
+      "ret_1m": 19.24,
+      "from_high": -11.76,
       "over_ma50": true,
       "cap_b": 1.1
      },
      {
       "t": "VSNT",
       "name": "Versant Media Group Inc",
-      "rs": 38,
-      "vs_spx_3m": -4.84,
-      "ret_1m": 14.0,
-      "from_high": -26.39,
+      "rs": 44,
+      "vs_spx_3m": -4.8,
+      "ret_1m": 18.1,
+      "from_high": -23.84,
       "over_ma50": true,
-      "cap_b": 4.8
+      "cap_b": 4.9
+     },
+     {
+      "t": "NMAX",
+      "name": "Newsmax Inc",
+      "rs": 40,
+      "vs_spx_3m": -16.12,
+      "ret_1m": -25.29,
+      "from_high": -32.28,
+      "over_ma50": false,
+      "cap_b": 1.0
      },
      {
       "t": "TME",
       "name": "Tencent Music Entertainment Group",
-      "rs": 15,
-      "vs_spx_3m": 13.21,
-      "ret_1m": 11.34,
-      "from_high": -56.71,
+      "rs": 13,
+      "vs_spx_3m": 8.79,
+      "ret_1m": 9.11,
+      "from_high": -55.57,
       "over_ma50": true,
-      "cap_b": 14.7
-     },
-     {
-      "t": "SKYD",
-      "name": "Skydance Corporation",
-      "rs": 8,
-      "vs_spx_3m": -12.45,
-      "ret_1m": -12.23,
-      "from_high": -51.97,
-      "over_ma50": false,
-      "cap_b": 40.5
+      "cap_b": 14.5
      }
     ]
    },
-   "Food Distributors": {
-    "name": "Food Distributors",
+   "Computer Communications Equipment": {
+    "name": "Computer Communications Equipment",
     "n": 6,
     "stocks": [
      {
-      "t": "CHEF",
-      "name": "The Chefs' Warehouse Inc",
+      "t": "EXTR",
+      "name": "Extreme Networks Inc",
       "rs": 89,
-      "vs_spx_3m": 0.32,
-      "ret_1m": -5.37,
-      "from_high": -7.08,
+      "vs_spx_3m": 13.22,
+      "ret_1m": 13.25,
+      "from_high": -20.88,
+      "over_ma50": true,
+      "cap_b": 3.5
+     },
+     {
+      "t": "ATEN",
+      "name": "A10 Networks Inc",
+      "rs": 83,
+      "vs_spx_3m": 8.77,
+      "ret_1m": 0.07,
+      "from_high": -24.59,
+      "over_ma50": true,
+      "cap_b": 2.1
+     },
+     {
+      "t": "ANET",
+      "name": "Arista Networks Inc",
+      "rs": 82,
+      "vs_spx_3m": -1.09,
+      "ret_1m": -6.73,
+      "from_high": -9.26,
+      "over_ma50": true,
+      "cap_b": 248.5
+     },
+     {
+      "t": "DGII",
+      "name": "Digi International Inc",
+      "rs": 77,
+      "vs_spx_3m": -19.03,
+      "ret_1m": -10.86,
+      "from_high": -21.45,
       "over_ma50": false,
-      "cap_b": 4.7
+      "cap_b": 2.5
      },
      {
-      "t": "USFD",
-      "name": "US Foods Holding Corp",
-      "rs": 79,
-      "vs_spx_3m": 1.94,
-      "ret_1m": 12.75,
-      "from_high": -0.98,
-      "over_ma50": true,
-      "cap_b": 23.6
-     },
-     {
-      "t": "PFGC",
-      "name": "Performance Food Group Company",
-      "rs": 67,
-      "vs_spx_3m": 6.26,
-      "ret_1m": 16.99,
-      "from_high": -4.84,
-      "over_ma50": true,
-      "cap_b": 17.5
-     },
-     {
-      "t": "UNFI",
-      "name": "United Natural Foods Inc",
+      "t": "CSCO",
+      "name": "Cisco Systems Inc",
       "rs": 58,
-      "vs_spx_3m": 1.63,
-      "ret_1m": 6.22,
-      "from_high": -14.84,
-      "over_ma50": true,
-      "cap_b": 2.9
-     },
-     {
-      "t": "SYY",
-      "name": "Sysco Corporation",
-      "rs": 35,
-      "vs_spx_3m": -5.41,
-      "ret_1m": -0.65,
-      "from_high": -14.84,
+      "vs_spx_3m": -8.88,
+      "ret_1m": -12.64,
+      "from_high": -22.49,
       "over_ma50": false,
-      "cap_b": 38.2
+      "cap_b": 397.3
      },
      {
-      "t": "DPZ",
-      "name": "Domino's Pizza Inc",
-      "rs": 27,
-      "vs_spx_3m": -3.77,
-      "ret_1m": 6.69,
-      "from_high": -24.72,
+      "t": "FFIV",
+      "name": "F5 Inc",
+      "rs": 37,
+      "vs_spx_3m": -20.75,
+      "ret_1m": -32.41,
+      "from_high": -33.31,
+      "over_ma50": false,
+      "cap_b": 18.1
+     }
+    ]
+   },
+   "Engineering & Construction": {
+    "name": "Engineering & Construction",
+    "n": 8,
+    "stocks": [
+     {
+      "t": "PWR",
+      "name": "Quanta Services Inc",
+      "rs": 48,
+      "vs_spx_3m": -7.31,
+      "ret_1m": -12.5,
+      "from_high": -22.58,
+      "over_ma50": false,
+      "cap_b": 91.6
+     },
+     {
+      "t": "BBUC",
+      "name": "Brookfield Business Corporation",
+      "rs": 28,
+      "vs_spx_3m": 2.77,
+      "ret_1m": 9.18,
+      "from_high": -21.97,
       "over_ma50": true,
-      "cap_b": 10.9
+      "cap_b": 6.1
+     },
+     {
+      "t": "AMRC",
+      "name": "Ameresco Inc",
+      "rs": 18,
+      "vs_spx_3m": -2.28,
+      "ret_1m": 26.9,
+      "from_high": -27.49,
+      "over_ma50": true,
+      "cap_b": 1.4
+     },
+     {
+      "t": "EME",
+      "name": "EMCOR Group Inc",
+      "rs": 14,
+      "vs_spx_3m": -17.47,
+      "ret_1m": -14.43,
+      "from_high": -29.35,
+      "over_ma50": false,
+      "cap_b": 29.2
+     },
+     {
+      "t": "FIX",
+      "name": "Comfort Systems USA Inc",
+      "rs": 11,
+      "vs_spx_3m": -30.44,
+      "ret_1m": -29.08,
+      "from_high": -43.79,
+      "over_ma50": false,
+      "cap_b": 40.7
+     },
+     {
+      "t": "AGX",
+      "name": "Argan Inc",
+      "rs": 4,
+      "vs_spx_3m": -40.06,
+      "ret_1m": -16.99,
+      "from_high": -59.68,
+      "over_ma50": false,
+      "cap_b": 4.5
+     },
+     {
+      "t": "LGN",
+      "name": "Legence Corp",
+      "rs": 4,
+      "vs_spx_3m": -39.03,
+      "ret_1m": -23.87,
+      "from_high": -63.73,
+      "over_ma50": false,
+      "cap_b": 4.0
+     },
+     {
+      "t": "IESC",
+      "name": "IES Holdings Inc",
+      "rs": 3,
+      "vs_spx_3m": -50.29,
+      "ret_1m": -38.39,
+      "from_high": -55.33,
+      "over_ma50": false,
+      "cap_b": 7.2
+     }
+    ]
+   },
+   "Forest Products": {
+    "name": "Forest Products",
+    "n": 5,
+    "stocks": [
+     {
+      "t": "TREX",
+      "name": "Trex Company Inc",
+      "rs": 87,
+      "vs_spx_3m": 10.71,
+      "ret_1m": 22.03,
+      "from_high": -7.59,
+      "over_ma50": true,
+      "cap_b": 5.4
+     },
+     {
+      "t": "FBIN",
+      "name": "Fortune Brands Innovations Inc",
+      "rs": 52,
+      "vs_spx_3m": 3.85,
+      "ret_1m": 27.45,
+      "from_high": -23.7,
+      "over_ma50": true,
+      "cap_b": 5.8
+     },
+     {
+      "t": "WFG",
+      "name": "West Fraser Timber Co. Ltd",
+      "rs": 44,
+      "vs_spx_3m": -2.28,
+      "ret_1m": 3.82,
+      "from_high": -13.48,
+      "over_ma50": false,
+      "cap_b": 5.2
+     },
+     {
+      "t": "LPX",
+      "name": "Louisiana-Pacific Corporation",
+      "rs": 38,
+      "vs_spx_3m": 4.85,
+      "ret_1m": 15.29,
+      "from_high": -22.89,
+      "over_ma50": true,
+      "cap_b": 5.3
+     },
+     {
+      "t": "UFPI",
+      "name": "UFP Industries Inc",
+      "rs": 16,
+      "vs_spx_3m": -9.9,
+      "ret_1m": 5.88,
+      "from_high": -30.71,
+      "over_ma50": true,
+      "cap_b": 4.4
+     }
+    ]
+   },
+   "Industrial Specialties": {
+    "name": "Industrial Specialties",
+    "n": 22,
+    "stocks": [
+     {
+      "t": "EW",
+      "name": "Edwards Lifesciences Corporation",
+      "rs": 82,
+      "vs_spx_3m": 16.64,
+      "ret_1m": 22.48,
+      "from_high": 0.0,
+      "over_ma50": true,
+      "cap_b": 60.8
+     },
+     {
+      "t": "MAS",
+      "name": "Masco Corporation",
+      "rs": 79,
+      "vs_spx_3m": 16.17,
+      "ret_1m": 23.09,
+      "from_high": -2.2,
+      "over_ma50": true,
+      "cap_b": 16.4
+     },
+     {
+      "t": "ZBH",
+      "name": "Zimmer Biomet Holdings Inc",
+      "rs": 73,
+      "vs_spx_3m": 10.26,
+      "ret_1m": 16.6,
+      "from_high": -2.43,
+      "over_ma50": true,
+      "cap_b": 20.3
+     },
+     {
+      "t": "DSGR",
+      "name": "Distribution Solutions Group Inc",
+      "rs": 72,
+      "vs_spx_3m": 2.95,
+      "ret_1m": 0.06,
+      "from_high": -0.03,
+      "over_ma50": true,
+      "cap_b": 1.6
+     },
+     {
+      "t": "MTRN",
+      "name": "Materion Corporation",
+      "rs": 67,
+      "vs_spx_3m": -23.12,
+      "ret_1m": -22.08,
+      "from_high": -34.05,
+      "over_ma50": false,
+      "cap_b": 4.4
+     },
+     {
+      "t": "ENOV",
+      "name": "Enovis Corporation",
+      "rs": 64,
+      "vs_spx_3m": 13.59,
+      "ret_1m": 56.44,
+      "from_high": -9.39,
+      "over_ma50": true,
+      "cap_b": 1.6
+     },
+     {
+      "t": "STE",
+      "name": "STERIS plc (Ireland)",
+      "rs": 60,
+      "vs_spx_3m": 10.88,
+      "ret_1m": 17.03,
+      "from_high": -4.61,
+      "over_ma50": true,
+      "cap_b": 24.9
+     },
+     {
+      "t": "TRS",
+      "name": "TriMas Corporation",
+      "rs": 52,
+      "vs_spx_3m": 0.72,
+      "ret_1m": 0.47,
+      "from_high": -15.43,
+      "over_ma50": false,
+      "cap_b": 1.4
+     },
+     {
+      "t": "ALGN",
+      "name": "Align Technology Inc",
+      "rs": 49,
+      "vs_spx_3m": -0.02,
+      "ret_1m": 22.55,
+      "from_high": -12.88,
+      "over_ma50": true,
+      "cap_b": 12.1
+     },
+     {
+      "t": "DOO",
+      "name": "BRP Inc. Common",
+      "rs": 46,
+      "vs_spx_3m": 3.4,
+      "ret_1m": 24.98,
+      "from_high": -19.78,
+      "over_ma50": true,
+      "cap_b": 4.7
      }
     ]
    },
@@ -3731,28 +3767,18 @@
       "t": "CDNA",
       "name": "CareDx Inc",
       "rs": 99,
-      "vs_spx_3m": 73.65,
-      "ret_1m": 26.86,
-      "from_high": -8.7,
+      "vs_spx_3m": 73.64,
+      "ret_1m": 28.6,
+      "from_high": -8.25,
       "over_ma50": true,
-      "cap_b": 4.2
-     },
-     {
-      "t": "PSNL",
-      "name": "Personalis Inc",
-      "rs": 97,
-      "vs_spx_3m": 14.67,
-      "ret_1m": -0.75,
-      "from_high": -13.6,
-      "over_ma50": false,
-      "cap_b": 1.7
+      "cap_b": 4.3
      },
      {
       "t": "ACHC",
       "name": "Acadia Healthcare Company Inc",
-      "rs": 97,
-      "vs_spx_3m": 24.81,
-      "ret_1m": 32.1,
+      "rs": 96,
+      "vs_spx_3m": 30.63,
+      "ret_1m": 28.99,
       "from_high": 0.0,
       "over_ma50": true,
       "cap_b": 3.6
@@ -3761,71 +3787,81 @@
       "t": "GRAL",
       "name": "GRAIL Inc",
       "rs": 96,
-      "vs_spx_3m": 83.86,
-      "ret_1m": -11.27,
-      "from_high": -21.51,
+      "vs_spx_3m": 86.44,
+      "ret_1m": -8.54,
+      "from_high": -20.94,
       "over_ma50": true,
       "cap_b": 5.6
      },
      {
-      "t": "OSCR",
-      "name": "Oscar Health Inc",
+      "t": "PSNL",
+      "name": "Personalis Inc",
       "rs": 96,
-      "vs_spx_3m": 15.96,
-      "ret_1m": 0.3,
-      "from_high": -4.89,
-      "over_ma50": true,
-      "cap_b": 10.4
+      "vs_spx_3m": 13.0,
+      "ret_1m": 1.01,
+      "from_high": -13.17,
+      "over_ma50": false,
+      "cap_b": 1.7
      },
      {
       "t": "CON",
       "name": "Concentra Group Holdings Parent Inc",
-      "rs": 96,
-      "vs_spx_3m": 26.46,
-      "ret_1m": 14.74,
-      "from_high": -2.04,
+      "rs": 95,
+      "vs_spx_3m": 26.04,
+      "ret_1m": 15.74,
+      "from_high": -0.25,
       "over_ma50": true,
-      "cap_b": 5.4
+      "cap_b": 5.5
      },
      {
       "t": "HUM",
       "name": "Humana Inc",
       "rs": 95,
-      "vs_spx_3m": 15.58,
-      "ret_1m": 1.43,
+      "vs_spx_3m": 18.26,
+      "ret_1m": 2.96,
       "from_high": 0.0,
       "over_ma50": true,
-      "cap_b": 52.6
+      "cap_b": 53.6
      },
      {
-      "t": "ILMN",
-      "name": "Illumina Inc",
-      "rs": 93,
-      "vs_spx_3m": 14.33,
-      "ret_1m": -22.74,
-      "from_high": -26.82,
-      "over_ma50": false,
-      "cap_b": 32.5
+      "t": "OSCR",
+      "name": "Oscar Health Inc",
+      "rs": 95,
+      "vs_spx_3m": 6.64,
+      "ret_1m": -5.59,
+      "from_high": -8.75,
+      "over_ma50": true,
+      "cap_b": 10.0
      },
      {
       "t": "FTRE",
       "name": "Fortrea Holdings Inc",
       "rs": 93,
-      "vs_spx_3m": 19.62,
-      "ret_1m": 2.64,
-      "from_high": -17.35,
-      "over_ma50": true,
-      "cap_b": 2.1
+      "vs_spx_3m": 16.69,
+      "ret_1m": -2.95,
+      "from_high": -21.25,
+      "over_ma50": false,
+      "cap_b": 2.0
      },
      {
-      "t": "CNC",
-      "name": "Centene Corporation",
-      "rs": 91,
-      "vs_spx_3m": 7.57,
-      "ret_1m": 7.39,
-      "from_high": -7.66,
+      "t": "ILMN",
+      "name": "Illumina Inc",
+      "rs": 92,
+      "vs_spx_3m": 12.86,
+      "ret_1m": -23.04,
+      "from_high": -27.5,
+      "over_ma50": false,
+      "cap_b": 32.2
+     },
+     {
+      "t": "LMRI",
+      "name": "Lumexa Imaging Holdings Inc",
+      "rs": 92,
+      "vs_spx_3m": 33.06,
+      "ret_1m": 49.34,
+      "from_high": -13.92,
       "over_ma50": true,
-      "cap_b": 34.8
+      "cap_b": 1.5
      }
     ]
    },
@@ -3836,62 +3872,62 @@
      {
       "t": "WRBY",
       "name": "Warby Parker Inc",
-      "rs": 88,
-      "vs_spx_3m": 21.01,
-      "ret_1m": 18.18,
-      "from_high": -1.45,
+      "rs": 87,
+      "vs_spx_3m": 18.82,
+      "ret_1m": 16.01,
+      "from_high": -0.63,
       "over_ma50": true,
       "cap_b": 3.7
      },
      {
       "t": "BLCO",
       "name": "Bausch + Lomb Corporation",
-      "rs": 87,
-      "vs_spx_3m": 30.43,
-      "ret_1m": 23.53,
-      "from_high": 0.0,
+      "rs": 86,
+      "vs_spx_3m": 27.88,
+      "ret_1m": 32.67,
+      "from_high": -0.23,
       "over_ma50": true,
       "cap_b": 7.6
      },
      {
-      "t": "ALC",
-      "name": "Alcon Inc",
-      "rs": 48,
-      "vs_spx_3m": 3.57,
-      "ret_1m": 15.52,
-      "from_high": -15.05,
-      "over_ma50": true,
-      "cap_b": 37.1
-     },
-     {
       "t": "STAA",
       "name": "STAAR Surgical Company",
-      "rs": 44,
-      "vs_spx_3m": -3.14,
-      "ret_1m": 10.15,
-      "from_high": -28.4,
+      "rs": 64,
+      "vs_spx_3m": 7.69,
+      "ret_1m": 21.26,
+      "from_high": -19.95,
       "over_ma50": true,
-      "cap_b": 1.2
+      "cap_b": 1.3
      },
      {
-      "t": "COO",
-      "name": "The Cooper Companies Inc",
-      "rs": 20,
-      "vs_spx_3m": -14.23,
-      "ret_1m": 16.92,
-      "from_high": -24.61,
+      "t": "ALC",
+      "name": "Alcon Inc",
+      "rs": 43,
+      "vs_spx_3m": 0.88,
+      "ret_1m": 12.6,
+      "from_high": -16.88,
       "over_ma50": true,
-      "cap_b": 12.1
+      "cap_b": 36.2
      },
      {
       "t": "EYE",
       "name": "National Vision Holdings Inc",
-      "rs": 17,
-      "vs_spx_3m": 0.36,
-      "ret_1m": 13.97,
-      "from_high": -35.47,
+      "rs": 18,
+      "vs_spx_3m": -2.72,
+      "ret_1m": 5.98,
+      "from_high": -38.59,
       "over_ma50": true,
-      "cap_b": 1.5
+      "cap_b": 1.4
+     },
+     {
+      "t": "COO",
+      "name": "The Cooper Companies Inc",
+      "rs": 18,
+      "vs_spx_3m": -15.52,
+      "ret_1m": 13.29,
+      "from_high": -25.37,
+      "over_ma50": true,
+      "cap_b": 12.0
      }
     ]
    },
@@ -3903,9 +3939,9 @@
       "t": "ARHS",
       "name": "Arhaus Inc",
       "rs": 96,
-      "vs_spx_3m": 57.22,
-      "ret_1m": 53.66,
-      "from_high": -0.87,
+      "vs_spx_3m": 52.43,
+      "ret_1m": 53.26,
+      "from_high": -3.06,
       "over_ma50": true,
       "cap_b": 2.1
      },
@@ -3913,39 +3949,39 @@
       "t": "ASO",
       "name": "Academy Sports and Outdoors Inc",
       "rs": 91,
-      "vs_spx_3m": 45.87,
-      "ret_1m": 31.59,
-      "from_high": -1.11,
+      "vs_spx_3m": 43.99,
+      "ret_1m": 28.87,
+      "from_high": -2.61,
       "over_ma50": true,
       "cap_b": 4.3
      },
      {
-      "t": "SBH",
-      "name": "Sally Beauty Holdings Inc. (Name to be c",
-      "rs": 91,
-      "vs_spx_3m": 26.88,
-      "ret_1m": 29.18,
-      "from_high": 0.0,
-      "over_ma50": true,
-      "cap_b": 1.9
-     },
-     {
       "t": "REAL",
       "name": "The RealReal Inc",
-      "rs": 90,
-      "vs_spx_3m": 36.4,
-      "ret_1m": 52.92,
-      "from_high": -11.78,
+      "rs": 89,
+      "vs_spx_3m": 35.32,
+      "ret_1m": 50.15,
+      "from_high": -13.91,
       "over_ma50": true,
-      "cap_b": 1.9
+      "cap_b": 1.8
+     },
+     {
+      "t": "SBH",
+      "name": "Sally Beauty Holdings Inc. (Name to be c",
+      "rs": 87,
+      "vs_spx_3m": 18.53,
+      "ret_1m": 22.97,
+      "from_high": -6.43,
+      "over_ma50": true,
+      "cap_b": 1.7
      },
      {
       "t": "BOBS",
       "name": "Bob's Discount Furniture Inc",
-      "rs": 87,
-      "vs_spx_3m": 18.67,
-      "ret_1m": 49.79,
-      "from_high": -5.73,
+      "rs": 85,
+      "vs_spx_3m": 12.51,
+      "ret_1m": 50.67,
+      "from_high": -4.97,
       "over_ma50": true,
       "cap_b": 2.8
      },
@@ -3953,157 +3989,51 @@
       "t": "ULTA",
       "name": "Ulta Beauty Inc",
       "rs": 81,
-      "vs_spx_3m": 27.84,
-      "ret_1m": 16.49,
-      "from_high": -6.0,
+      "vs_spx_3m": 30.16,
+      "ret_1m": 16.14,
+      "from_high": -6.75,
       "over_ma50": true,
-      "cap_b": 28.4
+      "cap_b": 28.2
      },
      {
       "t": "EZPW",
       "name": "EZCORP Inc",
-      "rs": 69,
-      "vs_spx_3m": 2.44,
-      "ret_1m": -9.98,
-      "from_high": -19.16,
+      "rs": 65,
+      "vs_spx_3m": 1.1,
+      "ret_1m": -13.3,
+      "from_high": -20.48,
       "over_ma50": false,
-      "cap_b": 1.8
+      "cap_b": 1.7
      },
      {
       "t": "BBWI",
       "name": "Bath & Body Works",
       "rs": 61,
-      "vs_spx_3m": 22.34,
-      "ret_1m": 24.86,
-      "from_high": -12.24,
+      "vs_spx_3m": 18.91,
+      "ret_1m": 24.76,
+      "from_high": -11.96,
       "over_ma50": true,
       "cap_b": 4.4
      },
      {
       "t": "SVV",
       "name": "Savers Value Village Inc",
-      "rs": 59,
-      "vs_spx_3m": -3.05,
-      "ret_1m": 9.1,
-      "from_high": -18.06,
+      "rs": 56,
+      "vs_spx_3m": -6.17,
+      "ret_1m": 6.9,
+      "from_high": -19.37,
       "over_ma50": true,
       "cap_b": 1.5
      },
      {
       "t": "SPH",
       "name": "Suburban Propane Partners L.P",
-      "rs": 32,
-      "vs_spx_3m": 2.92,
-      "ret_1m": 3.63,
-      "from_high": -14.36,
+      "rs": 31,
+      "vs_spx_3m": 2.61,
+      "ret_1m": 2.62,
+      "from_high": -14.85,
       "over_ma50": true,
       "cap_b": 1.2
-     }
-    ]
-   },
-   "Precious Metals": {
-    "name": "Precious Metals (guld/silver)",
-    "n": 38,
-    "stocks": [
-     {
-      "t": "AYA",
-      "name": "Aya Gold & Silver Inc",
-      "rs": 91,
-      "vs_spx_3m": -7.31,
-      "ret_1m": -8.21,
-      "from_high": -17.15,
-      "over_ma50": false,
-      "cap_b": 3.6
-     },
-     {
-      "t": "NEWP",
-      "name": "New Pacific Metals Corp",
-      "rs": 90,
-      "vs_spx_3m": -12.36,
-      "ret_1m": -14.89,
-      "from_high": -24.43,
-      "over_ma50": false,
-      "cap_b": 1.0
-     },
-     {
-      "t": "CGAU",
-      "name": "Centerra Gold Inc",
-      "rs": 85,
-      "vs_spx_3m": 4.9,
-      "ret_1m": -1.64,
-      "from_high": -8.58,
-      "over_ma50": true,
-      "cap_b": 4.3
-     },
-     {
-      "t": "RGLD",
-      "name": "Royal Gold Inc",
-      "rs": 80,
-      "vs_spx_3m": 20.83,
-      "ret_1m": 16.23,
-      "from_high": -9.77,
-      "over_ma50": true,
-      "cap_b": 23.2
-     },
-     {
-      "t": "SKE",
-      "name": "Skeena Resources Limited",
-      "rs": 70,
-      "vs_spx_3m": -2.56,
-      "ret_1m": -3.68,
-      "from_high": -17.65,
-      "over_ma50": true,
-      "cap_b": 3.9
-     },
-     {
-      "t": "FNV",
-      "name": "Franco-Nevada Corporation",
-      "rs": 67,
-      "vs_spx_3m": 11.33,
-      "ret_1m": 4.47,
-      "from_high": -8.91,
-      "over_ma50": true,
-      "cap_b": 49.3
-     },
-     {
-      "t": "NEM",
-      "name": "Newmont Corporation",
-      "rs": 62,
-      "vs_spx_3m": 4.72,
-      "ret_1m": 1.8,
-      "from_high": -11.23,
-      "over_ma50": true,
-      "cap_b": 124.7
-     },
-     {
-      "t": "IAG",
-      "name": "Iamgold Corporation",
-      "rs": 58,
-      "vs_spx_3m": 5.41,
-      "ret_1m": -1.49,
-      "from_high": -24.62,
-      "over_ma50": false,
-      "cap_b": 10.5
-     },
-     {
-      "t": "BTG",
-      "name": "B2Gold Corp",
-      "rs": 58,
-      "vs_spx_3m": 4.84,
-      "ret_1m": 1.14,
-      "from_high": -14.49,
-      "over_ma50": true,
-      "cap_b": 7.0
-     },
-     {
-      "t": "WPM",
-      "name": "Wheaton Precious Metals Corp",
-      "rs": 57,
-      "vs_spx_3m": 4.21,
-      "ret_1m": -1.46,
-      "from_high": -17.56,
-      "over_ma50": false,
-      "cap_b": 62.0
      }
     ]
    },
@@ -4114,10 +4044,10 @@
      {
       "t": "AMN",
       "name": "AMN Healthcare Services",
-      "rs": 94,
-      "vs_spx_3m": 19.48,
-      "ret_1m": 3.53,
-      "from_high": -22.84,
+      "rs": 93,
+      "vs_spx_3m": 12.21,
+      "ret_1m": 4.47,
+      "from_high": -22.65,
       "over_ma50": false,
       "cap_b": 1.5
      },
@@ -4125,133 +4055,381 @@
       "t": "RHI",
       "name": "Robert Half Inc",
       "rs": 90,
-      "vs_spx_3m": 6.46,
-      "ret_1m": 26.79,
-      "from_high": -6.21,
+      "vs_spx_3m": -1.24,
+      "ret_1m": 22.73,
+      "from_high": -7.96,
       "over_ma50": true,
-      "cap_b": 4.4
+      "cap_b": 4.3
      },
      {
       "t": "NSP",
       "name": "Insperity Inc",
-      "rs": 89,
-      "vs_spx_3m": 3.87,
-      "ret_1m": 4.39,
-      "from_high": -6.56,
+      "rs": 90,
+      "vs_spx_3m": -4.54,
+      "ret_1m": 3.22,
+      "from_high": -8.01,
       "over_ma50": true,
       "cap_b": 1.9
      },
      {
       "t": "EXPO",
       "name": "Exponent Inc",
-      "rs": 86,
-      "vs_spx_3m": 30.07,
-      "ret_1m": 23.19,
-      "from_high": -1.64,
+      "rs": 87,
+      "vs_spx_3m": 28.7,
+      "ret_1m": 21.98,
+      "from_high": -1.41,
       "over_ma50": true,
       "cap_b": 4.1
      },
      {
-      "t": "FCN",
-      "name": "FTI Consulting Inc",
-      "rs": 84,
-      "vs_spx_3m": 32.17,
-      "ret_1m": 44.93,
-      "from_high": -0.49,
-      "over_ma50": true,
-      "cap_b": 5.4
-     },
-     {
       "t": "MAN",
       "name": "ManpowerGroup",
-      "rs": 83,
-      "vs_spx_3m": -15.22,
-      "ret_1m": -12.81,
-      "from_high": -26.89,
+      "rs": 87,
+      "vs_spx_3m": -19.64,
+      "ret_1m": -10.1,
+      "from_high": -26.75,
       "over_ma50": false,
       "cap_b": 2.1
      },
      {
+      "t": "FCN",
+      "name": "FTI Consulting Inc",
+      "rs": 86,
+      "vs_spx_3m": 30.87,
+      "ret_1m": 42.81,
+      "from_high": -0.56,
+      "over_ma50": true,
+      "cap_b": 5.4
+     },
+     {
       "t": "G",
       "name": "Genpact Limited",
-      "rs": 79,
-      "vs_spx_3m": 29.78,
-      "ret_1m": 25.2,
-      "from_high": -11.2,
+      "rs": 82,
+      "vs_spx_3m": 29.18,
+      "ret_1m": 26.93,
+      "from_high": -10.1,
       "over_ma50": true,
-      "cap_b": 7.2
+      "cap_b": 7.3
      },
      {
       "t": "HURN",
       "name": "Huron Consulting Group Inc",
-      "rs": 76,
-      "vs_spx_3m": 13.67,
-      "ret_1m": -0.35,
-      "from_high": -16.13,
+      "rs": 80,
+      "vs_spx_3m": 10.6,
+      "ret_1m": -2.93,
+      "from_high": -15.28,
       "over_ma50": false,
-      "cap_b": 2.6
+      "cap_b": 2.7
      },
      {
       "t": "EFOR",
       "name": "Everforth Inc",
-      "rs": 73,
-      "vs_spx_3m": 12.82,
-      "ret_1m": -4.11,
-      "from_high": -32.51,
+      "rs": 76,
+      "vs_spx_3m": 9.92,
+      "ret_1m": -3.82,
+      "from_high": -32.45,
       "over_ma50": true,
       "cap_b": 1.5
      },
      {
       "t": "ASTH",
       "name": "Astrana Health Inc",
-      "rs": 66,
-      "vs_spx_3m": -7.16,
-      "ret_1m": -14.3,
-      "from_high": -35.39,
+      "rs": 72,
+      "vs_spx_3m": -10.51,
+      "ret_1m": -14.22,
+      "from_high": -33.87,
       "over_ma50": false,
       "cap_b": 1.6
+     }
+    ]
+   },
+   "Radio And Television Broadcasting And Communications Equipment": {
+    "name": "Communications Equipment",
+    "n": 8,
+    "stocks": [
+     {
+      "t": "MSI",
+      "name": "Motorola Solutions Inc",
+      "rs": 84,
+      "vs_spx_3m": 17.41,
+      "ret_1m": 19.92,
+      "from_high": 0.0,
+      "over_ma50": true,
+      "cap_b": 88.5
+     },
+     {
+      "t": "UI",
+      "name": "Ubiquiti Inc",
+      "rs": 62,
+      "vs_spx_3m": 18.86,
+      "ret_1m": 9.66,
+      "from_high": -37.35,
+      "over_ma50": true,
+      "cap_b": 41.1
+     },
+     {
+      "t": "QCOM",
+      "name": "QUALCOMM Incorporated",
+      "rs": 54,
+      "vs_spx_3m": 9.47,
+      "ret_1m": 1.23,
+      "from_high": -29.66,
+      "over_ma50": false,
+      "cap_b": 188.9
+     },
+     {
+      "t": "ERIC",
+      "name": "Ericsson",
+      "rs": 41,
+      "vs_spx_3m": 5.83,
+      "ret_1m": 13.45,
+      "from_high": -22.63,
+      "over_ma50": true,
+      "cap_b": 35.8
+     },
+     {
+      "t": "NOK",
+      "name": "Nokia Corporation Sponsored",
+      "rs": 24,
+      "vs_spx_3m": -17.75,
+      "ret_1m": -14.75,
+      "from_high": -49.91,
+      "over_ma50": false,
+      "cap_b": 48.4
+     },
+     {
+      "t": "HLIT",
+      "name": "Harmonic Inc",
+      "rs": 20,
+      "vs_spx_3m": -18.7,
+      "ret_1m": -1.43,
+      "from_high": -39.63,
+      "over_ma50": false,
+      "cap_b": 1.1
+     },
+     {
+      "t": "ONDS",
+      "name": "Ondas Inc",
+      "rs": 6,
+      "vs_spx_3m": -33.37,
+      "ret_1m": -14.09,
+      "from_high": -59.1,
+      "over_ma50": false,
+      "cap_b": 3.3
+     },
+     {
+      "t": "PL",
+      "name": "Planet Labs PBC",
+      "rs": 4,
+      "vs_spx_3m": -39.74,
+      "ret_1m": -10.15,
+      "from_high": -72.1,
+      "over_ma50": false,
+      "cap_b": 5.2
+     }
+    ]
+   },
+   "Semiconductors": {
+    "name": "Semiconductors",
+    "n": 64,
+    "stocks": [
+     {
+      "t": "MXL",
+      "name": "MaxLinear Inc",
+      "rs": 97,
+      "vs_spx_3m": -19.46,
+      "ret_1m": -32.63,
+      "from_high": -53.18,
+      "over_ma50": false,
+      "cap_b": 5.5
+     },
+     {
+      "t": "AMD",
+      "name": "Advanced Micro Devices Inc",
+      "rs": 96,
+      "vs_spx_3m": 16.79,
+      "ret_1m": -6.96,
+      "from_high": -14.86,
+      "over_ma50": true,
+      "cap_b": 906.8
+     },
+     {
+      "t": "MU",
+      "name": "Micron Technology Inc",
+      "rs": 95,
+      "vs_spx_3m": -12.26,
+      "ret_1m": -17.97,
+      "from_high": -33.15,
+      "over_ma50": false,
+      "cap_b": 917.9
+     },
+     {
+      "t": "AXTI",
+      "name": "AXT Inc",
+      "rs": 95,
+      "vs_spx_3m": -37.03,
+      "ret_1m": -24.22,
+      "from_high": -66.65,
+      "over_ma50": false,
+      "cap_b": 3.1
+     },
+     {
+      "t": "PENG",
+      "name": "Penguin Solutions Inc",
+      "rs": 93,
+      "vs_spx_3m": -16.81,
+      "ret_1m": -37.78,
+      "from_high": -39.49,
+      "over_ma50": false,
+      "cap_b": 3.0
+     },
+     {
+      "t": "ASX",
+      "name": "ASE Technology Holding Co. Ltd",
+      "rs": 91,
+      "vs_spx_3m": -2.27,
+      "ret_1m": -20.43,
+      "from_high": -20.55,
+      "over_ma50": false,
+      "cap_b": 84.2
+     },
+     {
+      "t": "IMOS",
+      "name": "ChipMOS TECHNOLOGIES INC",
+      "rs": 89,
+      "vs_spx_3m": -6.33,
+      "ret_1m": -29.79,
+      "from_high": -36.63,
+      "over_ma50": false,
+      "cap_b": 1.8
+     },
+     {
+      "t": "TXN",
+      "name": "Texas Instruments Incorporated",
+      "rs": 88,
+      "vs_spx_3m": 15.63,
+      "ret_1m": 9.96,
+      "from_high": -6.76,
+      "over_ma50": true,
+      "cap_b": 283.1
+     },
+     {
+      "t": "SWKS",
+      "name": "Skyworks Solutions Inc",
+      "rs": 86,
+      "vs_spx_3m": 27.95,
+      "ret_1m": 17.32,
+      "from_high": -4.17,
+      "over_ma50": true,
+      "cap_b": 20.6
+     },
+     {
+      "t": "UMC",
+      "name": "United Microelectronics Corporation (NEW",
+      "rs": 85,
+      "vs_spx_3m": -14.7,
+      "ret_1m": -28.69,
+      "from_high": -42.59,
+      "over_ma50": false,
+      "cap_b": 40.5
+     }
+    ]
+   },
+   "Water Sewer Pipeline Comm & Power Line Construction": {
+    "name": "Infrastructure Construction",
+    "n": 5,
+    "stocks": [
+     {
+      "t": "PLPC",
+      "name": "Preformed Line Products Company",
+      "rs": 30,
+      "vs_spx_3m": -30.4,
+      "ret_1m": -21.51,
+      "from_high": -37.39,
+      "over_ma50": false,
+      "cap_b": 1.5
+     },
+     {
+      "t": "MYRG",
+      "name": "MYR Group Inc",
+      "rs": 25,
+      "vs_spx_3m": -11.92,
+      "ret_1m": -10.38,
+      "from_high": -43.99,
+      "over_ma50": false,
+      "cap_b": 4.4
+     },
+     {
+      "t": "MTZ",
+      "name": "MasTec Inc",
+      "rs": 5,
+      "vs_spx_3m": -31.56,
+      "ret_1m": -8.54,
+      "from_high": -56.76,
+      "over_ma50": false,
+      "cap_b": 15.2
+     },
+     {
+      "t": "PRIM",
+      "name": "Primoris Services Corporation",
+      "rs": 5,
+      "vs_spx_3m": -8.37,
+      "ret_1m": -12.77,
+      "from_high": -64.41,
+      "over_ma50": false,
+      "cap_b": 3.8
+     },
+     {
+      "t": "DY",
+      "name": "Dycom Industries Inc",
+      "rs": 2,
+      "vs_spx_3m": -41.98,
+      "ret_1m": -14.6,
+      "from_high": -57.4,
+      "over_ma50": false,
+      "cap_b": 6.9
      }
     ]
    }
   },
   "spx": {
-   "7d": -0.59,
-   "30d": -3.68,
-   "6m": 1.59
+   "7d": -0.91,
+   "30d": -2.35,
+   "6m": 2.36
   },
-  "asof": "2026-11-10",
-  "n_stocks": 2524,
+  "asof": "2026-11-11",
+  "n_stocks": 2532,
   "n_themes": 105,
   "universe": "USA-aktier >= 1 mdr $ (NYSE, Nasdaq, NYSE American)",
   "method": "Temats avkastning = medianaktien i temat. RS = IBD-modellen, viktad avkastning 3/6/9/12 mån (40/20/20/20) rankad 1–99 mot hela urvalet.",
-  "checked_for": "2026-11-11",
-  "updated_utc": "2026-11-12T01:59:37Z"
+  "checked_for": "2026-11-12",
+  "updated_utc": "2026-11-13T01:56:16Z"
  },
  "vix": {
-  "last": 18.87,
+  "last": 18.7,
   "prev": 17.49,
-  "chg_pct": 7.89,
+  "chg_pct": 6.92,
   "avg20": 19.42,
   "hi_52w": 31.05,
   "lo_52w": 13.47,
-  "pct_rank_1y": 71.0,
-  "vix3m": 20.13,
-  "term_ratio": 0.937
+  "pct_rank_1y": 70.0,
+  "vix3m": 20.06,
+  "term_ratio": 0.932
  },
  "spx": {
-  "last": 7588.83,
-  "chg_1d": -0.4,
-  "chg_5d": 3.2,
-  "chg_1m": -2.78,
-  "chg_ytd": 10.86,
-  "from_52w_high": -2.94,
+  "last": 7592.4,
+  "chg_1d": -0.35,
+  "chg_5d": 3.25,
+  "chg_1m": -2.73,
+  "chg_ytd": 10.91,
+  "from_52w_high": -2.9,
   "date": "2026-11-12",
-  "ma20": 7617.97,
-  "vs_ma20": -0.38,
-  "ma50": 7671.11,
-  "vs_ma50": -1.07,
-  "ma200": 7337.34,
-  "vs_ma200": 3.43,
+  "ma20": 7618.15,
+  "vs_ma20": -0.34,
+  "ma50": 7671.18,
+  "vs_ma50": -1.03,
+  "ma200": 7337.35,
+  "vs_ma200": 3.48,
   "ma50_rising": false
  },
  "universe": "S&P 500",
