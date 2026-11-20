@@ -1,13 +1,13 @@
 {
- "updated_utc": "2026-11-19T21:41:59Z",
- "updated_se": "2026-11-19 22:41",
+ "updated_utc": "2026-11-20T03:25:11Z",
+ "updated_se": "2026-11-20 04:25",
  "market_date": "2026-11-19",
- "score": 31,
+ "score": 32,
  "regime": "bearish",
  "components": {
-  "ma50": 49.1,
-  "ma20": 23.5,
-  "ma200": 48.9,
+  "ma50": 49.8,
+  "ma20": 25.0,
+  "ma200": 49.8,
   "highlow": 0.0,
   "vix": 30.5,
   "trend": 10.0
@@ -21,19 +21,19 @@
   "trend": 0.1
  },
  "breadth": {
-  "ma20": 23.5,
-  "ma20_n": 502,
-  "ma50": 49.1,
-  "ma50_n": 501,
-  "ma200": 48.9,
-  "ma200_n": 499,
+  "ma20": 25.0,
+  "ma20_n": 503,
+  "ma50": 49.8,
+  "ma50_n": 502,
+  "ma200": 49.8,
+  "ma200_n": 500,
   "highs_52w": 0,
-  "lows_52w": 20,
-  "n_52w": 501,
-  "highs_20d": 3,
-  "lows_20d": 144,
-  "n_20d": 502,
-  "up_5d_pct": 10.6,
+  "lows_52w": 17,
+  "n_52w": 502,
+  "highs_20d": 4,
+  "lows_20d": 134,
+  "n_20d": 503,
+  "up_5d_pct": 11.5,
   "n": 503,
   "date": "2026-11-19"
  },
@@ -54,20 +54,20 @@
    {
     "etf": "XLRE",
     "name": "Fastigheter",
-    "ret": -3.34,
-    "vs_spx": 2.11
+    "ret": -2.18,
+    "vs_spx": 3.27
+   },
+   {
+    "etf": "XLC",
+    "name": "Kommunikation",
+    "ret": -2.78,
+    "vs_spx": 2.67
    },
    {
     "etf": "XLY",
     "name": "Sällanköpsvaror",
     "ret": -3.8,
     "vs_spx": 1.65
-   },
-   {
-    "etf": "XLC",
-    "name": "Kommunikation",
-    "ret": -4.46,
-    "vs_spx": 0.99
    },
    {
     "etf": "XLF",
@@ -109,6 +109,12 @@
   "7d_spx": -5.45,
   "30d": [
    {
+    "etf": "XLRE",
+    "name": "Fastigheter",
+    "ret": 4.68,
+    "vs_spx": 11.6
+   },
+   {
     "etf": "XLU",
     "name": "Kraftförsörjning",
     "ret": 2.7,
@@ -119,12 +125,6 @@
     "name": "Dagligvaror",
     "ret": 2.4,
     "vs_spx": 9.32
-   },
-   {
-    "etf": "XLRE",
-    "name": "Fastigheter",
-    "ret": 1.18,
-    "vs_spx": 8.1
    },
    {
     "etf": "XLY",
@@ -159,8 +159,8 @@
    {
     "etf": "XLC",
     "name": "Kommunikation",
-    "ret": -6.74,
-    "vs_spx": 0.18
+    "ret": -4.1,
+    "vs_spx": 2.82
    },
    {
     "etf": "XLE",
@@ -208,16 +208,16 @@
     "vs_spx": 2.42
    },
    {
+    "etf": "XLRE",
+    "name": "Fastigheter",
+    "ret": -1.82,
+    "vs_spx": 1.8
+   },
+   {
     "etf": "XLY",
     "name": "Sällanköpsvaror",
     "ret": -2.38,
     "vs_spx": 1.24
-   },
-   {
-    "etf": "XLRE",
-    "name": "Fastigheter",
-    "ret": -3.64,
-    "vs_spx": -0.02
    },
    {
     "etf": "XLU",
@@ -232,16 +232,16 @@
     "vs_spx": -1.76
    },
    {
+    "etf": "XLC",
+    "name": "Kommunikation",
+    "ret": -9.06,
+    "vs_spx": -5.44
+   },
+   {
     "etf": "XLK",
     "name": "Teknik",
     "ret": -10.03,
     "vs_spx": -6.41
-   },
-   {
-    "etf": "XLC",
-    "name": "Kommunikation",
-    "ret": -11.49,
-    "vs_spx": -7.87
    }
   ],
   "6m_spx": -3.62
