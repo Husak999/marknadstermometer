@@ -1,6 +1,6 @@
 {
- "updated_utc": "2026-11-27T22:05:51Z",
- "updated_se": "2026-11-27 23:05",
+ "updated_utc": "2026-11-28T03:57:23Z",
+ "updated_se": "2026-11-28 04:57",
  "market_date": "2026-11-27",
  "score": 59,
  "regime": "neutral",
@@ -33,8 +33,8 @@
   "highs_20d": 82,
   "lows_20d": 5,
   "n_20d": 502,
-  "up_5d_pct": 82.9,
-  "n": 503,
+  "up_5d_pct": 83.1,
+  "n": 502,
   "date": "2026-11-27"
  },
  "sectors": {
